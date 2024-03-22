@@ -1,5 +1,6 @@
 import Head from 'next/head';
 
+import Header from './ui/Header';
 import { Wrapper } from './styled';
 export default function Main() {
   return (
@@ -9,7 +10,7 @@ export default function Main() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>111</div>
+      <Header />
     </Wrapper>
   );
 }

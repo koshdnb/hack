@@ -1,12 +1,12 @@
-import { Roboto } from 'next/font/google';
+import { Sofia_Sans } from 'next/font/google';
 import Main from '../src/pages/Main';
 import { getLocaleStaticProps } from '../src/shared/libs/getLocaleStaticProps';
 
 
-const roboto = Roboto({
-  weight: ['400', '700'],
+const sofiaSans = Sofia_Sans({
+  weight: ['300', '400', '600', '700', '800'],
   style: 'normal',
-  subsets: ['cyrillic-ext', 'latin-ext'],
+  subsets: ['latin-ext'],
 });
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <style jsx global>{`
         html {
-          font-family: ${roboto.style.fontFamily};
+          font-family: ${sofiaSans.style.fontFamily};
         }
       `}</style>
 
