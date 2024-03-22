@@ -1,0 +1,16 @@
+---
+# Deployments, Jobs
+components:
+  client:
+    hpa:
+      target: 75
+      minReplicas: 2
+      maxReplicas: 10
+    replicas: 1
+    resources:
+      requests:
+        cpu: 1
+        memory: "512Mi"
+      limits:
+        cpu: 1
+        memory: "512Mi"

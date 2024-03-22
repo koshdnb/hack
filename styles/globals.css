@@ -1,0 +1,18 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  min-width: 316px;
+  overflow-x: hidden;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}

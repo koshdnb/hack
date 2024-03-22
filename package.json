@@ -1,0 +1,48 @@
+{
+  "name": "hackaton",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "run-scripts": "node scripts/beforeBuildScripts.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/css": "11.11.2",
+    "@emotion/react": "11.11.1",
+    "@emotion/server": "11.11.0",
+    "@emotion/styled": "11.11.0",
+    "@iq/lib": "^2.23.0",
+    "@iq/scripts": "1.9.0",
+    "@iq/utils": "^1.8.1",
+    "@reduxjs/toolkit": "1.9.7",
+    "@svgr/webpack": "^8.1.0",
+    "axios": "^1.6.2",
+    "final-form": "^4.20.10",
+    "js-cookie": "^3.0.5",
+    "lodash": "^4.17.21",
+    "next": "14.0.3",
+    "next-i18next": "15.0.0",
+    "next-transpile-modules": "^10.0.1",
+    "prettier": "2.5.1",
+    "prop-types": "15.8.1",
+    "react": "18",
+    "react-dom": "18",
+    "react-final-form": "^6.5.9",
+    "react-modal": "^3.16.1",
+    "react-redux": "^8.1.3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20",
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "@types/react-modal": "^3.16.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "eslint-plugin-prettier": "^5.0.0",
+    "typescript": "^5"
+  }
+}

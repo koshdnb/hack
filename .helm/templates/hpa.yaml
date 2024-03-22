@@ -1,0 +1,20 @@
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: {{ template "name" . }}-client
+  namespace: {{ .Release.Namespace }}
+spec:
+  maxReplicas: {{ .Values.components.client.hpa.maxReplicas }}
+  minReplicas: {{ .Values.components.client.hpa.minReplicas }}
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: {{ template "name" . }}-client
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: {{ .Values.components.client.hpa.target }}

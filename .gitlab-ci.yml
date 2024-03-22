@@ -1,0 +1,64 @@
+stages:
+  - deploy
+
+variables:
+  CI_TEAM: "Web"
+  CI_HELM_IMAGE: "${DOCKER_REGISTRY_SERVER}/mobile-ci/helm:v1.0.0"
+  CI_SANDBOX_IMAGE: "${DOCKER_REGISTRY_SERVER}/${CI_PROJECT_NAMESPACE}/${CI_PROJECT_NAME}:${CI_COMMIT_REF_NAME}"
+
+  KUBE_LOGIN_URL_INT: "https://kube-login-int-sigma.mobbtech.com"
+  KUBE_LOGIN_URL_PROD: "https://kube-login-prod-sigma.mobbtech.com"
+
+.dep_kube_tpl: &dep_kube_tpl
+  only:
+    - tags
+    - /^develop.*/
+  when: manual
+  image:
+    name: "${CI_HELM_IMAGE}"
+  script:
+    - make kube-login
+    - make kube-dep
+    - make kube-deploy
+
+deploy:sandbox:
+  services:
+    - name: '${DOCKER_DIND_IMAGE}'
+  stage: deploy
+  when: manual
+  script:
+    - docker build --compress --pull --file Dockerfile --tag "${CI_SANDBOX_IMAGE}" .
+    - docker push "${CI_SANDBOX_IMAGE}"
+  tags:
+    - integration
+    - linux_amd64_standard
+
+deploy:kube:int:
+  stage: deploy
+  environment:
+    name: integration
+  variables:
+    # deployment vars
+    KUBE_LOGIN_URL: "${KUBE_LOGIN_URL_INT}"
+    KUBE_IMAGE_TAG: "${CI_COMMIT_REF_NAME}"
+    KUBE_CONTEXT: "int"
+    KUBE_VALUES_FILE_NAME: "integration.yaml"
+  <<: *dep_kube_tpl
+  tags:
+    - integration
+    - linux_amd64_standard
+
+deploy:kube:prod:
+  stage: deploy
+  environment:
+    name: production
+  variables:
+    # deployment vars
+    KUBE_LOGIN_URL: ${KUBE_LOGIN_URL_PROD}
+    KUBE_IMAGE_TAG: "${CI_COMMIT_REF_NAME}"
+    KUBE_CONTEXT: "prod"
+    KUBE_VALUES_FILE_NAME: "production.yaml"
+  <<: *dep_kube_tpl
+  tags:
+    - production
+    - linux_amd64_standard

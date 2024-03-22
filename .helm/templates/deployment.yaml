@@ -1,0 +1,41 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ template "name" . }}-client
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ template "name" . }}-client
+    chart: {{ template "chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  replicas: {{ .Values.components.client.replicas }}
+  selector:
+    matchLabels:
+      app: {{ template "name" . }}-client
+      release: {{ .Release.Name }}
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 1
+  template:
+    metadata:
+      labels:
+        app: {{ template "name" . }}-client
+        release: {{ .Release.Name }}
+      annotations:
+        release: {{ .Release.Revision | quote }}
+    spec:
+      containers:
+      - name: {{ template "name" . }}-client
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 3000
+          periodSeconds: 3
+          failureThreshold: 10
+        {{- include "image" . | indent 8 }}
+        {{- include "env" . | indent 8 }}
+        {{- include "resources" .Values.components.client | indent 8 }}
