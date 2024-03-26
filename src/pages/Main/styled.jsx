@@ -39,3 +39,13 @@ export const Button = styled.a`
     opacity: 0.7;
   }
 `;
+
+export const Title = styled.h1`
+  font-style: normal;
+  font-weight: 700;
+  font-size: 59px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+`;

@@ -3,7 +3,10 @@ import Head from 'next/head';
 import Header from './ui/Header';
 import Hero from './ui/Hero';
 import ManVsMachine from './ui/ManVsMachine';
-
+import { Challenge } from './ui/Challenge';
+import { TimeLine } from './ui/TimeLine';
+import { Faq } from './ui/Faq';
+import { Program } from './ui/Program';
 import { Wrapper, HeaderWrap } from './styled';
 
 export default function Main() {
@@ -19,6 +22,10 @@ export default function Main() {
         <Hero />
       </HeaderWrap>
       <ManVsMachine />
+      <Challenge />
+      <TimeLine />
+      <Program />
+      <Faq />
     </Wrapper>
   );
 }
