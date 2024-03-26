@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { useRef } from 'react';
 
 import providers from './providers';
 

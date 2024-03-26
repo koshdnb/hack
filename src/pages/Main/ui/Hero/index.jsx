@@ -20,7 +20,7 @@ export default function Hero() {
           <Hackathon />
         </LogoWrap>
         <TextWrap>
-          <Title>Compete in Cyprus' BIGGEST HackAIthon.</Title>
+          <Title>Compete in Cyprus&apos; BIGGEST HackAIthon.</Title>
           <Subtitle>
             Can you harness the power of artificial intelligence to create
             innovative solutions that will elevate the worlds of Fintech and

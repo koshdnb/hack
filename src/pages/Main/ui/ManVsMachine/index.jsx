@@ -20,10 +20,10 @@ export default function ManVsMachine() {
 
         <TextWrap>
           <Text>
-            This year's HackAIthon will be the biggest & best IT event of 2024.
-            It's amazing opportunity to engage with Cyprus' vibrant tech
+            This year&apos;s HackAIthon will be the biggest & best IT event of 2024.
+            It&apos;s amazing opportunity to engage with Cyprus&apos; vibrant tech
             community, we’re welcoming participants of all skill levels. Make
-            sure you’ll bring your A-game because this time, it won't just be
+            sure you’ll bring your A-game because this time, it won&apos;t just be
             human minds at work.
           </Text>
           <Button>Reserve your spot</Button>

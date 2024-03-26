@@ -32,7 +32,7 @@ export const Rules = () => {
         />
         <RulesList>
           {rules.map((rule) => (
-            <Rule>{rule}</Rule>
+            <Rule key={rule}>{rule}</Rule>
           ))}
         </RulesList>
       </RulesWrap>

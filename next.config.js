@@ -4,7 +4,6 @@ const withTM = require("next-transpile-modules")(["@iq/lib", "@iq/utils"]);
 /** @type {import('next').NextConfig} */
 const nextConfig = withTM({
   reactStrictMode: true,
-  i18n,
   rewrites: async () => {
     return [
       {
