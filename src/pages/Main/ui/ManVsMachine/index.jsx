@@ -1,5 +1,13 @@
 import { Button } from '../../styled';
-import { Wrapper, Content, TitleWrap, Title, Subtitle, TextWrap, Text } from './styled';
+import {
+  Wrapper,
+  Content,
+  TitleWrap,
+  Title,
+  Subtitle,
+  TextWrap,
+  Text,
+} from './styled';
 
 export default function ManVsMachine() {
   return (

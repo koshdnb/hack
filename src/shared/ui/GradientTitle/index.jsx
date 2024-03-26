@@ -1,5 +1,5 @@
 import { Wrapper } from './styled';
 
-export const GradientTitle = ({children}) => {
-  return <Wrapper>{children}</Wrapper>;
+export const GradientTitle = ({ children, className }) => {
+  return <Wrapper className={className}>{children}</Wrapper>;
 };

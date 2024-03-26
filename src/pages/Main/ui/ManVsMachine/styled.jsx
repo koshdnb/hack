@@ -1,13 +1,14 @@
 import styled from '@emotion/styled';
+import { GradientTitle } from '../../../../shared/ui/GradientTitle';
 
 export const Wrapper = styled.div`
   position: relative;
-  min-height: 600px;
+  min-height: 605px;
   padding-top: 60px;
   padding-bottom: 35px;
   background-image: url('/images/man-vs-machine-bg-2.png');
   background-size: 100% auto;
-  /* background-position: 0 64%; */
+  background-position: 100%;
   background-repeat: no-repeat;
 
   /* ::before,
@@ -68,38 +69,12 @@ export const TitleWrap = styled.div`
   }
 `;
 
-export const Title = styled.h2`
-  text-align: center;
-
+export const Title = styled(GradientTitle)`
   font-size: 59px;
-  font-style: normal;
   font-weight: 700;
   line-height: 130%; /* 76.7px */
-  text-transform: uppercase;
 
-  /* background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 2px transparent; */
-
-  /* Создание обводки */
-  /* position: relative; */
-
-  /* ::before { */
-    /* content: attr(data-text); Используем атрибут data-text для содержимого */
-    /* position: absolute;
-    left: 0;
-    top: 0;
-    z-index: -1;
-    background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent; */
-    /* -webkit-text-stroke: 2px white; Установка цвета и ширины обводки */
-    /* visibility: visible; */
-  }
+  color: #000000;
 `;
 
 export const Subtitle = styled.p`

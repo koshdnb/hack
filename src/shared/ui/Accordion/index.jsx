@@ -1,14 +1,7 @@
 import { useCollapse } from 'react-collapsed';
 import { Children, cloneElement, useState } from 'react';
 
-import {
-  Toggle,
-  Panel,
-  Item,
-  Title,
-  ToggleIcon,
-  Wrapper,
-} from './styled';
+import { Toggle, Panel, Item, Title, ToggleIcon, Wrapper } from './styled';
 
 export const Collapse = ({ isActive, onSelect, title, children }) => {
   const { getCollapseProps, getToggleProps } = useCollapse({

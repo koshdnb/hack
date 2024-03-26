@@ -1,11 +1,12 @@
 import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
-    display: flex;
-    padding: 33px 0;
-    align-items: center;
-    max-width: 1024px;
-    margin: 0 auto;
+  display: flex;
+  padding: 33px 0;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
 `;
 
 export const Menu = styled.div`

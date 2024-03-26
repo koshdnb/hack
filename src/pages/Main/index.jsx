@@ -5,6 +5,7 @@ import Hero from './ui/Hero';
 import ManVsMachine from './ui/ManVsMachine';
 import { Challenge } from './ui/Challenge';
 import { TimeLine } from './ui/TimeLine';
+import { Rules } from './ui/Rules';
 import { Faq } from './ui/Faq';
 import { Program } from './ui/Program';
 import { Map } from './ui/Map';
@@ -27,6 +28,7 @@ export default function Main() {
       <Challenge />
       <TimeLine />
       <Members />
+      <Rules />
       <Program />
       <Faq />
       <Map />

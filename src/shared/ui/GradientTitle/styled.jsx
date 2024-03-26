@@ -9,6 +9,6 @@ export const Wrapper = styled.h2`
     text-transform: uppercase;
     background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
     -webkit-background-clip: text;
-    -webkit-text-stroke: 2px transparent;
+    -webkit-text-stroke: 3px transparent;
     color: #1d1d1d;
 `

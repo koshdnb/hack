@@ -1,5 +1,12 @@
-export const darkTheme = {
-};
+import { css } from '@emotion/react';
 
-export const whiteTheme = {
-};
+export const darkTheme = {};
+
+export const whiteTheme = {};
+
+export const BorderGradient = ({ radius }) => css`
+  background: linear-gradient(#1d1d1d, #1d1d1d) padding-box,
+    linear-gradient(to right, #f70d29 0%, #ec03ff 100%) border-box;
+  border-radius: ${radius};
+  border: 1px solid transparent;
+`;

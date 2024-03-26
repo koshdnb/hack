@@ -1,7 +1,7 @@
 import { AccordionParent, Collapse } from '../../../../shared/ui/Accordion';
 import { GradientTitle } from '../../../../shared/ui/GradientTitle';
 
-import { Wrapper, Accordion } from './styled';
+import { Wrapper, Accordion, IdeaWrap, IdeaText } from './styled';
 
 let accordionItems = [
   {
@@ -60,6 +60,11 @@ export const Faq = () => {
           ))}
         </AccordionParent>
       </Accordion>
+      <IdeaWrap>
+        <IdeaText>
+          Have an <strong>AI</strong>dea already?
+        </IdeaText>
+      </IdeaWrap>
     </Wrapper>
   );
 };

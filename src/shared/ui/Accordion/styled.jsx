@@ -1,9 +1,10 @@
 import styled from '@emotion/styled';
+import { BorderGradient } from '../../styles/theme';
 
 export const Toggle = styled.button({
   all: 'unset',
   cursor: 'pointer',
-  padding: 16,
+  // padding: 16,
   fontSize: 16,
   display: 'flex',
   alignItems: 'center',
@@ -41,10 +42,7 @@ export const Item = styled.li`
   position: relative;
   display: block;
   padding: 18px 42px 23px 25px;
-  background: linear-gradient(#1d1d1d, #1d1d1d) padding-box,
-    linear-gradient(to right, #f70d29 0%, #ec03ff 100%) border-box;
-  border-radius: 15px 0 15px 15px;
-  border: 1px solid transparent;
+  ${BorderGradient({ radius: '15px 0 15px 15px' })};
 `;
 
 export const Title = styled.span`
