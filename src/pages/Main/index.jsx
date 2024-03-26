@@ -7,6 +7,8 @@ import { Challenge } from './ui/Challenge';
 import { TimeLine } from './ui/TimeLine';
 import { Faq } from './ui/Faq';
 import { Program } from './ui/Program';
+import { Map } from './ui/Map';
+import { Members } from './ui/Members';
 import { Wrapper, HeaderWrap } from './styled';
 
 export default function Main() {
@@ -24,8 +26,10 @@ export default function Main() {
       <ManVsMachine />
       <Challenge />
       <TimeLine />
+      <Members />
       <Program />
       <Faq />
+      <Map />
     </Wrapper>
   );
 }
