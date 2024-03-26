@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
     width: 100%;
     height: 100%;
     background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
-    opacity: 0.5;
+    opacity: 0.2;
     pointer-events: none;
   }
 `;

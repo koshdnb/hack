@@ -3,7 +3,7 @@ import { Tabs, Tab, TabList, TabPanel } from '../../../../shared/ui/Tabs';
 
 import { ScheduleItem } from './ScheduleItem';
 import { scheduleDay1, scheduleDay2 } from './constants';
-import { Wrapper, Description, tabListClassName } from './styled';
+import { Wrapper, Description, CtaButton, tabListClassName } from './styled';
 export const Program = () => {
   return (
     <Wrapper>
@@ -29,6 +29,8 @@ export const Program = () => {
           ))}
         </TabPanel>
       </Tabs>
+
+      <CtaButton>Apply for your spot</CtaButton>
     </Wrapper>
   );
 };
