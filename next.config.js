@@ -1,17 +1,8 @@
-const { i18n } = require("./next-i18next.config");
 const withTM = require("next-transpile-modules")(["@iq/lib", "@iq/utils"]);
 
 /** @type {import('next').NextConfig} */
 const nextConfig = withTM({
   reactStrictMode: true,
-  rewrites: async () => {
-    return [
-      {
-        source: '/health',
-        destination: '/api/health',
-      },
-    ];
-  },
   rewrites: async () => {
     return [
       {
