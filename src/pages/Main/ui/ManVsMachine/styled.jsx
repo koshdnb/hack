@@ -1,0 +1,135 @@
+import styled from '@emotion/styled';
+
+export const Wrapper = styled.div`
+  position: relative;
+  min-height: 600px;
+  padding-top: 60px;
+  padding-bottom: 35px;
+  background-image: url('/images/man-vs-machine-bg-2.png');
+  background-size: 100% auto;
+  /* background-position: 0 64%; */
+  background-repeat: no-repeat;
+
+  /* ::before,
+  ::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  ::before {
+    background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
+    opacity: 0.8;
+    mix-blend-mode: color;
+    z-index: 8;
+  }
+
+  ::after {
+    top: 57%;
+    height: 339px;
+    background: linear-gradient(
+      183deg,
+      rgba(22, 20, 20, 0) -9.78%,
+      rgba(22, 20, 20, 0.76) 39.76%,
+      #161414 62.53%
+    );
+    mix-blend-mode: color;
+    z-index: 9;
+  } */
+`;
+
+export const Content = styled.div`
+  position: relative;
+  z-index: 10;
+`;
+
+export const TitleWrap = styled.div`
+  position: relative;
+  z-index: 10;
+
+  ::before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 150px;
+    top: -60px;
+    left: 0;
+    background: linear-gradient(
+      178deg,
+      rgba(22, 20, 20, 0) 17%,
+      rgba(9, 8, 8, 0.6) 51.87%,
+      #010000 74.11%
+    );
+    transform: rotate(180deg);
+    z-index: -1;
+  }
+`;
+
+export const Title = styled.h2`
+  text-align: center;
+
+  font-size: 59px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 76.7px */
+  text-transform: uppercase;
+
+  /* background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px transparent; */
+
+  /* Создание обводки */
+  /* position: relative; */
+
+  /* ::before { */
+    /* content: attr(data-text); Используем атрибут data-text для содержимого */
+    /* position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent; */
+    /* -webkit-text-stroke: 2px white; Установка цвета и ширины обводки */
+    /* visibility: visible; */
+  }
+`;
+
+export const Subtitle = styled.p`
+  color: #fff;
+
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%; /* 23.4px */
+  text-transform: uppercase;
+`;
+
+export const TextWrap = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 787px;
+
+  margin: 0 auto;
+  margin-top: 265px;
+`;
+
+export const Text = styled.p`
+  color: #fff;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 156%; /* 28.08px */
+
+  max-width: 539px;
+`;
