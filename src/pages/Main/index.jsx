@@ -6,12 +6,13 @@ import ManVsMachine from './ui/ManVsMachine';
 import { Challenge } from './ui/Challenge';
 import { TimeLine } from './ui/TimeLine';
 import { Rules } from './ui/Rules';
-import { Faq } from './ui/Faq';
 import { Program } from './ui/Program';
-import { Map } from './ui/Map';
 import { Prizes } from './ui/Prizes';
 import { Members } from './ui/Members';
-import { Wrapper, HeaderWrap } from './styled';
+import { Map } from './ui/Map';
+import { Faq } from './ui/Faq';
+import { Footer } from './ui/Footer';
+import { Wrapper, HeaderWrap, FooterWrap } from './styled';
 
 export default function Main() {
   return (
@@ -33,7 +34,10 @@ export default function Main() {
       <Prizes />
       <Members />
       <Map />
-      <Faq />
+      <FooterWrap>
+        <Faq />
+        <Footer />
+      </FooterWrap>
     </Wrapper>
   );
 }

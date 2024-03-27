@@ -7,6 +7,13 @@ export const Wrapper = styled.div`
   color: #ffffff;
 `;
 
+export const Layout = styled.div`
+  max-width: 1024px;
+  margin: 0 auto;
+
+  padding: 0 45px;
+`;
+
 export const HeaderWrap = styled.div`
   background-image: url('/images/hero-bg.png');
   background-size: auto 100%;
@@ -14,6 +21,8 @@ export const HeaderWrap = styled.div`
   background-position: center;
   background-color: #000000;
 `;
+
+export const FooterWrap = styled.div``;
 
 export const Button = styled.a`
   color: #fff;
@@ -27,6 +36,34 @@ export const Button = styled.a`
   padding: 8px 32px;
 
   background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
+  border-radius: 35px;
+
+  cursor: pointer;
+
+  :hover {
+    opacity: 0.9;
+  }
+
+  :active {
+    opacity: 0.7;
+  }
+`;
+
+export const ButtonWhite = styled.a`
+  color: #fff;
+
+  text-align: center;
+  font-size: 16.709px;
+  font-weight: 700;
+  line-height: 110%; /* 18.38px */
+  text-transform: uppercase;
+
+  padding: 8px 32px;
+
+  background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   border-radius: 35px;
 
   cursor: pointer;
