@@ -1,5 +1,13 @@
 import styled from '@emotion/styled';
-import { mediaMax } from '../../../../shared/libs/media';
+import { mediaMax, mediaMin } from '../../../../shared/libs/media';
+
+export const TopWrap = styled.div`
+  .bm-menu {
+    background: #1d1d1d;
+    padding: 48px 32px;
+  }
+`;
+
 
 export const Wrapper = styled.div``;
 
@@ -26,4 +34,21 @@ export const Item = styled.div`
   font-weight: 400;
   line-height: 12.17px;
   text-align: left;
+`;
+
+export const MobileItem = styled.div`
+  margin-bottom: 32px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 12.17px;
+  text-align: left;
+`;
+
+export const MenuIconWrapper = styled.div`
+  cursor: pointer;
+
+  ${mediaMin.m} {
+    display: none;
+  }
 `;
