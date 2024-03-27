@@ -1,5 +1,6 @@
 import { AccordionParent, Collapse } from '../../../../shared/ui/Accordion';
 import { GradientTitle } from '../../../../shared/ui/GradientTitle';
+import { Layout } from '../../styled';
 
 import { Wrapper, Accordion, IdeaWrap, IdeaText } from './styled';
 
@@ -50,21 +51,23 @@ let accordionItems = [
 export const Faq = () => {
   return (
     <Wrapper>
-      <GradientTitle>faq’s</GradientTitle>
-      <Accordion>
-        <AccordionParent>
-          {accordionItems.map((accordionItem) => (
-            <Collapse title={accordionItem.title} key={accordionItem.title}>
-              {accordionItem.description}
-            </Collapse>
-          ))}
-        </AccordionParent>
-      </Accordion>
-      <IdeaWrap>
-        <IdeaText>
-          Have an <strong>AI</strong>dea already?
-        </IdeaText>
-      </IdeaWrap>
+      <Layout>
+        <GradientTitle>faq’s</GradientTitle>
+        <Accordion>
+          <AccordionParent>
+            {accordionItems.map((accordionItem) => (
+              <Collapse title={accordionItem.title} key={accordionItem.title}>
+                {accordionItem.description}
+              </Collapse>
+            ))}
+          </AccordionParent>
+        </Accordion>
+        <IdeaWrap>
+          <IdeaText>
+            Have an <strong>AI</strong>dea already?
+          </IdeaText>
+        </IdeaWrap>
+      </Layout>
     </Wrapper>
   );
 };

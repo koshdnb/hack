@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { mediaMax } from '../../../../shared/libs/media';
 
 export const Wrapper = styled.div`
   display: flex;
@@ -14,6 +15,16 @@ export const ChallengeBlock = styled.div`
 
 export const ImageWrapper = styled.div`
   margin-left: -40px;
+
+  ${mediaMax.l} {
+    margin-left: 0;
+  }
+`;
+
+export const ChipWrapper = styled.div`
+  ${mediaMax.l} {
+    display: none;
+  }
 `;
 
 export const LeftText = styled.div`
@@ -21,6 +32,12 @@ export const LeftText = styled.div`
   width: 220px;
   top: 74px;
   left: 17px;
+
+  ${mediaMax.l} {
+    position: static;
+    width: auto;
+    max-width: 80vw;
+  }
 `;
 
 export const LeftTextTitle = styled.div`
@@ -38,6 +55,12 @@ export const RightText = styled.div`
   right: 22px;
   width: 220px;
   top: 71px;
+
+  ${mediaMax.l} {
+    position: static;
+    width: auto;
+    max-width: 80vw;
+  }
 `;
 
 export const RightTextTitle = styled.div`

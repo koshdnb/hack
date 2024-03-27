@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { mediaMax } from '../../libs/media';
 import { BorderGradient } from '../../styles/theme';
 
 export const Toggle = styled.button({
@@ -50,4 +51,8 @@ export const Title = styled.span`
   font-weight: 600;
   line-height: 33px;
   text-align: left;
+
+  ${mediaMax.s} {
+    font-size: 24px;
+  }
 `;

@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import { TextGradient } from '../../../../shared/styles/theme';
+import { mediaMax } from '../../../../shared/libs/media';
 
 export const Wrapper = styled.div`
   padding-bottom: 33px;
@@ -46,8 +47,9 @@ export const BottomWrap = styled.div`
   align-items: center;
   gap: 20px;
 
-  @media (max-width: 600px) {
+  ${mediaMax.m} {
     flex-direction: column;
+    align-items: center;
   }
 `;
 
@@ -56,8 +58,9 @@ export const LinkList = styled.ul`
   flex-wrap: wrap;
   gap: 20px;
 
-  @media (max-width: 600px) {
+  ${mediaMax.m} {
     flex-direction: column;
+    align-items: center;
   }
 `;
 

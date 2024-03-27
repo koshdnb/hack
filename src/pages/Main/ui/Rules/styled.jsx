@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { mediaMax } from '../../../../shared/libs/media';
 
 export const Wrapper = styled.div`
   max-width: 778px;
@@ -51,4 +52,14 @@ export const RulesWrap = styled.div`
   display: flex;
   justify-content: space-between;
   gap: 29px;
+
+  ${mediaMax.m} {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  > img {
+    max-width: 94%;
+    height: auto;
+  }
 `;

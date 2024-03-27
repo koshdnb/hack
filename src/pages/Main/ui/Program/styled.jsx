@@ -1,13 +1,18 @@
 import styled from '@emotion/styled';
 import { css } from '@emotion/css';
+import { mediaMax } from '../../../../shared/libs/media';
 
 import { Button } from '../../styled';
 
 export const Wrapper = styled.div`
+  margin: 52px auto 73px;
+`;
+
+export const ProgramWrap = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 630px;
+  max-width: 630px;
   margin: 52px auto 73px;
 `;
 
@@ -22,6 +27,15 @@ export const Description = styled.div`
 export const tabListClassName = css`
   margin-top: 42px;
   margin-bottom: 82px;
+
+  ${mediaMax.m} {
+    gap: 24px;
+  }
+`;
+
+export const tabClassName = css`
+  ${mediaMax.m} {
+  }
 `;
 
 export const CtaButton = styled(Button)`

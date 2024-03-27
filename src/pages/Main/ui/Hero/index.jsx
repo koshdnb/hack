@@ -1,6 +1,7 @@
-import Hackathon from './images/hackathon.svg';
+import Image from 'next/image';
+import HackathonIcon from './images/hackathon.svg';
 
-import { Button } from '../../styled';
+import { Layout, Button } from '../../styled';
 
 import {
   Wrapper,
@@ -15,21 +16,24 @@ import {
 export default function Hero() {
   return (
     <Wrapper>
-      <ContentWrap>
-        <LogoWrap>
-          <Hackathon />
-        </LogoWrap>
-        <TextWrap>
-          <Title>Compete in Cyprus&apos; BIGGEST HackAIthon.</Title>
-          <Subtitle>
-            Can you harness the power of artificial intelligence to create
-            innovative solutions that will elevate the worlds of Fintech and
-            Digital Marketing.
-          </Subtitle>
-          <Date>The Warehouse by IT Quarter 15:06:24 Limassol, Cyprus.</Date>
-        </TextWrap>
-        <Button>Reserve your spot</Button>
-      </ContentWrap>
+      <Layout>
+        <ContentWrap>
+          <LogoWrap>
+            {/* <Image width="514" height="79" src={HackathonIcon} /> */}
+            <HackathonIcon />
+          </LogoWrap>
+          <TextWrap>
+            <Title>Compete in Cyprus&apos; BIGGEST HackAIthon.</Title>
+            <Subtitle>
+              Can you harness the power of artificial intelligence to create
+              innovative solutions that will elevate the worlds of Fintech and
+              Digital Marketing.
+            </Subtitle>
+            <Date>The Warehouse by IT Quarter 15:06:24 Limassol, Cyprus.</Date>
+          </TextWrap>
+          <Button>Reserve your spot</Button>
+        </ContentWrap>
+      </Layout>
     </Wrapper>
   );
 }

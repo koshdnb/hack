@@ -11,7 +11,7 @@ export const Layout = styled.div`
   max-width: 1024px;
   margin: 0 auto;
 
-  padding: 0 45px;
+  padding: 0 29px;
 `;
 
 export const HeaderWrap = styled.div`

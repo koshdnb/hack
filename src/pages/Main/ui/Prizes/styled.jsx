@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { mediaMax } from '../../../../shared/libs/media';
 import { BorderGradient } from '../../../../shared/styles/theme';
 import { GradientTitle } from '../../../../shared/ui/GradientTitle';
 
@@ -38,6 +39,10 @@ export const PrizesList = styled.ul`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
+
+  ${mediaMax.m} {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const PrizeItem = styled.li`
@@ -57,9 +62,26 @@ export const PrizeItem = styled.li`
     flex-direction: row;
     gap: 4px;
 
+    ${mediaMax.s} {
+      flex-direction: column;
+    }
+
     > h2 {
       font-size: 96px;
+
+      ${mediaMax.m} {
+        font-size: 56px;
+      }
     }
+  }
+
+  ${mediaMax.m} {
+    font-size: 48px;
+    flex-direction: row;
+  }
+
+  ${mediaMax.s} {
+    flex-direction: column;
   }
 `;
 

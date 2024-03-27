@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { mediaMax } from '../../../../shared/libs/media';
 import { GradientTitle } from '../../../../shared/ui/GradientTitle';
 
 export const Wrapper = styled.div`
@@ -97,6 +98,12 @@ export const TextWrap = styled.div`
 
   margin: 0 auto;
   margin-top: 265px;
+
+  ${mediaMax.l} {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
 `;
 
 export const Text = styled.p`

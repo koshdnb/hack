@@ -1,6 +1,8 @@
 import styled from '@emotion/styled';
+import { mediaMax } from '../../../../shared/libs/media';
+
 export const Wrapper = styled.div`
-  width: 630px;
+  max-width: 630px;
   margin: 126px auto 73px auto;
 `;
 
@@ -20,7 +22,7 @@ export const Title = styled.h1`
 `;
 
 export const IdeaWrap = styled.div`
-  width: 360px;
+  max-width: 360px;
   height: 167px;
   padding: 21px 24px 42px;
   margin: 0 auto;
@@ -39,6 +41,10 @@ export const IdeaText = styled.p`
   font-weight: 300;
   line-height: 110%; /* 49.5px */
   text-transform: uppercase;
+
+  ${mediaMax.s} {
+    font-size: 36px;
+  }
 
   > strong {
     font-weight: 800;

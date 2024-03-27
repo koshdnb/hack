@@ -1,18 +1,23 @@
 import styled from '@emotion/styled';
+import { mediaMax } from '../../../../shared/libs/media';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.div``;
+
+export const HeaderWrap = styled.div`
   display: flex;
-  padding: 33px 0;
   align-items: center;
   justify-content: space-between;
-  max-width: 1024px;
-  margin: 0 auto;
+  padding: 33px 0;
 `;
 
 export const Menu = styled.div`
   display: flex;
   gap: 30px;
   margin-left: 120px;
+
+  ${mediaMax.m} {
+    display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')};
+  }
 `;
 
 export const Item = styled.div`

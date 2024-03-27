@@ -1,15 +1,24 @@
 import styled from '@emotion/styled';
+import { mediaMax } from '../../../../shared/libs/media';
 
 export const Wrapper = styled.div`
-  width: 700px;
+  max-width: 800px;
   margin: 70px auto 0 auto;
 `;
+
 export const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 12px;
   margin-top: 40px;
+
+  ${mediaMax.m} {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
+
 export const CardWrapper = styled.div`
   width: 220px;
 `;

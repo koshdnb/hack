@@ -1,12 +1,18 @@
 import styled from '@emotion/styled';
+import { mediaMax } from '../../../../../shared/libs/media';
 
 import DividerSvg from './images/divider.svg';
+
 export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   gap: 32px;
   align-items: center;
   margin-bottom: 16px;
+
+  ${mediaMax.m} {
+    flex-direction: column;
+  }
 `;
 
 export const Time = styled.div`
@@ -87,4 +93,8 @@ export const IconWrapper = styled.div`
 export const DividerIcon = styled(DividerSvg)`
   position: absolute;
   right: -19px;
+
+  ${mediaMax.m} {
+    display: none;
+  }
 `;

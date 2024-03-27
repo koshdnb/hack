@@ -1,6 +1,8 @@
 import styled from '@emotion/styled';
 import { css } from '@emotion/css';
 
+import { mediaMax } from '../../libs/media';
+
 export const TabListWrapper = styled.div`
   display: flex;
   justify-content: center;
@@ -33,5 +35,9 @@ export const tab = css`
   &.react-tabs__tab--selected {
     //color: var(--text_primary_inverse_default);
     //background: var(--surface_1_inverse_default);
+  }
+
+  ${mediaMax.m} {
+    width: auto;
   }
 `;
