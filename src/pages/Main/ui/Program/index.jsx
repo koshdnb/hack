@@ -6,7 +6,7 @@ import { scheduleDay1, scheduleDay2 } from './constants';
 import { Wrapper, Description, CtaButton, tabListClassName } from './styled';
 export const Program = () => {
   return (
-    <Wrapper>
+    <Wrapper id="Schedule">
       <GradientTitle>hackaithon</GradientTitle>
       <Description>
         The HackAIthon is split over two days, check below to see how the days

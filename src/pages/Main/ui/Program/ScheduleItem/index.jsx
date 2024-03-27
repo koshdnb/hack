@@ -17,7 +17,7 @@ import {
   DividerIcon,
 } from './styled';
 
-export const ScheduleItem = ({ item, key }) => {
+export const ScheduleItem = ({ item }) => {
   const { title, description, timeStart, timeEnd, icon: iconName } = item;
   const icons = {
     checkpoint: CheckpointIcon,
@@ -32,7 +32,7 @@ export const ScheduleItem = ({ item, key }) => {
   const Icon = icons[iconName];
 
   return (
-    <Wrapper key={key}>
+    <Wrapper>
       <Time>
         {timeStart}
         <TimeDivider> - </TimeDivider>

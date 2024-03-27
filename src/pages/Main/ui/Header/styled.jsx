@@ -16,6 +16,7 @@ export const Menu = styled.div`
 `;
 
 export const Item = styled.div`
+  cursor: pointer;
   font-size: 14px;
   font-weight: 400;
   line-height: 12.17px;

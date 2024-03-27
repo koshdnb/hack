@@ -74,14 +74,14 @@ export const Footer = () => {
           <Iqoption />
           <LinkList>
             {links.map(({ name, url }) => (
-              <LinkItem>
+              <LinkItem key={url}>
                 <Link href={url}>{name}</Link>
               </LinkItem>
             ))}
           </LinkList>
           <SocialList>
             {socials.map(({ name, url, Icon }) => (
-              <SocialItem>
+              <SocialItem key={url}>
                 <SocialLink href={url}>
                   <span>{name}</span>
                   <Icon />

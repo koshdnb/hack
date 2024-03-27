@@ -26,7 +26,7 @@ const prizes = [
 
 export const Prizes = () => {
   return (
-    <Wrapper>
+    <Wrapper id="Prizes">
       <PrizesWrap>
         <GradientTitle>The hackaithon prizes</GradientTitle>
         <Subtitle>

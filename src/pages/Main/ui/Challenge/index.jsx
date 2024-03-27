@@ -14,7 +14,7 @@ import {
 
 export const Challenge = () => {
   return (
-    <Wrapper>
+    <Wrapper id="Challenges">
       <GradientTitle>the ai challenge</GradientTitle>
       <ChallengeBlock>
         <ImageWrapper>

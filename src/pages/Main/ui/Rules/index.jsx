@@ -16,7 +16,7 @@ const rules = [
 
 export const Rules = () => {
   return (
-    <Wrapper>
+    <Wrapper id="Rules">
       <GradientTitle>The hackaithon rules</GradientTitle>
       <Subtitle>
         To be a winner your prototype is a functional idea that has business
