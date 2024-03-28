@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import HackathonIcon from './images/hackathon.svg';
 
 import { Layout, Button } from '../../styled';
@@ -19,8 +18,7 @@ export default function Hero() {
       <Layout>
         <ContentWrap>
           <LogoWrap>
-            {/* <Image width="514" height="79" src={HackathonIcon} /> */}
-            <HackathonIcon />
+            <HackathonIcon viewBox="0 0 514 79" />
           </LogoWrap>
           <TextWrap>
             <Title>Compete in Cyprus&apos; BIGGEST HackAIthon.</Title>
