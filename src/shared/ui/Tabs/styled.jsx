@@ -33,8 +33,8 @@ export const tab = css`
   }
 
   &.react-tabs__tab--selected {
-    //color: var(--text_primary_inverse_default);
-    //background: var(--surface_1_inverse_default);
+    background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
+    border: none;
   }
 
   ${mediaMax.m} {

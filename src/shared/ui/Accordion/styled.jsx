@@ -26,6 +26,7 @@ export const ToggleIcon = styled.span`
 `;
 
 export const Panel = styled.div`
+  margin-top: 16px;
   font-size: 16px;
   font-weight: 300;
   line-height: 20.8px;

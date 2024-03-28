@@ -10,5 +10,5 @@ export const Wrapper = styled.h2`
     background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
     -webkit-background-clip: text;
     -webkit-text-stroke: 3px transparent;
-    color: #1d1d1d;
+    color: #000000;
 `
