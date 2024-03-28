@@ -18,9 +18,21 @@ export const LogoWrap = styled.p`
   width: fit-content;
   margin-bottom: 175px;
 
+  > svg:nth-child(2) {
+    display: none;
+  }
+
   ${mediaMax.m} {
     > svg {
       width: 100%;
+    }
+
+    > svg:first-of-type {
+      display: none;
+    }
+
+    > svg:nth-child(2) {
+      display: flex;
     }
   }
 `;

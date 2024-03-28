@@ -3,11 +3,10 @@ import { mediaMax, mediaMin } from '../../libs/media';
 
 export const TopWrap = styled.div`
   .bm-menu {
-    background: #1d1d1d;
+    background: #161414;
     padding: 48px 32px;
   }
 `;
-
 
 export const Wrapper = styled.div``;
 

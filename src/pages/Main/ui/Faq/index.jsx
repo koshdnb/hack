@@ -2,7 +2,7 @@ import { AccordionParent, Collapse } from '../../../../shared/ui/Accordion';
 import { GradientTitle } from '../../../../shared/ui/GradientTitle';
 import { Layout } from '../../styled';
 
-import { Wrapper, Accordion, IdeaWrap, IdeaText } from './styled';
+import { Wrapper, Accordion, IdeaWrap, IdeaText, CtaButton } from './styled';
 
 let accordionItems = [
   {
@@ -66,6 +66,7 @@ export const Faq = () => {
           <IdeaText>
             Have an <strong>AI</strong>dea already?
           </IdeaText>
+          {/* <CtaButton>Register here</CtaButton> */}
         </IdeaWrap>
       </Layout>
     </Wrapper>

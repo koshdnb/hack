@@ -7,40 +7,11 @@ export const Wrapper = styled.div`
   min-height: 605px;
   padding-top: 60px;
   padding-bottom: 35px;
-  background-image: url('/images/man-vs-machine-bg-2.png');
+  background-color: #000000;
+  background-image: url('/images/man-vs-machine-bg.png');
   background-size: 100% auto;
   background-position: 100%;
   background-repeat: no-repeat;
-
-  /* ::before,
-  ::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-  }
-
-  ::before {
-    background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
-    opacity: 0.8;
-    mix-blend-mode: color;
-    z-index: 8;
-  }
-
-  ::after {
-    top: 57%;
-    height: 339px;
-    background: linear-gradient(
-      183deg,
-      rgba(22, 20, 20, 0) -9.78%,
-      rgba(22, 20, 20, 0.76) 39.76%,
-      #161414 62.53%
-    );
-    mix-blend-mode: color;
-    z-index: 9;
-  } */
 `;
 
 export const Content = styled.div`
@@ -51,23 +22,6 @@ export const Content = styled.div`
 export const TitleWrap = styled.div`
   position: relative;
   z-index: 10;
-
-  ::before {
-    content: '';
-    position: absolute;
-    width: 100vw;
-    height: 150px;
-    top: -60px;
-    left: 0;
-    background: linear-gradient(
-      178deg,
-      rgba(22, 20, 20, 0) 17%,
-      rgba(9, 8, 8, 0.6) 51.87%,
-      #010000 74.11%
-    );
-    transform: rotate(180deg);
-    z-index: -1;
-  }
 `;
 
 export const Title = styled(GradientTitle)`
@@ -75,7 +29,7 @@ export const Title = styled(GradientTitle)`
   font-weight: 700;
   line-height: 130%; /* 76.7px */
 
-  color: #000000;
+  color: #161414;
 `;
 
 export const Subtitle = styled.p`

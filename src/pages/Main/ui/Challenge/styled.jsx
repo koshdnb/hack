@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 33px 0 36px;
+  /* background-color: #000000; */
 `;
 
 export const ChallengeBlock = styled.div`

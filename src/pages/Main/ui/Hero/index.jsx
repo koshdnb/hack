@@ -1,4 +1,5 @@
 import HackathonIcon from './images/hackathon.svg';
+import HackathonMobIcon from './images/hackathon-mob.svg';
 
 import { Layout, Button } from '../../styled';
 
@@ -19,6 +20,7 @@ export default function Hero() {
         <ContentWrap>
           <LogoWrap>
             <HackathonIcon viewBox="0 0 514 79" />
+            <HackathonMobIcon viewBox="0 0 162 287" />
           </LogoWrap>
           <TextWrap>
             <Title>Compete in Cyprus&apos; BIGGEST HackAIthon.</Title>

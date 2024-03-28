@@ -2,6 +2,27 @@ import styled from '@emotion/styled';
 import { mediaMax } from '../../../../shared/libs/media';
 
 export const Wrapper = styled.div`
+  position: relative;
+  margin: 70px auto 0 auto;
+
+  /* ::before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 241px;
+    top: -300px;
+    left: 0;
+    background: linear-gradient(
+      178deg,
+      rgba(22, 20, 20, 0) 9.84%,
+      #161414 76.94%
+    );
+    transform: rotate(180deg);
+    z-index: -1;
+  } */
+`;
+
+export const MembersWrap = styled.div`
   max-width: 800px;
   margin: 70px auto 0 auto;
 `;

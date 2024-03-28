@@ -1,9 +1,10 @@
 import styled from '@emotion/styled';
+import { mediaMax } from '../../shared/libs/media';
+import { TextGradient } from '../../shared/styles/theme';
 
 export const Wrapper = styled.div`
   width: 100%;
   height: 100%;
-  background: #1d1d1d;
   color: #ffffff;
 `;
 
@@ -19,7 +20,10 @@ export const HeaderWrap = styled.div`
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #000000;
+
+  ${mediaMax.m} {
+    background-position: center 263px;
+  }
 `;
 
 export const FooterWrap = styled.div``;
@@ -35,7 +39,7 @@ export const Button = styled.a`
 
   padding: 8px 32px;
 
-  background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
+  background-image: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
   border-radius: 35px;
 
   cursor: pointer;
@@ -49,31 +53,22 @@ export const Button = styled.a`
   }
 `;
 
-export const ButtonWhite = styled.a`
-  color: #fff;
+export const ButtonWhite = styled(Button)`
+  position: relative;
+  width: fit-content;
+  background-color: #ffffff;
+  ${TextGradient()}
 
-  text-align: center;
-  font-size: 16.709px;
-  font-weight: 700;
-  line-height: 110%; /* 18.38px */
-  text-transform: uppercase;
-
-  padding: 8px 32px;
-
-  background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  border-radius: 35px;
-
-  cursor: pointer;
-
-  :hover {
-    opacity: 0.9;
-  }
-
-  :active {
-    opacity: 0.7;
+  ::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 35px;
+    z-index: -1;
   }
 `;
 

@@ -12,6 +12,8 @@ export const Wrapper = styled.div`
 
   ${mediaMax.m} {
     flex-direction: column;
+    gap: 12px;
+    margin-bottom: 36px;
   }
 `;
 

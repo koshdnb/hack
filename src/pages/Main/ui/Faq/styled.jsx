@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import { mediaMax } from '../../../../shared/libs/media';
+import { ButtonWhite } from '../../styled';
 
 export const Wrapper = styled.div`
   max-width: 630px;
@@ -22,6 +23,7 @@ export const Title = styled.h1`
 `;
 
 export const IdeaWrap = styled.div`
+  position: relative;
   max-width: 360px;
   height: 167px;
   padding: 21px 24px 42px;
@@ -31,6 +33,7 @@ export const IdeaWrap = styled.div`
   border-radius: 40px;
   border-top-right-radius: 0;
   background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
+  /* z-index: -1; */
 `;
 
 export const IdeaText = styled.p`
@@ -49,4 +52,14 @@ export const IdeaText = styled.p`
   > strong {
     font-weight: 800;
   }
+`;
+
+export const CtaButton = styled(ButtonWhite)`
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  /* margin-top: 27px; */
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
 `;

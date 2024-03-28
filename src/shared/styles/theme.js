@@ -12,7 +12,7 @@ export const BorderGradient = ({ radius }) => css`
 `;
 
 export const TextGradient = () => css`
-  background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
+  background-image: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

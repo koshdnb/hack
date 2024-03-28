@@ -104,5 +104,5 @@ export const PrizeText = styled(GradientTitle)`
   letter-spacing: 3px;
 
   -webkit-text-stroke: 5px transparent;
-  color: #000000;
+  color: #161414;
 `;
