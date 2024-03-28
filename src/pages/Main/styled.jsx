@@ -19,10 +19,18 @@ export const HeaderWrap = styled.div`
   background-image: url('/images/hero-bg.png');
   background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 80px;
 
-  ${mediaMax.m} {
+  ${mediaMax.xl} {
+    background-position: center 163px;
+  }
+
+  ${mediaMax.l} {
     background-position: center 263px;
+  }
+
+  ${mediaMax.s} {
+    background-size: 270%;
   }
 `;
 

@@ -22,7 +22,13 @@ export const LogoWrap = styled.p`
     display: none;
   }
 
-  ${mediaMax.m} {
+  ${mediaMax.xl} {
+    margin-bottom: 250px;
+  }
+
+  ${mediaMax.l} {
+    margin-bottom: 330px;
+
     > svg {
       width: 100%;
     }
