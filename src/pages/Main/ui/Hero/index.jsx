@@ -1,3 +1,6 @@
+import { Modal, useModal } from 'react-morphing-modal';
+import RegistrationForm from '/src/shared/ui/RegistrationForm';
+
 import HackathonIcon from './images/hackathon.svg';
 import HackathonMobIcon from './images/hackathon-mob.svg';
 
@@ -14,6 +17,10 @@ import {
 } from './styled';
 
 export default function Hero() {
+  const { modalProps, getTriggerProps } = useModal({
+    background: '#1d1d1d',
+  });
+
   return (
     <Wrapper>
       <Layout>
@@ -31,7 +38,10 @@ export default function Hero() {
             </Subtitle>
             <Date>The Warehouse by IT Quarter 15:06:24 Limassol, Cyprus.</Date>
           </TextWrap>
-          <Button>Reserve your spot</Button>
+          <Button {...getTriggerProps()}>Reserve your spot</Button>
+          <Modal {...modalProps}>
+            <RegistrationForm />
+          </Modal>
         </ContentWrap>
       </Layout>
     </Wrapper>

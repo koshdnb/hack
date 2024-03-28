@@ -3,7 +3,7 @@ import { mediaMax } from '../../../../shared/libs/media';
 import { GradientTitle } from '../../../../shared/ui/GradientTitle';
 
 export const Wrapper = styled.div`
-  position: relative;
+  //position: relative;
   min-height: 605px;
   padding-top: 60px;
   padding-bottom: 35px;
@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
-  position: relative;
+  //position: relative;
   z-index: 10;
 `;
 
@@ -44,7 +44,6 @@ export const Subtitle = styled.p`
 `;
 
 export const TextWrap = styled.div`
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;

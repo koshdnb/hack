@@ -1,6 +1,7 @@
 import { Sofia_Sans } from 'next/font/google';
 import '/styles/globals.css';
 import '/styles/reset.css';
+import '/styles/modal.css';
 
 import AcceptCookieNotification from '../src/shared/ui/AcceptCookieNotification';
 import App from '/src/app/App';

@@ -1,3 +1,5 @@
+import { Modal, useModal } from 'react-morphing-modal';
+import RegistrationForm from '/src/shared/ui/RegistrationForm';
 import { GradientTitle } from '../../../../shared/ui/GradientTitle';
 import { Tabs, Tab, TabList, TabPanel } from '../../../../shared/ui/Tabs';
 
@@ -12,7 +14,12 @@ import {
   tabClassName,
 } from './styled';
 import { Layout } from '../../styled';
+
 export const Program = () => {
+  const { modalProps, getTriggerProps } = useModal({
+    background: '#1d1d1d',
+  });
+
   return (
     <Wrapper id="Schedule">
       <Layout>
@@ -40,7 +47,10 @@ export const Program = () => {
             </TabPanel>
           </Tabs>
 
-          <CtaButton>Apply for your spot</CtaButton>
+          <CtaButton {...getTriggerProps()}>Apply for your spot</CtaButton>
+          <Modal {...modalProps}>
+            <RegistrationForm />
+          </Modal>
         </ProgramWrap>
       </Layout>
     </Wrapper>

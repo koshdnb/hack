@@ -1,3 +1,6 @@
+import { useModal, Modal } from 'react-morphing-modal';
+
+import RegistrationForm from '../../../../shared/ui/RegistrationForm';
 import { Layout, Button } from '../../styled';
 import {
   Wrapper,
@@ -10,6 +13,10 @@ import {
 } from './styled';
 
 export default function ManVsMachine() {
+  const { modalProps, getTriggerProps } = useModal({
+    background: '#1d1d1d',
+  });
+
   return (
     <Wrapper>
       <Layout>
@@ -27,7 +34,10 @@ export default function ManVsMachine() {
               levels. Make sure you’ll bring your A-game because this time, it
               won&apos;t just be human minds at work.
             </Text>
-            <Button>Reserve your spot</Button>
+            <Button {...getTriggerProps()}>Reserve your spot</Button>
+            <Modal {...modalProps}>
+              <RegistrationForm />
+            </Modal>
           </TextWrap>
         </Content>
       </Layout>
