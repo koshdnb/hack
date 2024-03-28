@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { mediaMax, mediaMin } from '../../../../shared/libs/media';
+import { mediaMax, mediaMin } from '../../libs/media';
 
 export const TopWrap = styled.div`
   .bm-menu {
@@ -39,7 +39,7 @@ export const Item = styled.div`
 export const MobileItem = styled.div`
   margin-bottom: 32px;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 12.17px;
   text-align: left;

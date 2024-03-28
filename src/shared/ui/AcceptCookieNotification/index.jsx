@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 import useUsageAcceptedCookie from './useUsageAcceptedCookie';
-import { Wrapper, Content, InfoText, Button } from './styled';
+import { Wrapper, Content, InfoText, CloseButton } from './styled';
 
 const AcceptCookieNotification = () => {
   const [isOpen, setOpen] = useState(false);
@@ -33,9 +33,9 @@ const AcceptCookieNotification = () => {
     <Wrapper>
       <Content>
         {renderNotificationText()}
-        <button onClick={handleAgreeClick}>
+        <CloseButton onClick={handleAgreeClick}>
           I agree
-        </button>
+        </CloseButton>
       </Content>
     </Wrapper>
   );

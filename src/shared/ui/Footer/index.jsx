@@ -1,8 +1,8 @@
 import Iqoption from '../Header/images/iqoption.svg';
-import { Layout } from '../../styled';
+import { Layout } from '../../../pages/Main/styled';
 import TwitterIcon from './images/twitter-icon.svg';
 import FacebookIcon from './images/facebook-icon.svg';
-import LinkedinIcon from './images/linkedin-icon.svg';
+import LinkedinIcon from './images/linkedIn-icon.svg';
 import {
   Wrapper,
   TopWrap,
@@ -21,15 +21,15 @@ import {
 const links = [
   {
     name: 'Terms',
-    url: '#',
+    url: '/terms-and-conditions',
   },
   {
     name: 'Privacy Policy',
-    url: '#',
+    url: '/privacy-policy',
   },
   {
     name: 'Cookies Policy',
-    url: '#',
+    url: 'cookie-policy',
   },
   {
     name: '@2024 Quadcode',

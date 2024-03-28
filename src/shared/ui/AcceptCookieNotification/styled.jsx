@@ -16,8 +16,28 @@ export const Content = styled.div`
   justify-content: space-between;
   flex-wrap: nowrap;
   align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 12px;
 `;
 
 export const InfoText = styled.span`
   margin-right: 10px;
+`;
+
+export const CloseButton = styled.button`
+  all: unset;
+  color: #fff;
+  text-align: center;
+  font-size: 16.709px;
+  font-weight: 700;
+  line-height: 110%;
+  text-transform: uppercase;
+  padding: 8px 32px;
+  background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
+  border-radius: 35px;
+  cursor: pointer;
+  box-shadow: none;
+  text-wrap: nowrap;
+  outline: none;
 `;

@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import Header from './ui/Header';
+import Header from '../../shared/ui/Header';
 import Hero from './ui/Hero';
 import ManVsMachine from './ui/ManVsMachine';
 import { Challenge } from './ui/Challenge';
@@ -11,7 +11,7 @@ import { Prizes } from './ui/Prizes';
 import { Members } from './ui/Members';
 import { Map } from './ui/Map';
 import { Faq } from './ui/Faq';
-import { Footer } from './ui/Footer';
+import { Footer } from '../../shared/ui/Footer';
 import { Wrapper, HeaderWrap, FooterWrap } from './styled';
 
 export default function Main() {
@@ -23,7 +23,7 @@ export default function Main() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeaderWrap>
-        <Header />
+        <Header withNavigation />
         <Hero />
       </HeaderWrap>
       <ManVsMachine />

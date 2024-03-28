@@ -1,14 +1,13 @@
 import styled from '@emotion/styled';
-import { TextGradient } from '../../../../shared/styles/theme';
-import { mediaMax } from '../../../../shared/libs/media';
+import { TextGradient } from '../../styles/theme';
+import { mediaMax } from '../../libs/media';
 
 export const Wrapper = styled.div`
+  color: #fff;
   padding-bottom: 33px;
 `;
 
 export const TopWrap = styled.div`
-  color: #fff;
-
   font-size: 18px;
   font-weight: 600;
   line-height: 110%; /* 19.8px */

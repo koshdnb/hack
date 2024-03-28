@@ -2,7 +2,7 @@ import { Wrapper } from './styled';
 import { Footer } from '../../shared/ui/Footer';
 import Header from '../../shared/ui/Header';
 
-export const Terms = () => {
+export const Privacy = () => {
   return (
     <div>
       <Header />
@@ -1027,4 +1027,4 @@ export const Terms = () => {
   );
 };
 
-export default Terms;
+export default Privacy;
