@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { mediaMax } from '../../../../shared/libs/media';
 
 export const Wrapper = styled.div`
   padding-top: 64px;
@@ -16,6 +17,12 @@ export const LogoWrap = styled.p`
   margin: 0 auto;
   width: fit-content;
   margin-bottom: 175px;
+
+  ${mediaMax.m} {
+    > svg {
+      width: 100%;
+    }
+  }
 `;
 
 export const TextWrap = styled.div`
