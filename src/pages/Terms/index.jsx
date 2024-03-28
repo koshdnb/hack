@@ -1,4 +1,4 @@
-import { Wrapper } from './styled';
+import { Wrapper, Title } from './styled';
 import { Footer } from '../../shared/ui/Footer';
 import Header from '../../shared/ui/Header';
 
@@ -7,6 +7,7 @@ export const Terms = () => {
     <div>
       <Header />
       <Wrapper>
+        <Title>TERMS AND CONDITIONS</Title>
         <h2 className="wp-block-heading">
           <strong>ADTECH HOLDING&nbsp;</strong>
           <br />
