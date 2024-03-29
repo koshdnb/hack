@@ -54,6 +54,17 @@ export const FooterWrap = styled.div`
     top: -10%;
   }
 
+  ::after {
+    display: none;
+  }
+
+  ${mediaMax.xxl} {
+    ::after {
+      display: block;
+      top: 56%;
+    }
+  }
+
   ${mediaMax.xl} {
     ::before {
       top: -6%;
@@ -62,7 +73,7 @@ export const FooterWrap = styled.div`
 
   ${mediaMax.m} {
     ::before {
-      top: -1%;
+      top: 2%;
     }
   }
 
