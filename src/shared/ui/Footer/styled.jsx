@@ -21,13 +21,13 @@ export const TopWrap = styled.div`
 `;
 
 export const Title = styled.h2`
-  text-align: center;
-  font-size: 34px;
-  font-weight: 300;
-  line-height: 110%; /* 37.4px */
-  text-transform: uppercase;
-
-  margin-bottom: 8px;
+    text-align: center;
+    line-height: 110%;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
 
   ${TextGradient()};
 `;
