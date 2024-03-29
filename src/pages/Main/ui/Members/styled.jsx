@@ -23,9 +23,9 @@ export const Wrapper = styled.div`
 `;
 
 export const MembersWrap = styled.div`
-  max-width: 800px;
+  max-width: 695px;
   margin: 0 auto;
-  padding: 70px 0 88px 0;
+  padding: 70px 0 120px 0;
 `;
 
 export const Cards = styled.div`
@@ -42,7 +42,21 @@ export const Cards = styled.div`
 `;
 
 export const CardWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 220px;
+
+  :nth-child(1),
+  :nth-child(2),
+  :nth-child(6),
+  :nth-child(7) {
+    width: 33%;
+  }
+
+  ${mediaMax.s} {
+    width: auto;
+  }
 `;
 
 export const Image = styled.img`

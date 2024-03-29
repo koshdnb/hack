@@ -41,6 +41,11 @@ let teamMembers = [
     name: 'Michael Tyrimos',
     description: 'Managing Director Capacitor Partner',
   },
+  {
+    imgSrc: '/images/jury/3.png',
+    name: 'Sergei Dobrovolskii',
+    description: 'CEO, Founder Quadcode',
+  },
 ];
 
 export const Members = () => {
