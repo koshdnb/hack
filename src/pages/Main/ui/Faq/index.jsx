@@ -1,8 +1,10 @@
+import { Modal, useModal } from 'react-morphing-modal';
 import { AccordionParent, Collapse } from '../../../../shared/ui/Accordion';
 import { GradientTitle } from '../../../../shared/ui/GradientTitle';
 import { Layout } from '../../styled';
 
 import { Wrapper, Accordion, IdeaWrap, IdeaText, CtaButton } from './styled';
+import RegistrationForm from '/src/shared/ui/RegistrationForm';
 
 let accordionItems = [
   {
@@ -49,6 +51,9 @@ let accordionItems = [
 ];
 
 export const Faq = () => {
+  const { modalProps, getTriggerProps } = useModal({
+    background: '#1d1d1d',
+  });
   return (
     <Wrapper>
       <Layout>
@@ -66,7 +71,10 @@ export const Faq = () => {
           <IdeaText>
             Have an <strong>AI</strong>dea already?
           </IdeaText>
-          <CtaButton>Register here</CtaButton>
+          <CtaButton {...getTriggerProps()}>Register here</CtaButton>
+          <Modal {...modalProps}>
+            <RegistrationForm />
+          </Modal>
         </IdeaWrap>
       </Layout>
     </Wrapper>

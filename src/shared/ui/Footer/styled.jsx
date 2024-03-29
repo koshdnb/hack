@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   position: relative;
   color: #fff;
   padding-bottom: 33px;
-  z-index: 3;
+  z-index: 1;
 `;
 
 export const TopWrap = styled.div`
