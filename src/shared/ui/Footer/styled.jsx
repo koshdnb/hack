@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { TextGradient } from '../../styles/theme';
+import { TextGradient, BaseLink } from '../../styles/theme';
 import { mediaMax } from '../../libs/media';
 
 export const Wrapper = styled.div`
@@ -70,11 +70,7 @@ export const LinkItem = styled.li``;
 export const Link = styled.a`
   cursor: pointer;
 
-  :hover {
-  }
-
-  :active {
-  }
+  ${BaseLink()}
 `;
 
 export const SocialList = styled.ul`

@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import { mediaMax, mediaMin } from '../../libs/media';
+import { BaseLink } from '../../styles/theme';
 
 export const TopWrap = styled.div`
   .bm-menu {
@@ -28,20 +29,25 @@ export const Menu = styled.div`
 `;
 
 export const Item = styled.div`
-  cursor: pointer;
   font-size: 14px;
   font-weight: 400;
   line-height: 12.17px;
   text-align: left;
+  cursor: pointer;
+
+  ${BaseLink()}
 `;
 
 export const MobileItem = styled.div`
-  margin-bottom: 32px;
-  cursor: pointer;
   font-size: 16px;
   font-weight: 400;
   line-height: 12.17px;
   text-align: left;
+  width: fit-content;
+  margin-bottom: 32px;
+  cursor: pointer;
+
+  ${BaseLink()}
 `;
 
 export const MenuIconWrapper = styled.div`

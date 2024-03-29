@@ -17,3 +17,31 @@ export const TextGradient = () => css`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `;
+
+export const BaseLink = () => css`
+  position: relative;
+  color: #ffffff;
+
+  ::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background-color: #ec03ff;
+    transform: scaleX(0);
+    transition: transform 0.4s ease;
+  }
+
+  :hover,
+  :active {
+    ::before {
+      transform: scaleX(1);
+    }
+  }
+
+  :active {
+    opacity: 0.7;
+  }
+`;
