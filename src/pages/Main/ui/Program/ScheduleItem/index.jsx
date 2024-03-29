@@ -5,6 +5,9 @@ import LampIcon from './images/lamp.svg';
 import LunchIcon from './images/lunch.svg';
 import MeetIcon from './images/meet.svg';
 import NightIcon from './images/night.svg';
+import PartyIcon from './images/party.svg';
+import PushIcon from './images/push.svg';
+import NetworkIcon from './images/network.svg';
 
 import {
   Wrapper,
@@ -27,6 +30,9 @@ export const ScheduleItem = ({ item }) => {
     lunch: LunchIcon,
     meet: MeetIcon,
     night: NightIcon,
+    party: PartyIcon,
+    push: PushIcon,
+    network: NetworkIcon,
   };
 
   const Icon = icons[iconName];
