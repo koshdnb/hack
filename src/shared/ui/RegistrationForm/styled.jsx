@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { mediaMax } from '../../libs/media';
 
 export const Wrapper = styled.div`
   max-width: 640px;
@@ -38,20 +39,36 @@ export const FormBlock = styled.div`
 `;
 export const Field = styled.div`
   display: flex;
-  margin-top: 12px;
+  align-items: center;
+  margin-top: 20px;
+  gap: 8px;
+
+  ${mediaMax.s} {
+    flex-direction: column;
+    align-items: stretch;
+  }
 `;
 export const Label = styled.div`
   color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
+  text-align: left;
   width: 200px;
+
+  ${mediaMax.s} {
+    width: auto;
+  }
 `;
 export const Input = styled.input`
   padding-left: 8px;
   height: 34px;
   font-size: 16px;
   flex: 1;
+
+  ${mediaMax.s} {
+    padding: 8px;
+  }
 `;
 
 export const TextArea = styled.textarea`
@@ -87,7 +104,57 @@ export const Button = styled.button`
 `;
 
 export const TermsText = styled.div`
-  margin-top: 16px;
+  margin-top: 56px;
   margin-bottom: 16px;
   font-weight: 300;
+`;
+
+export const CheckboxLabel = styled.label`
+  position: relative;
+  display: flex;
+  margin-left: 36px;
+
+  > input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    cursor: pointer;
+  }
+
+  > input:checked ~ span {
+    background-color: #f10599;
+    border-color: transparent;
+  }
+
+  > input:checked ~ span > svg {
+    display: flex;
+  }
+
+  > span > svg {
+    display: none;
+  }
+
+  > span {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -36px;
+    border: 2px solid #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    :hover {
+      border-color: #f10599;
+    }
+
+    :active {
+      border-color: #ec03ff;
+    }
+  }
 `;

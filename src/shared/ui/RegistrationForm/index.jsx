@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import CheckIcon from './images/check.svg';
 import {
   Wrapper,
   Title,
@@ -12,6 +13,7 @@ import {
   Button,
   Submit,
   TermsText,
+  CheckboxLabel,
 } from './styled';
 
 const RegistrationForm = () => {
@@ -151,7 +153,7 @@ const RegistrationForm = () => {
           />
         </Field>
         <Field>
-          <Label>I don’t have a team: :</Label>
+          <Label>I don’t have a team:</Label>
           <Input
             type="text"
             name="hasNoTeam"
@@ -238,15 +240,18 @@ const RegistrationForm = () => {
           </div>
         </TermsText>
         <div>
-          <label>
+          <CheckboxLabel>
             <input
               type="checkbox"
               name="agreeToTerms"
               checked={formData.agreeToTerms}
               onChange={handleChange}
             />
+            <span>
+              <CheckIcon />
+            </span>
             I have read and agree to the Terms and Conditions.
-          </label>
+          </CheckboxLabel>
         </div>
         <Submit>
           <Button type="submit" disabled={!formData.agreeToTerms}>
