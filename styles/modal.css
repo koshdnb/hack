@@ -37,7 +37,6 @@
   transform: translate(-50%) rotate(-45deg);
 }
 .RMM__close-button:hover {
-  /*background: rgba(0, 0, 0, 0.6);*/
 }
 .RMM__close-button--is-active {
   transform: scale(1);

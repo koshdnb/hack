@@ -52,7 +52,7 @@ export const TextWrap = styled.div`
   text-align: center;
 
   max-width: 517px;
-  margin-bottom: 15px;
+  margin-bottom: 26px;
 `;
 
 export const Title = styled.p`
