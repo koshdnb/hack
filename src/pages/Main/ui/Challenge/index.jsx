@@ -1,7 +1,9 @@
+import { Modal, useModal } from 'react-morphing-modal';
 import { GradientTitle } from 'src/shared/ui/GradientTitle';
 
 import { Layout, Button } from '../../styled';
 import Chip from './images/chip.svg';
+import RegistrationForm from '/src/shared/ui/RegistrationForm';
 
 import {
   Wrapper,
@@ -16,6 +18,10 @@ import {
 } from './styled';
 
 export const Challenge = () => {
+  const { modalProps, getTriggerProps } = useModal({
+    background: '#1d1d1d',
+  });
+
   return (
     <Wrapper id="Challenges">
       <Layout>
@@ -39,7 +45,10 @@ export const Challenge = () => {
                 Fintech and Digital Marketing to new heights of innovation and
                 effectiveness.
               </RightTextDescription>
-              <Button>Learn more</Button>
+              <Button {...getTriggerProps()}>Learn more</Button>
+              <Modal {...modalProps}>
+                <RegistrationForm />
+              </Modal>
             </RightText>
           </ImageWrapper>
         </ChallengeBlock>
