@@ -34,7 +34,36 @@ export const HeaderWrap = styled.div`
   }
 `;
 
-export const FooterWrap = styled.div``;
+export const FooterWrap = styled.div`
+  position: relative;
+  padding-top: 60px;
+
+  background-color: #161414;
+
+  ::before,
+  ::after {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: calc(100vw / 1.52);
+    background-color: #161414;
+    background-image: url('./images/faq-bg.png');
+    background-size: 100vw auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    top: -1%;
+  }
+
+  ::after {
+    background-position: bottom center;
+    transform: rotate(180deg);
+    top: 50%;
+
+    ${mediaMax.xl} {
+      top: 60%;
+    }
+  }
+`;
 
 export const Button = styled.a`
   color: #fff;
@@ -64,10 +93,10 @@ export const Button = styled.a`
 export const ButtonWhite = styled(Button)`
   position: relative;
   width: fit-content;
-  background-color: #ffffff;
-  ${TextGradient()}
+  background: #ffffff;
+  color: #f10599;
 
-  ::before {
+  /* ::before {
     content: '';
     position: absolute;
     top: 0;
@@ -77,7 +106,7 @@ export const ButtonWhite = styled(Button)`
     background-color: #ffffff;
     border-radius: 35px;
     z-index: -1;
-  }
+  } */
 `;
 
 export const Title = styled.h1`

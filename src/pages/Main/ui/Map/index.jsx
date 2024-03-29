@@ -1,4 +1,15 @@
-import { Wrapper, Container } from './styled';
+import { Layout } from '../../styled';
+import {
+  Wrapper,
+  MapWrap,
+  MapImage,
+  MapLink,
+  InfoWrap,
+  TextWrap,
+  GradientText,
+  Date,
+  Location,
+} from './styled';
 
 const API_KEY = 'AIzaSyCrNgAYgwuUBeS725qoTMFUgl9LgzFAEAU';
 const MODE = 'place';
@@ -14,13 +25,23 @@ export const Map = () => {
 
   return (
     <Wrapper id="Venue">
-      <Container
-        src={mapUrl}
-        width="100%"
-        height="100%"
-        frameBorder="0"
-        allowFullScreen
-      />
+      <Layout>
+        <MapWrap>
+          <MapLink href={mapUrl}>
+            <MapImage src="/images/map.png" alt="Map with address" />
+          </MapLink>
+          <InfoWrap>
+            <TextWrap>
+              <GradientText>Date</GradientText>
+              <Date>JUNE 15-18, 2024</Date>
+            </TextWrap>
+            <TextWrap>
+              <GradientText>Location</GradientText>
+              <Location>The Warehouse by IT Quarter, Limassol, Cyprus</Location>
+            </TextWrap>
+          </InfoWrap>
+        </MapWrap>
+      </Layout>
     </Wrapper>
   );
 };

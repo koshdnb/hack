@@ -3,8 +3,10 @@ import { TextGradient } from '../../styles/theme';
 import { mediaMax } from '../../libs/media';
 
 export const Wrapper = styled.div`
+  position: relative;
   color: #fff;
   padding-bottom: 33px;
+  z-index: 3;
 `;
 
 export const TopWrap = styled.div`

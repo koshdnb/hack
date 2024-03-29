@@ -3,8 +3,10 @@ import { mediaMax } from '../../../../shared/libs/media';
 import { ButtonWhite } from '../../styled';
 
 export const Wrapper = styled.div`
+  position: relative;
   max-width: 630px;
   margin: 126px auto 73px auto;
+  z-index: 3;
 `;
 
 export const Accordion = styled.div`
@@ -58,7 +60,7 @@ export const CtaButton = styled(ButtonWhite)`
   position: absolute;
   display: block;
   margin: 0 auto;
-  /* margin-top: 27px; */
+  min-width: 200px;
   top: 90%;
   left: 50%;
   transform: translateX(-50%);

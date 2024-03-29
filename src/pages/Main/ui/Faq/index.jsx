@@ -66,7 +66,7 @@ export const Faq = () => {
           <IdeaText>
             Have an <strong>AI</strong>dea already?
           </IdeaText>
-          {/* <CtaButton>Register here</CtaButton> */}
+          <CtaButton>Register here</CtaButton>
         </IdeaWrap>
       </Layout>
     </Wrapper>

@@ -3,7 +3,7 @@ import { mediaMax } from '../../../../shared/libs/media';
 
 export const Wrapper = styled.div`
   position: relative;
-  margin: 70px auto 0 auto;
+  background-color: #161414;
 
   /* ::before {
     content: '';
@@ -24,7 +24,8 @@ export const Wrapper = styled.div`
 
 export const MembersWrap = styled.div`
   max-width: 800px;
-  margin: 70px auto 0 auto;
+  margin: 0 auto;
+  padding: 70px 0 88px 0;
 `;
 
 export const Cards = styled.div`

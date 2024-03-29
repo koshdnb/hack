@@ -4,9 +4,8 @@ import { BorderGradient } from '../../../../shared/styles/theme';
 import { GradientTitle } from '../../../../shared/ui/GradientTitle';
 
 export const Wrapper = styled.div`
-  margin-bottom: 58px;
   padding-top: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 88px;
   background-image: url('/images/prizes-bg.png');
   background-size: 100% auto;
   background-position: 100%;
