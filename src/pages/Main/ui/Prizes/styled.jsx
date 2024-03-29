@@ -47,7 +47,7 @@ export const PrizesWrap = styled.div`
   position: relative;
   max-width: 536px;
   margin: 0 auto;
-  z-index: 2;
+  z-index: 1;
 `;
 
 export const Subtitle = styled.p`

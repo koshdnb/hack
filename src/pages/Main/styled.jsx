@@ -93,6 +93,10 @@ export const FooterWrap = styled.div`
     ${mediaMax.m} {
       top: 65%;
     }
+
+    ${mediaMax.s} {
+      top: 70%;
+    }
   }
 `;
 
