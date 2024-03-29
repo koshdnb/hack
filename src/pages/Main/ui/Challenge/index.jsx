@@ -1,6 +1,6 @@
 import { GradientTitle } from 'src/shared/ui/GradientTitle';
 
-import { Layout } from '../../styled';
+import { Layout, Button } from '../../styled';
 import Chip from './images/chip.svg';
 
 import {
@@ -39,6 +39,7 @@ export const Challenge = () => {
                 Fintech and Digital Marketing to new heights of innovation and
                 effectiveness.
               </RightTextDescription>
+              <Button>Learn more</Button>
             </RightText>
           </ImageWrapper>
         </ChallengeBlock>

@@ -5,40 +5,38 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 33px 0 36px;
+  padding: 33px 0 100px;
+
+  ${mediaMax.l} {
+    padding-bottom: 70px;
+  }
   /* background-color: #000000; */
 `;
 
 export const ChallengeBlock = styled.div`
   position: relative;
-  margin-top: 16px;
+  margin-top: 50px;
 `;
 
 export const ImageWrapper = styled.div`
-  margin-left: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
 
   ${mediaMax.l} {
-    margin-left: 0;
+    flex-direction: column;
+    gap: 15px;
   }
 `;
 
 export const ChipWrapper = styled.div`
-  ${mediaMax.l} {
-    display: none;
-  }
+  max-width: 100%;
+  height: auto;
 `;
 
 export const LeftText = styled.div`
-  position: absolute;
-  width: 220px;
-  top: 74px;
-  left: 17px;
-
-  ${mediaMax.l} {
-    position: static;
-    width: auto;
-    max-width: 80vw;
-  }
+  max-width: 213px;
 `;
 
 export const LeftTextTitle = styled.div`
@@ -46,35 +44,38 @@ export const LeftTextTitle = styled.div`
   font-weight: 800;
   font-size: 42.9065px;
   line-height: 120%;
-  text-align: center;
 
   color: #ffffff;
+
+  ${mediaMax.l} {
+    text-align: center;
+  }
 `;
 
 export const RightText = styled.div`
-  position: absolute;
-  right: 22px;
-  width: 220px;
-  top: 71px;
-
-  ${mediaMax.l} {
-    position: static;
-    width: auto;
-    max-width: 80vw;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 232px;
 `;
 
 export const RightTextTitle = styled.div`
   font-size: 28px;
   font-weight: 800;
   line-height: 30.8px;
-  text-align: center;
+  margin-top: 10px;
+
+  ${mediaMax.l} {
+    text-align: center;
+  }
 `;
 
 export const RightTextDescription = styled.div`
-  margin-top: 16px;
   font-size: 16px;
   font-weight: 300;
   line-height: 19.2px;
-  text-align: center;
+
+  ${mediaMax.l} {
+    text-align: center;
+  }
 `;
