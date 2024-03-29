@@ -1,6 +1,5 @@
 import styled from '@emotion/styled';
 import { mediaMax } from '../../shared/libs/media';
-import { TextGradient } from '../../shared/styles/theme';
 
 export const Wrapper = styled.div`
   width: 100%;
@@ -20,6 +19,7 @@ export const HeaderWrap = styled.div`
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center 80px;
+  background-color: #000000;
 
   ${mediaMax.xl} {
     background-position: center 163px;

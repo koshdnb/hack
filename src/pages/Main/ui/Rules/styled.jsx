@@ -2,11 +2,18 @@ import styled from '@emotion/styled';
 import { mediaMax } from '../../../../shared/libs/media';
 
 export const Wrapper = styled.div`
+  padding-top: 100px;
+  padding-bottom: 88px;
+  background: radial-gradient(
+    45.09% 45.09% at 50% 50%,
+    #1d1c1c 0%,
+    #161414 100%
+  );
+`;
+
+export const RulesWrapper = styled.div`
   max-width: 778px;
   margin: 0 auto;
-  margin-bottom: 58px;
-  padding-top: 100px;
-  padding-bottom: 30px;
 `;
 
 export const RulesList = styled.ul`

@@ -2,7 +2,13 @@ import styled from '@emotion/styled';
 import { mediaMax } from '../../../../shared/libs/media';
 import { BorderGradient } from '../../../../shared/styles/theme';
 
-export const Wrapper = styled.div``;
+export const Wrapper = styled.div`
+  background: radial-gradient(
+    45.09% 45.09% at 50% 50%,
+    #1d1c1c 0%,
+    #161414 100%
+  );
+`;
 
 export const TimelineWrap = styled.div`
   max-width: 846px;

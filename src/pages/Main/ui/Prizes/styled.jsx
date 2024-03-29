@@ -4,17 +4,48 @@ import { BorderGradient } from '../../../../shared/styles/theme';
 import { GradientTitle } from '../../../../shared/ui/GradientTitle';
 
 export const Wrapper = styled.div`
+  position: relative;
   padding-top: 100px;
   padding-bottom: 88px;
   background-image: url('/images/prizes-bg.png');
   background-size: 100% auto;
   background-position: 100%;
   background-repeat: no-repeat;
+
+  ::before,
+  ::after {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 241px;
+    background: linear-gradient(359deg, rgba(22, 20, 20, 0) 7%, #000000 53.68%);
+  }
+
+  ::after {
+    top: 77%;
+    background: linear-gradient(
+      -181deg,
+      rgba(22, 20, 20, 0) 7%,
+      #161414 53.68%
+    );
+  }
+
+  ${mediaMax.m} {
+    ::before {
+      top: -77px;
+    }
+    ::after {
+      top: 60%;
+    }
 `;
 
 export const PrizesWrap = styled.div`
+  position: relative;
   max-width: 536px;
   margin: 0 auto;
+  z-index: 2;
 `;
 
 export const Subtitle = styled.p`

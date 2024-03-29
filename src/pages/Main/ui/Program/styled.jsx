@@ -5,15 +5,34 @@ import { mediaMax } from '../../../../shared/libs/media';
 import { Button } from '../../styled';
 
 export const Wrapper = styled.div`
-  margin: 52px auto 73px;
+  position: relative;
+  padding-top: 52px;
+  /* padding-bottom: 73px; */
+  background: radial-gradient(
+    45.09% 45.09% at 50% 50%,
+    #1d1c1c 0%,
+    #161414 100%
+  );
+
+  /* ::before {
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 100%;
+    height: 241px;
+    background: linear-gradient(178deg, rgba(22, 20, 20, 0) 7%, #161414 66.68%);
+  } */
 `;
 
 export const ProgramWrap = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 630px;
   margin: 52px auto 73px;
+  z-index: 2;
 `;
 
 export const Description = styled.div`

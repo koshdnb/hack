@@ -10,6 +10,13 @@ export const Wrapper = styled.div`
   ${mediaMax.l} {
     padding-bottom: 70px;
   }
+
+  background: radial-gradient(
+    45.09% 45.09% at 50% 50%,
+    #1d1c1c 0%,
+    #161414 100%
+  );
+
   /* background-color: #000000; */
 `;
 

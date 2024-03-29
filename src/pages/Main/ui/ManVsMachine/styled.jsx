@@ -9,14 +9,35 @@ export const Wrapper = styled.div`
   padding-bottom: 35px;
   background-color: #000000;
   background-image: url('/images/man-vs-machine-bg.png');
-  background-size: 100% auto;
+  /* background-position: 100% 23%; */
   background-position: 100%;
+  background-size: 100% auto;
   background-repeat: no-repeat;
+
+  ${mediaMax.xxl} {
+    background-size: 100% auto;
+  }
+
+  ${mediaMax.m} {
+    background-size: auto 66%;
+    /* background-position: center -81px; */
+    background-position: 46% 100px;
+  }
+
+  ::before {
+    /* content: '';
+    position: absolute;
+    top: 134%;
+    left: 0;
+    width: 100%;
+    height: 256px;
+    background: linear-gradient(359deg, rgba(22, 20, 20, 0) 7%, #161414 53.68%); */
+  }
 `;
 
 export const Content = styled.div`
-  //position: relative;
-  z-index: 10;
+  position: relative;
+  z-index: 3;
 `;
 
 export const TitleWrap = styled.div`
@@ -27,7 +48,8 @@ export const TitleWrap = styled.div`
 export const Title = styled(GradientTitle)`
   font-size: 59px;
   font-weight: 700;
-  line-height: 130%; /* 76.7px */
+  line-height: 100%; /* 76.7px */
+  margin-bottom: 20px;
 
   color: #161414;
 `;
