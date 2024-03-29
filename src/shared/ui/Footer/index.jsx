@@ -60,7 +60,7 @@ export const Footer = () => {
     <Wrapper>
       <Layout>
         <TopWrap>
-          <Title>let’s hack the hell out of it</Title>
+          <Title>Innovate. Integrate. Elevate.</Title>
           <Address>
             Limassol, Cyprus . May 15-18, 2024 somehotel somewhere
           </Address>

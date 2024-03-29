@@ -47,20 +47,40 @@ export const FooterWrap = styled.div`
     width: 100vw;
     height: calc(100vw / 1.52);
     background-color: #161414;
-    background-image: url('./images/faq-bg.png');
+    background-image: url('/images/faq-bg.png');
     background-size: 100vw auto;
     background-position: top center;
     background-repeat: no-repeat;
-    top: -1%;
+    top: -10%;
+  }
+
+  ${mediaMax.xl} {
+    ::before {
+      top: -6%;
+    }
+  }
+
+  ${mediaMax.m} {
+    ::before {
+      top: -1%;
+    }
   }
 
   ::after {
     background-position: bottom center;
     transform: rotate(180deg);
-    top: 50%;
+    top: 60%;
 
     ${mediaMax.xl} {
-      top: 60%;
+      top: 65%;
+    }
+
+    ${mediaMax.l} {
+      top: 65%;
+    }
+
+    ${mediaMax.m} {
+      top: 65%;
     }
   }
 `;

@@ -3,7 +3,6 @@ import { mediaMax } from '../../../../shared/libs/media';
 import { GradientTitle } from '../../../../shared/ui/GradientTitle';
 
 export const Wrapper = styled.div`
-  position: relative;
   width: 100vw;
   height: 400px;
   margin: 0 auto;
@@ -12,6 +11,8 @@ export const Wrapper = styled.div`
 `;
 
 export const MapWrap = styled.div`
+  position: relative;
+  z-index: 3;
   display: flex;
   justify-content: space-between;
   align-items: center;
