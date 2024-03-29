@@ -34,16 +34,12 @@ export const Challenge = () => {
               </LeftTextTitle>
             </LeftText>
             <ChipWrapper>
-              <Chip />
+              <Chip viewBox="0 0 351 359" style={{width: '100%'}}/>
             </ChipWrapper>
             <RightText>
-              <RightTextTitle>AI Challenge #1</RightTextTitle>
+              <RightTextTitle>AI Personalization</RightTextTitle>
               <RightTextDescription>
-                This challenge entails leveraging cutting-edge AI methodologies
-                to harness the formidable potential of artificial intelligence,
-                thereby crafting ingenious solutions that propel the realms of
-                Fintech and Digital Marketing to new heights of innovation and
-                effectiveness.
+                This fintech hackathon challenges participants to innovate with AI-driven education, trading chatbots, personalized trading platforms, and AR/VR environments.
               </RightTextDescription>
               <Button {...getTriggerProps()}>Learn more</Button>
               <Modal {...modalProps}>

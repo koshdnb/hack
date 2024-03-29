@@ -17,11 +17,11 @@ const prizes = [
   },
   {
     place: '2ND PRIZE',
-    prize: '€7500',
+    prize: '€7,500',
   },
   {
     place: '3RD PRIZE',
-    prize: '€2500',
+    prize: '€2,500',
   },
 ];
 

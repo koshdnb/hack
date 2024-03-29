@@ -24,7 +24,7 @@ export const Program = () => {
     <Wrapper id="Schedule">
       <Layout>
         <ProgramWrap>
-          <GradientTitle>hackaithon</GradientTitle>
+          <GradientTitle>The hackaithon program</GradientTitle>
           <Description>
             The HackAIthon is split over two days, check below to see how the
             days will be split.
@@ -47,7 +47,7 @@ export const Program = () => {
             </TabPanel>
           </Tabs>
 
-          <CtaButton {...getTriggerProps()}>Apply for your spot</CtaButton>
+          <CtaButton {...getTriggerProps()}>Register now</CtaButton>
           <Modal {...modalProps}>
             <RegistrationForm />
           </Modal>

@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
     #1d1c1c 0%,
     #161414 100%
   );
+  padding-bottom: 73px;
 
   /* ::before {
     content: '';
@@ -33,6 +34,7 @@ export const ProgramWrap = styled.div`
   max-width: 630px;
   margin: 52px auto 73px;
   z-index: 2;
+  margin-bottom: 0;
 `;
 
 export const Description = styled.div`

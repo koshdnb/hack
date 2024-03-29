@@ -7,29 +7,31 @@ export const Wrapper = styled.div`
   position: relative;
   padding-top: 100px;
   padding-bottom: 88px;
-  background-image: url('/images/prizes-bg.png');
+  background-image: url('/images/prizes-bg.png'), radial-gradient(    45.09% 45.09% at 50% 50%,    #1d1c1c 0%,    #161414 100%  );
   background-size: 100% auto;
   background-position: 100%;
   background-repeat: no-repeat;
 
-  ::before,
-  ::after {
+  ::before {
     content: '';
     position: absolute;
-    top: -100px;
+    top: -70px;
     left: 0;
     width: 100%;
-    height: 241px;
-    background: linear-gradient(359deg, rgba(22, 20, 20, 0) 7%, #000000 53.68%);
+    height: 100px;
+    background-image: url(/images/prizes-bg.png);
+    filter: blur(10px);
   }
 
   ::after {
-    top: 77%;
-    background: linear-gradient(
-      -181deg,
-      rgba(22, 20, 20, 0) 7%,
-      #161414 53.68%
-    );
+    content: '';
+    bottom: -80px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url(/images/prizes-bg.png);
+    filter: blur(10px);
   }
 
   ${mediaMax.m} {
