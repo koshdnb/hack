@@ -11,23 +11,14 @@ import {
   Location,
 } from './styled';
 
-const API_KEY = 'AIzaSyCrNgAYgwuUBeS725qoTMFUgl9LgzFAEAU';
-const MODE = 'place';
-
 export const Map = () => {
-  const mapParams = {
-    zoom: 12,
-    q: 'place_id:ChIJo0-uKPYz5xQR2X5ielXSSp4',
-  };
-
-  const paramsQuery = new URLSearchParams({ key: API_KEY, ...mapParams });
-  const mapUrl = `https://www.google.com/maps/embed/v1/${MODE}?key=${API_KEY}&${paramsQuery}`;
+  const googleMapsLink = 'https://maps.app.goo.gl/FBVtUBDnU98APXSS8';
 
   return (
     <Wrapper id="Venue">
       <Layout>
         <MapWrap>
-          <MapLink href={mapUrl}>
+          <MapLink href={googleMapsLink} target="_blank">
             <MapImage src="/images/map.png" alt="Map with address" />
           </MapLink>
           <InfoWrap>
