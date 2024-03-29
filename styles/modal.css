@@ -31,18 +31,15 @@
   background: #EC03FF;
 }
 .RMM__close-button::before {
-  -webkit-transform: translate(-50%) rotate(45deg);
   transform: translate(-50%) rotate(45deg);
 }
 .RMM__close-button::after {
-  -webkit-transform: translate(-50%) rotate(-45deg);
   transform: translate(-50%) rotate(-45deg);
 }
 .RMM__close-button:hover {
-  background: rgba(0, 0, 0, 0.6);
+  /*background: rgba(0, 0, 0, 0.6);*/
 }
 .RMM__close-button--is-active {
-  -webkit-transform: scale(1);
   transform: scale(1);
   opacity: 1;
 }
