@@ -10,6 +10,7 @@ import {
   Subtitle,
   TextWrap,
   Text,
+  TopWrap,
 } from './styled';
 
 export default function ManVsMachine() {
@@ -18,29 +19,34 @@ export default function ManVsMachine() {
   });
 
   return (
-    <Wrapper>
-      <Layout>
-        <Content>
-          <TitleWrap>
-            <Title data-text="man vs machine">man vs machine</Title>
-            <Subtitle>Are you ready for the non-stop 48hr hackAIthon?</Subtitle>
-          </TitleWrap>
+    <TopWrap>
+      <Wrapper>
+        <Layout>
+          <Content>
+            <TitleWrap>
+              <Title data-text="man vs machine">man vs machine</Title>
+              <Subtitle>
+                Are you ready for the non-stop 48hr hackAIthon?
+              </Subtitle>
+            </TitleWrap>
 
-          <TextWrap>
-            <Text>
-              This year&apos;s HackAIthon will be the biggest & best IT event of
-              2024. It&apos;s amazing opportunity to engage with Cyprus&apos;
-              vibrant tech community, we’re welcoming participants of all skill
-              levels. Make sure you’ll bring your A-game because this time, it
-              won&apos;t just be human minds at work.
-            </Text>
-            <Button {...getTriggerProps()}>Reserve your spot</Button>
-            <Modal {...modalProps}>
-              <RegistrationForm />
-            </Modal>
-          </TextWrap>
-        </Content>
-      </Layout>
-    </Wrapper>
+            <TextWrap>
+              <Text>
+                This year&apos;s HackAIthon will be the biggest & best IT event
+                of 2024. It&apos;s amazing opportunity to engage with
+                Cyprus&apos; vibrant tech community, we’re welcoming
+                participants of all skill levels. Make sure you’ll bring your
+                A-game because this time, it won&apos;t just be human minds at
+                work.
+              </Text>
+              <Button {...getTriggerProps()}>Reserve your spot</Button>
+              <Modal {...modalProps}>
+                <RegistrationForm />
+              </Modal>
+            </TextWrap>
+          </Content>
+        </Layout>
+      </Wrapper>
+    </TopWrap>
   );
 }

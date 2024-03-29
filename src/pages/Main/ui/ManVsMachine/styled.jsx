@@ -2,13 +2,16 @@ import styled from '@emotion/styled';
 import { mediaMax } from '../../../../shared/libs/media';
 import { GradientTitle } from '../../../../shared/ui/GradientTitle';
 
+export const TopWrap = styled.div`
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(23, 19, 20, 1) 100%);
+`
+
 export const Wrapper = styled.div`
   //position: relative;
   min-height: 605px;
   padding-top: 60px;
   padding-bottom: 35px;
-  background-color: #000000;
-  background-image: url('/images/man-vs-machine-bg.png');
+  background-image: url(/images/man-vs-machine-bg.png), linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(23, 19, 20, 1) 100%);
   /* background-position: 100% 23%; */
   background-position: 100%;
   background-size: 100% auto;
@@ -36,8 +39,8 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
-  position: relative;
-  z-index: 3;
+  //position: relative;
+  //z-index: 3;
 `;
 
 export const TitleWrap = styled.div`
