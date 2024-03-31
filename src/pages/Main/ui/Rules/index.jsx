@@ -2,17 +2,22 @@ import Image from 'next/image';
 
 import { GradientTitle } from '../../../../shared/ui/GradientTitle';
 import { Layout } from '../../styled';
-import { Wrapper, RulesWrapper, RulesList, Rule, Subtitle, RulesWrap } from './styled';
+import {
+  Wrapper,
+  RulesWrapper,
+  RulesList,
+  Rule,
+  Subtitle,
+  RulesWrap,
+  Button,
+} from './styled';
 
 const rules = [
-  'Form teams from 1 to 5 people',
-  'Implement the idea within 48 hrs',
-  'Innovative ideas is a must ',
-  'Your idea – you make the team',
-  'But we can also help!',
-  'Implementation cannot start early!',
-  'Only functional prototypes will be allowed',
-  'Presentation to be clear & insightful',
+  'Teams should consist of 1 to 5 people.',
+  'Teams can be formed prior to the event  or during the team formation period.',
+  'Projects must be original works developed  during the HackAIthon.',
+  'All projects must be submitted by the deadline  on Day 2.',
+  'Presentations should clearly state the problem, propose a solution, and discuss its impact.',
 ];
 
 export const Rules = () => {
@@ -23,8 +28,9 @@ export const Rules = () => {
           <GradientTitle>The hackaithon rules</GradientTitle>
           <Subtitle>
             To be a winner your prototype is a functional idea that has business
-            potential, and the Technological solution is effective, and your
-            presentation is clear & insightful.
+            potential, and <br />
+            the Technological solution is effective, and your presentation is
+            clear & insightful.
           </Subtitle>
           <RulesWrap>
             <Image
@@ -33,11 +39,14 @@ export const Rules = () => {
               width={393}
               height={278.76}
             />
-            <RulesList>
-              {rules.map((rule) => (
-                <Rule key={rule}>{rule}</Rule>
-              ))}
-            </RulesList>
+            <div>
+              <RulesList>
+                {rules.map((rule) => (
+                  <Rule key={rule}>{rule}</Rule>
+                ))}
+              </RulesList>
+              <Button>read full terms</Button>
+            </div>
           </RulesWrap>
         </RulesWrapper>
       </Layout>

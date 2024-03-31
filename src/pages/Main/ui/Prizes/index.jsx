@@ -13,15 +13,15 @@ import {
 const prizes = [
   {
     place: '<span>1ST</span> PRIZE',
-    prize: '€30,000',
+    prize: '€30<span>,</span>000',
   },
   {
     place: '2ND PRIZE',
-    prize: '€7,500',
+    prize: '€7<span>,</span>500',
   },
   {
     place: '3RD PRIZE',
-    prize: '€2,500',
+    prize: '€2<span>,</span>500',
   },
 ];
 
@@ -32,17 +32,18 @@ export const Prizes = () => {
         <PrizesWrap>
           <GradientTitle>The hackaithon prizes</GradientTitle>
           <Subtitle>
-            In this years HacAIthon there will be a substantial prize to
+            In this years HackAIthon there will be a substantial prize to
             recognize and reward outstanding innovation. 1st prize of{' '}
             <strong>€30,000</strong> monetary, 2nd prize <strong>€7.5k</strong>{' '}
-            & 3rd <strong>€2.5k</strong> (both non monetary) create innovative
-            solutions that elevate the worlds of Fintech and Digital Marketing.
+            monetary & 3rd <strong>€2.5k</strong> non monetary.
           </Subtitle>
           <PrizesList>
             {prizes.map(({ place, prize }) => (
               <PrizeItem key={prize}>
                 <PlaceText dangerouslySetInnerHTML={{ __html: place }} />
-                <PrizeText>{prize}</PrizeText>
+                <PrizeText dangerouslySetInnerHTML={{ __html: prize }}>
+                  {prize}
+                </PrizeText>
               </PrizeItem>
             ))}
           </PrizesList>

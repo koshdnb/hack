@@ -1,5 +1,11 @@
 import { Wrapper } from './styled';
 
-export const GradientTitle = ({ children, className }) => {
-  return <Wrapper className={className}>{children}</Wrapper>;
+export const GradientTitle = ({ children, className, style }) => {
+  return (
+    <Wrapper
+      className={className}
+      style={style}
+      dangerouslySetInnerHTML={{ __html: children }}
+    />
+  );
 };

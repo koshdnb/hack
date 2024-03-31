@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
 `;
 
 export const ChallengeBlock = styled.div`
-  position: relative;
+  //position: relative;
   margin-top: 50px;
 `;
 
@@ -62,7 +62,7 @@ export const LeftTextTitle = styled.div`
 export const RightText = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 8px;
   max-width: 232px;
 `;
 
@@ -80,7 +80,7 @@ export const RightTextTitle = styled.div`
 export const RightTextDescription = styled.div`
   font-size: 16px;
   font-weight: 300;
-  line-height: 19.2px;
+  line-height: 22px;
 
   ${mediaMax.l} {
     text-align: center;

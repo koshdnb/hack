@@ -41,7 +41,7 @@ export const Challenge = () => {
               <RightTextDescription>
                 This fintech hackathon challenges participants to innovate with AI-driven education, trading chatbots, personalized trading platforms, and AR/VR environments.
               </RightTextDescription>
-              <Button {...getTriggerProps()}>Learn more</Button>
+              <Button {...getTriggerProps()} style={{marginTop: '8px'}}>Learn more</Button>
               <Modal {...modalProps}>
                 <RegistrationForm />
               </Modal>

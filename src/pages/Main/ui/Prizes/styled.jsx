@@ -100,9 +100,11 @@ export const PrizeItem = styled.li`
 
     > h2 {
       font-size: 96px;
+      margin-bottom: -20px;
 
       ${mediaMax.m} {
         font-size: 56px;
+        margin-bottom: 0;
       }
     }
   }
@@ -137,4 +139,8 @@ export const PrizeText = styled(GradientTitle)`
 
   -webkit-text-stroke: 5px transparent;
   color: #161414;
+  
+  & > span {
+    font-size: 38px;
+  }
 `;

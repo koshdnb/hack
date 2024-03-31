@@ -33,12 +33,12 @@ export default function Hero() {
             <Title>Compete in Cyprus&apos; BIGGEST HackAIthon.</Title>
             <Subtitle>
               Can you harness the power of artificial intelligence to create
-              innovative solutions that will elevate the worlds of Fintech and
+              innovative solutions<br/> that will elevate the worlds of Fintech and
               Digital Marketing.
             </Subtitle>
             <Date>The Warehouse by IT Quarter 15:06:24 Limassol, Cyprus.</Date>
           </TextWrap>
-          <Button {...getTriggerProps()}>Reserve your spot</Button>
+          <Button {...getTriggerProps()}>Register now</Button>
           <Modal {...modalProps}>
             <RegistrationForm />
           </Modal>

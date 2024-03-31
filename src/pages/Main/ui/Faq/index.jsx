@@ -57,7 +57,9 @@ export const Faq = () => {
   return (
     <Wrapper>
       <Layout>
-        <GradientTitle>faq’s</GradientTitle>
+        <GradientTitle style={{ position: 'relative', top: '30px' }}>
+          faq’s
+        </GradientTitle>
         <Accordion>
           <AccordionParent>
             {accordionItems.map((accordionItem) => (
@@ -71,7 +73,7 @@ export const Faq = () => {
           <IdeaText>
             Have an <strong>AI</strong>dea already?
           </IdeaText>
-          <CtaButton {...getTriggerProps()}>Register here</CtaButton>
+          <CtaButton {...getTriggerProps()}>Register now</CtaButton>
           <Modal {...modalProps}>
             <RegistrationForm />
           </Modal>

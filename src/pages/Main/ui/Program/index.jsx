@@ -26,8 +26,8 @@ export const Program = () => {
         <ProgramWrap>
           <GradientTitle>The hackaithon program</GradientTitle>
           <Description>
-            The HackAIthon is split over two days, check below to see how the
-            days will be split.
+            The HackAIthon is split over two days, check below to see how the days will be split.<br/>
+            There will be complimentary food and drinks being served all day.
           </Description>
 
           <Tabs>

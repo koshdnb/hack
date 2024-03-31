@@ -24,9 +24,9 @@ export default function ManVsMachine() {
         <Layout>
           <Content>
             <TitleWrap>
-              <Title data-text="man vs machine">man vs machine</Title>
+              <Title data-text="man vs machine">have you got what it takes?</Title>
               <Subtitle>
-                Are you ready for the non-stop 48hr hackAIthon?
+                get ready for the non-stop 48hr hack<strong>AI</strong>thon
               </Subtitle>
             </TitleWrap>
 
@@ -39,7 +39,7 @@ export default function ManVsMachine() {
                 A-game because this time, it won&apos;t just be human minds at
                 work.
               </Text>
-              <Button {...getTriggerProps()}>Reserve your spot</Button>
+              <Button {...getTriggerProps()}>Register now</Button>
               <Modal {...modalProps}>
                 <RegistrationForm />
               </Modal>

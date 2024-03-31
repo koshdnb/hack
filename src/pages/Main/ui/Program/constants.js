@@ -1,7 +1,7 @@
 export const scheduleDay1 = [
   {
     title: 'Meet & Greet',
-    description: 'Registration, welcome coffee',
+    description: 'Official start with welcome remarks from the Quadcode team.',
     timeStart: '09:00',
     timeEnd: '10:00',
     icon: 'meet',
@@ -9,59 +9,30 @@ export const scheduleDay1 = [
   {
     title: 'Event kick-off',
     description:
-      'Quick hello from the organizers, introduction of challenges, rules and other information',
+      'Teams start working on their projects. Access to mentors and technical support throughout the day.',
     timeStart: '10:00',
-    timeEnd: '11:00',
+    timeEnd: '15:00',
     icon: 'event',
   },
   {
-    title: 'Working in teams',
-    description: 'Coding session',
-    timeStart: '11:00',
-    timeEnd: '13:00',
-    icon: 'lamp',
-  },
-  {
-    title: 'Lunch',
-    description: 'Lunch for attendees is provided by Organizers',
-    timeStart: '13:00',
-    timeEnd: '15:00',
-    icon: 'lunch',
-  },
-  {
-    title: 'Working in teams',
-    description: 'Coding session',
+    title: 'Tech Talk #1',
+    description: 'Insightful talk from a successful entrepreneur about their journey of raising funding and selling their company.',
     timeStart: '15:00',
     timeEnd: '18:00',
     icon: 'lamp',
   },
   {
-    title: 'Captains checkpoint #1',
-    description:
-      'During this checkpoint we will ask the teams how they are and will answer on their questions',
+    title: 'Tech Talk #2',
+    description: 'Another session from an entrepreneur with a successful exit, sharing valuable experiences and advice.',
     timeStart: '18:00',
     timeEnd: '19:00',
-    icon: 'checkpoint',
-  },
-  {
-    title: 'Dinner',
-    description: 'Dinner for attendees is provided by Organizers',
-    timeStart: '19:00',
-    timeEnd: '21:00',
-    icon: 'dinner',
-  },
-  {
-    title: 'Working in teams',
-    description: 'Coding session',
-    timeStart: '21:00',
-    timeEnd: '23:00',
     icon: 'lamp',
   },
   {
-    title: 'Night time',
+    title: 'Evening Hack',
     description:
-      'Attendees can go home to have a rest or stay at the Hackathon venue and continue working on the project',
-    timeStart: '23:00',
+      'Teams continue working on their projects. Optional networking and informal discussion among participants.',
+    timeStart: '19:00',
     timeEnd: 'NIGHT',
     icon: 'night',
   },

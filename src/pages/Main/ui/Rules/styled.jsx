@@ -70,3 +70,20 @@ export const RulesWrap = styled.div`
     height: auto;
   }
 `;
+
+export const Button = styled.a`
+  display: inline-block;
+  margin-top: 16px;
+  color: #fff;
+  text-align: center;
+  font-size: 16.709px;
+  font-weight: 700;
+  line-height: 110%;
+  text-transform: uppercase;
+  padding: 8px 32px;
+  cursor: pointer;
+  background: linear-gradient(#1d1d1d, #1d1d1d) padding-box,
+    linear-gradient(to right, #f70d29 0%, #ec03ff 100%) border-box;
+  border-radius: 15px;
+  border: 1px solid transparent;
+`;

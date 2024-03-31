@@ -3,6 +3,7 @@ import { Layout } from '../../../pages/Main/styled';
 import TwitterIcon from './images/twitter-icon.svg';
 import FacebookIcon from './images/facebook-icon.svg';
 import LinkedinIcon from './images/linkedIn-icon.svg';
+import InstagramIcon from './images/instagram-icon.svg';
 import {
   Wrapper,
   TopWrap,
@@ -42,6 +43,11 @@ const socials = [
     name: 'Quadcode Twitter',
     url: '#',
     Icon: TwitterIcon,
+  },
+  {
+    name: 'Quadcode Instagram',
+    url: '#',
+    Icon: InstagramIcon,
   },
   {
     name: 'Quadcode Facebook',

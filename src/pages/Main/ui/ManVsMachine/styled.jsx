@@ -69,6 +69,10 @@ export const Subtitle = styled.p`
   font-weight: 300;
   line-height: 130%; /* 23.4px */
   text-transform: uppercase;
+  
+  & > strong {
+    font-weight: 800;
+  }
 `;
 
 export const TextWrap = styled.div`
