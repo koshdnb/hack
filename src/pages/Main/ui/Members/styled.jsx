@@ -61,6 +61,7 @@ export const CardWrapper = styled.div`
 
 export const Image = styled.img`
   width: 220px;
+  height: 220px;
 `;
 
 export const Name = styled.div`
