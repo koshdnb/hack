@@ -36,7 +36,7 @@ export const Rule = styled.li`
     width: 9px;
     height: 9px;
     left: -18px;
-    top: 50%;
+    top: 12px;
     transform: translateY(-50%);
     background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
     border-radius: 50%;
