@@ -20,6 +20,10 @@ export const RulesList = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 8px;
+  
+  & strong {
+    font-weight: 700;
+  }
 `;
 
 export const Rule = styled.li`

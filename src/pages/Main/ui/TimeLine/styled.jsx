@@ -36,6 +36,10 @@ export const TimelineList = styled.ul`
     ${BorderGradient({ radius: '15px' })}
   }
 
+  & li:nth-child(2) > div > p {
+    max-width: 150px;
+  }
+
   ${mediaMax.xl} {
     max-width: 75%;
   }
@@ -68,9 +72,17 @@ export const TimelineItem = styled.li`
   ${mediaMax.m} {
     :nth-child(even) {
       > div:first-child {
-        right: -294%;
+        right: -330%;
         top: 50%;
         transform: translateY(-50%);
+      }
+    }
+  }
+
+  ${mediaMax.s} {
+    :nth-child(even) {
+      > div:first-child {
+        right: -294%;
       }
     }
   }

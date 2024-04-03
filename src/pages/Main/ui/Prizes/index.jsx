@@ -32,10 +32,11 @@ export const Prizes = () => {
         <PrizesWrap>
           <GradientTitle>The hackaithon prizes</GradientTitle>
           <Subtitle>
-            In this years HackAIthon there will be a substantial prize to
-            recognize and reward outstanding innovation. 1st prize of{' '}
-            <strong>€30,000</strong> monetary, 2nd prize <strong>€7.5k</strong>{' '}
-            monetary & 3rd <strong>€2.5k</strong> non monetary.
+            This HackAIthon offers prizes and rewards for exceptional
+            innovation, featuring a 1st place prize of <strong>€30,000</strong>{' '}
+            in cash, a 2nd place prize of <strong>€7,500</strong> in non
+            monetary rewards, and a 3rd place prize valued at{' '}
+            <strong>€2,500</strong> in non-monetary rewards.
           </Subtitle>
           <PrizesList>
             {prizes.map(({ place, prize }) => (

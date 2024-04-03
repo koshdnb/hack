@@ -24,7 +24,9 @@ export default function ManVsMachine() {
         <Layout>
           <Content>
             <TitleWrap>
-              <Title data-text="man vs machine">have you got what it takes?</Title>
+              <Title data-text="man vs machine">
+                have you got what it takes?
+              </Title>
               <Subtitle>
                 get ready for the non-stop 48hr hack<strong>AI</strong>thon
               </Subtitle>
@@ -32,12 +34,13 @@ export default function ManVsMachine() {
 
             <TextWrap>
               <Text>
-                This year&apos;s HackAIthon will be the biggest & best IT event
-                of 2024. It&apos;s amazing opportunity to engage with
-                Cyprus&apos; vibrant tech community, we’re welcoming
-                participants of all skill levels. Make sure you’ll bring your
-                A-game because this time, it won&apos;t just be human minds at
-                work.
+                This year’s HackAIthon event focuses on personalization in
+                fintech. With a focus on personalized solutions in fintech
+                powered by AI, contestants will innovate in the areas of
+                education, trading, AR/VR supported experiences, and more. Open
+                to developers, financial experts, and designers, we aim to
+                create impactful, user-friendly solutions that leverage
+                personalization to redefine the future of finance.
               </Text>
               <Button {...getTriggerProps()}>Register now</Button>
               <Modal {...modalProps}>

@@ -49,7 +49,7 @@ export const ScheduleItem = ({ item }) => {
         <DividerIcon />
       </Time>
       <Event>
-        <Title>{title}</Title>
+        {title && <Title>{title}</Title>}
         <Description>{description}</Description>
       </Event>
     </Wrapper>

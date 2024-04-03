@@ -30,13 +30,11 @@ export default function Hero() {
             <HackathonMobIcon viewBox="0 0 162 287" />
           </LogoWrap>
           <TextWrap>
-            <Title>Compete in Cyprus&apos; BIGGEST HackAIthon.</Title>
+            <Title>AI in Fintech -  The Power of Personalisation</Title>
             <Subtitle>
-              Can you harness the power of artificial intelligence to create
-              innovative solutions<br/> that will elevate the worlds of Fintech and
-              Digital Marketing.
+              The future is shaped by automation and AI. We invite the best talent to participate in one of Cyprus's grandest hackathons - To envision, craft, and develop pioneering solutions in the industry.
             </Subtitle>
-            <Date>The Warehouse by IT Quarter 15:06:24 Limassol, Cyprus.</Date>
+            <Date>The Warehouse by IT Quarter June 15th & 16th, 2024</Date>
           </TextWrap>
           <Button {...getTriggerProps()}>Register now</Button>
           <Modal {...modalProps}>

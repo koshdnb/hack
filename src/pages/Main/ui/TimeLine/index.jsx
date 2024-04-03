@@ -19,27 +19,27 @@ import {
 
 const events = [
   {
-    date: 'APRIL 1',
-    description: 'Registration',
+    date: 'APRIL 15th',
+    description: 'Registration Opens',
     Icon: Registration,
   },
   {
-    date: 'MAY 5',
-    description: 'Registration Closes',
+    date: 'MAY 15th',
+    description: 'Online Portal for Virtual Team-Ups Opens',
     Icon: RegistrationClose,
   },
   {
-    date: 'MAY 15th',
-    description: 'TeamUP deadline',
+    date: 'MAY 30th',
+    description: 'Registration Closes',
     Icon: Hands,
   },
   {
     date: 'JUNE 15th',
-    description: 'HackAIthon starts',
+    description: 'HackAIthon Starts',
     Icon: Rocket,
   },
   {
-    date: 'JUNE16th',
+    date: 'JUNE 16th',
     description: 'Awards Ceremony',
     Icon: Prize,
   },
