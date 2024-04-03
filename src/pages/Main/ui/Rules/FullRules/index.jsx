@@ -29,7 +29,7 @@ export const FullRules = () => {
 
       <h2>Project Origination and Development</h2>
       <p>Projects must be original works developed during the hackathon. Pre-existing projects or significant
-          development work done prior to the hackathon's start are not permitted. Preliminary brainstorming, research,
+          development work done prior to the hackathon&apos;s start are not permitted. Preliminary brainstorming, research,
           or learning about technologies is allowed, but substantial coding, design, or development work before the
           event is not.</p>
 

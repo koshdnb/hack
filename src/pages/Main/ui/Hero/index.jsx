@@ -32,7 +32,7 @@ export default function Hero() {
           <TextWrap>
             <Title>AI in Fintech -  The Power of Personalisation</Title>
             <Subtitle>
-              The future is shaped by automation and AI. We invite the best talent to participate in one of Cyprus's grandest hackathons - To envision, craft, and develop pioneering solutions in the industry.
+              The future is shaped by automation and AI. We invite the best talent to participate in one of Cyprus&apos;s grandest hackathons - To envision, craft, and develop pioneering solutions in the industry.
             </Subtitle>
             <Date>The Warehouse by IT Quarter June 15th & 16th, 2024</Date>
           </TextWrap>
