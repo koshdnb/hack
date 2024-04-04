@@ -20,24 +20,24 @@ let sponsors = [
     title: 'gold sponsor',
     // logos: [<QuadcodeIcon />, QuadcodeIcon],
     logos: [
-      <QuadcodeIcon viewBox="0 0 190 52" />,
-      <QuadcodeIcon viewBox="0 0 190 52" />,
+      <QuadcodeIcon key={1} viewBox="0 0 190 52" />,
+      <QuadcodeIcon key={2} viewBox="0 0 190 52" />,
     ],
   },
   {
     title: 'silver sponsors',
     // logos: [QuadcodeIcon, QuadcodeIcon],
     logos: [
-      <QuadcodeIcon viewBox="0 0 190 52" />,
-      <QuadcodeIcon viewBox="0 0 190 52" />,
+      <QuadcodeIcon key={3} viewBox="0 0 190 52" />,
+      <QuadcodeIcon key={4} viewBox="0 0 190 52" />,
     ],
   },
   {
     title: 'bronze sponsors',
     // logos: [QuadcodeIcon, QuadcodeIcon],
     logos: [
-      <QuadcodeIcon viewBox="0 0 190 52" />,
-      <QuadcodeIcon viewBox="0 0 190 52" />,
+      <QuadcodeIcon key={5} viewBox="0 0 190 52" />,
+      <QuadcodeIcon key={6} viewBox="0 0 190 52" />,
     ],
   },
 ];
@@ -50,7 +50,7 @@ export const Sponsors = () => {
           <GradientTitle>Sponsors</GradientTitle>
           <SponsorsList>
             {sponsors.map(({ title, logos }) => (
-              <SponsorsItem>
+              <SponsorsItem key={title}>
                 <Title>{title}</Title>
                 <LogosWrap>{logos.map((Logo) => Logo)}</LogosWrap>
               </SponsorsItem>
