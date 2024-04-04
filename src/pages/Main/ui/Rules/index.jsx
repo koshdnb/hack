@@ -7,9 +7,9 @@ import { FullRules } from './FullRules';
 import {
   Wrapper,
   RulesWrapper,
+  RulesListWrap,
   RulesList,
   Rule,
-  Subtitle,
   RulesWrap,
   Button,
 } from './styled';
@@ -45,7 +45,7 @@ export const Rules = () => {
               width={393}
               height={278.76}
             />
-            <div>
+            <RulesListWrap>
               <RulesList>
                 {rules.map((rule) => (
                   <Rule key={rule} dangerouslySetInnerHTML={{ __html: rule }} />
@@ -55,7 +55,7 @@ export const Rules = () => {
               <Modal {...modalProps}>
                 <FullRules />
               </Modal>
-            </div>
+            </RulesListWrap>
           </RulesWrap>
         </RulesWrapper>
       </Layout>

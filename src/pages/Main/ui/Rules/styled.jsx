@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
 `;
 
 export const RulesWrapper = styled.div`
-  max-width: 778px;
+  max-width: 861px;
   margin: 0 auto;
 `;
 
@@ -20,7 +20,7 @@ export const RulesList = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 8px;
-  
+
   & strong {
     font-weight: 700;
   }
@@ -59,19 +59,30 @@ export const Subtitle = styled.p`
   margin-bottom: 30px;
 `;
 
+export const RulesListWrap = styled.div`
+  ${mediaMax.l} {
+    max-width: 90%;
+  }
+`;
+
 export const RulesWrap = styled.div`
   display: flex;
-  justify-content: space-between;
-  gap: 29px;
+  justify-content: center;
+  align-items: center;
+  gap: 46px;
 
-  ${mediaMax.m} {
+  ${mediaMax.l} {
     flex-direction: column;
     align-items: center;
   }
 
   > img {
     max-width: 94%;
-    height: auto;
+    width: fit-content;
+
+    ${mediaMax.l} {
+      height: auto;
+    }
   }
 `;
 
@@ -88,6 +99,6 @@ export const Button = styled.a`
   cursor: pointer;
   background: linear-gradient(#1d1d1d, #1d1d1d) padding-box,
     linear-gradient(to right, #f70d29 0%, #ec03ff 100%) border-box;
-  border-radius: 15px;
+  border-radius: 30px;
   border: 1px solid transparent;
 `;
