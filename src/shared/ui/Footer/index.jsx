@@ -68,7 +68,7 @@ export const Footer = () => {
         <TopWrap>
           <Title>Innovate. Integrate. Elevate.</Title>
           <Address>
-            Limassol, Cyprus . May 15-18, 2024 somehotel somewhere
+            JUNE 15-18, 2024, The Warehouse by IT Quarter, Limassol
           </Address>
           <Email>
             Have any queries? Email us directly at 
