@@ -53,7 +53,7 @@ export const Members = () => {
     <Wrapper>
       <Layout>
         <MembersWrap>
-          <GradientTitle>members of the jury</GradientTitle>
+          <GradientTitle>Meet our Jury</GradientTitle>
           <Cards>
             {teamMembers.map((item) => (
               <CardWrapper key={item.name}>

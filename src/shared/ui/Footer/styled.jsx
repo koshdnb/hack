@@ -37,7 +37,7 @@ export const Address = styled.p`
 `;
 
 export const Email = styled.p`
-  > strong {
+  > a strong {
     ${TextGradient()};
   }
 `;

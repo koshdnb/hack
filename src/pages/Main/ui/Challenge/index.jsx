@@ -15,7 +15,7 @@ import {
 
 const content = [
   {
-    title: 'AI Personalization',
+    title: 'Trading',
     description:
       'Personalization in Trading. Create AI voice assistants, social networking features, and chatbots for personalized fintech, adapting to user behaviors and preferences.',
   },

@@ -34,29 +34,24 @@ const links = [
   },
   {
     name: '@2024 Quadcode',
-    url: '#',
+    url: '/',
   },
 ];
 
 const socials = [
   {
-    name: 'Quadcode Twitter',
-    url: '#',
-    Icon: TwitterIcon,
-  },
-  {
     name: 'Quadcode Instagram',
-    url: '#',
+    url: 'https://www.instagram.com/quadcode_hackaithon/',
     Icon: InstagramIcon,
   },
   {
     name: 'Quadcode Facebook',
-    url: '#',
+    url: 'https://www.facebook.com/profile.php?id=61558063409182',
     Icon: FacebookIcon,
   },
   {
     name: 'Quadcode LinkedIn',
-    url: '#',
+    url: 'https://www.linkedin.com/showcase/quadcode-s-hackaithon/',
     Icon: LinkedinIcon,
   },
 ];
@@ -72,7 +67,7 @@ export const Footer = () => {
           </Address>
           <Email>
             Have any queries? Email us directly at 
-            <strong>hackathon@quadcode.com</strong>
+            <a href="mailto:hackathon@quadcode.com"><strong>hackathon@quadcode.com</strong></a>
           </Email>
         </TopWrap>
 

@@ -28,7 +28,7 @@ export default function ManVsMachine() {
                 have you got what it takes?
               </Title>
               <Subtitle>
-                get ready for the non-stop 48hr hack<strong>AI</strong>thon
+                GET READY FOR THE NON-STOP 2-DAYS hack<strong>AI</strong>thon
               </Subtitle>
             </TitleWrap>
 
