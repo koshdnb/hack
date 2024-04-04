@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Modal, useModal } from 'react-morphing-modal';
 
 import { GradientTitle } from '../../../../shared/ui/GradientTitle';
-import { Layout } from '../../styled';
+import { Layout, Button } from '../../styled';
 import { FullRules } from './FullRules';
 import {
   Wrapper,
@@ -11,7 +11,6 @@ import {
   RulesList,
   Rule,
   RulesWrap,
-  Button,
 } from './styled';
 
 const rules = [
@@ -31,7 +30,9 @@ export const Rules = () => {
     <Wrapper id="Rules">
       <Layout>
         <RulesWrapper>
-          <GradientTitle style={{marginBottom: '32px'}}>Participation Rules</GradientTitle>
+          <GradientTitle style={{ marginBottom: '32px' }}>
+            Participation Rules
+          </GradientTitle>
           {/*<Subtitle>*/}
           {/*  To be a winner your prototype is a functional idea that has business*/}
           {/*  potential, and <br />*/}
