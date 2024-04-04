@@ -25,64 +25,50 @@ export const ChallengeBlock = styled.div`
   margin-top: 50px;
 `;
 
-export const ImageWrapper = styled.div`
+export const ContentWrapper = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 25px;
+  gap: 22px;
+  flex-wrap: wrap;
+`;
 
-  ${mediaMax.l} {
-    flex-direction: column;
-    gap: 15px;
+export const Item = styled.div`
+  width: calc(50% - 11px);
+  display: flex;
+  gap: 12px;
+
+  ${mediaMax.m} {
+    width: 100%;
   }
 `;
 
-export const ChipWrapper = styled.div`
-  max-width: 100%;
-  height: auto;
-`;
-
-export const LeftText = styled.div`
-  max-width: 213px;
-`;
-
-export const LeftTextTitle = styled.div`
-  font-style: normal;
-  font-weight: 800;
-  font-size: 42.9065px;
-  line-height: 120%;
-
-  color: #ffffff;
-
-  ${mediaMax.l} {
-    text-align: center;
-  }
-`;
-
-export const RightText = styled.div`
+export const ItemContent = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  max-width: 232px;
+  gap: 4px;
+`
+
+export const Number = styled.div`
+  font-size: 104.17px;
+  font-weight: 800;
+  line-height: 114.58px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  color: #000000;
 `;
 
-export const RightTextTitle = styled.div`
+export const Title = styled.div`
   font-size: 28px;
   font-weight: 800;
   line-height: 30.8px;
-  margin-top: 10px;
-
-  ${mediaMax.l} {
-    text-align: center;
-  }
 `;
 
-export const RightTextDescription = styled.div`
+export const Description = styled.div`
   font-size: 16px;
   font-weight: 300;
-  line-height: 22px;
-
-  ${mediaMax.l} {
-    text-align: center;
-  }
+  line-height: 22.4px;
+  text-align: left;
 `;
