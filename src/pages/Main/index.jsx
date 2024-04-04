@@ -17,27 +17,33 @@ import { Wrapper, HeaderWrap, FooterWrap } from './styled';
 export default function Main() {
   return (
     <Wrapper>
-      <Head>
-        <title>Hackathon 2024</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <HeaderWrap>
-        <Header withNavigation />
-        <Hero />
-      </HeaderWrap>
-      <ManVsMachine />
-      <Challenge />
-      <TimeLine />
-      <Rules />
-      <Program />
-      <Prizes />
-      <Members />
-      <Map />
-      <FooterWrap>
-        <Faq />
-        <Footer />
-      </FooterWrap>
+        <Head>
+            <meta
+                name="description"
+                content="Cyprus' biggest hackathon, HackAIthon 2024, invites innovators to tackle challenges in trading, AR/VR, education, and more, using AI for financial personalization. Join us in Limassol for the ultimate fintech innovation event."
+            />
+            <title>HackAIthon: AI in Fintech - The Power of Personalisation</title>
+            <meta
+                name="keywords"
+                content="HackAIthon 2024, AI in Fintech, Financial Personalization, Cyprus Hackathon, Fintech Challenges, Trading Innovation, AR/VR Finance, AI Education in Finance, Fintech Development, Limassol Event"
+            />
+        </Head>
+        <HeaderWrap>
+            <Header withNavigation/>
+            <Hero/>
+        </HeaderWrap>
+        <ManVsMachine/>
+        <Challenge/>
+        <TimeLine/>
+        <Rules/>
+        <Program/>
+        <Prizes/>
+        <Members/>
+        <Map/>
+        <FooterWrap>
+            <Faq/>
+            <Footer/>
+        </FooterWrap>
     </Wrapper>
   );
 }
