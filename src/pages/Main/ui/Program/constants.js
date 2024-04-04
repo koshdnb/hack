@@ -104,9 +104,9 @@ export const scheduleDay2 = [
     icon: 'checkpoint',
   },
   {
-    title: 'Networking and Closing Party',
+    title: 'Networking & hacking. Closing party',
     timeStart: '18:30',
-    timeEnd: 'NIGHT',
+    timeEnd: '20:00',
     icon: 'party',
   },
 ];
