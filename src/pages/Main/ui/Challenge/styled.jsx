@@ -57,7 +57,7 @@ export const Number = styled.div`
   background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
   -webkit-background-clip: text;
   -webkit-text-stroke: 3px transparent;
-  color: #000000;
+  color: #171717;
 `;
 
 export const Title = styled.div`
