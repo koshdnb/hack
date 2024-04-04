@@ -3,7 +3,7 @@ import { Layout } from '../../styled';
 
 import Hands from './images/hands.svg';
 import Registration from './images/registration.svg';
-import RegistrationClose from './images/registrationClose.svg';
+import Slack from './images/slack.svg';
 import Rocket from './images/rocket.svg';
 import Prize from './images/prize.svg';
 import {
@@ -26,7 +26,7 @@ const events = [
   {
     date: 'MAY 15th',
     description: 'Online Portal for Virtual Team-Ups Opens',
-    Icon: RegistrationClose,
+    Icon: Slack,
   },
   {
     date: 'MAY 30th',
