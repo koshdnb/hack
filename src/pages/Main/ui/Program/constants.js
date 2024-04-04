@@ -1,7 +1,7 @@
 export const scheduleDay1 = [
   {
     // title: 'Meet & Greet',
-    description: 'Opening and Welcome Speeches.',
+    title: 'Opening and Welcome Speeches.',
     timeStart: '09:00',
     timeEnd: '09:30',
     icon: 'meet',
@@ -104,7 +104,7 @@ export const scheduleDay2 = [
     icon: 'checkpoint',
   },
   {
-    description: 'Networking and Closing Party',
+    title: 'Networking and Closing Party',
     timeStart: '18:30',
     timeEnd: 'NIGHT',
     icon: 'party',

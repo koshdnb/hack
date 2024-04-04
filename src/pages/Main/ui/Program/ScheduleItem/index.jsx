@@ -50,7 +50,7 @@ export const ScheduleItem = ({ item }) => {
       </Time>
       <Event>
         {title && <Title>{title}</Title>}
-        <Description>{description}</Description>
+        {description && <Description>{description}</Description>}
       </Event>
     </Wrapper>
   );
