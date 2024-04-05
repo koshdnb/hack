@@ -24,7 +24,7 @@ export const Map = () => {
           <InfoWrap>
             <TextWrap>
               <GradientText>Date</GradientText>
-              <Date>JUNE 15-18, 2024</Date>
+              <Date>JUNE 15-16, 2024</Date>
             </TextWrap>
             <TextWrap>
               <GradientText>Location</GradientText>

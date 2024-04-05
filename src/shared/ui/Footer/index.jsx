@@ -63,7 +63,7 @@ export const Footer = () => {
         <TopWrap>
           <Title>Innovate. Integrate. Elevate.</Title>
           <Address>
-            JUNE 15th-18th, 2024, The Warehouse by IT Quarter, Limassol.
+            JUNE 15th-16th, 2024, The Warehouse by IT Quarter, Limassol.
           </Address>
           <Email>
             Have any queries? Email us directly at 

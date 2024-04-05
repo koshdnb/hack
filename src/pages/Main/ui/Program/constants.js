@@ -26,7 +26,7 @@ export const scheduleDay1 = [
     description:
       'Insightful talk from a successful entrepreneur (Optional Attendance).',
     timeStart: '15:00',
-    timeEnd: '18:00',
+    timeEnd: '16:00',
     icon: 'lamp',
   },
   {
@@ -104,7 +104,7 @@ export const scheduleDay2 = [
     icon: 'checkpoint',
   },
   {
-    title: 'Networking & hacking. Closing party',
+    title: 'Networking & Closing Party',
     timeStart: '18:30',
     timeEnd: '20:00',
     icon: 'party',

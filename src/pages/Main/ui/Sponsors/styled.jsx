@@ -54,5 +54,14 @@ export const Title = styled.h3`
 export const LogosWrap = styled.div`
   display: flex;
   justify-content: center;
-  gap: 14px;
+  align-items: center;
+  gap: 20px;
+
+  ${mediaMax.m} {
+    flex-direction: column;
+  }
+
+  > svg {
+    width: 190px;
+  }
 `;
