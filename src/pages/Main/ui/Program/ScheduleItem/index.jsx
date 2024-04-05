@@ -14,6 +14,7 @@ import {
   Time,
   Title,
   Description,
+  TimeText,
   TimeDivider,
   Event,
   IconWrapper,
@@ -40,9 +41,11 @@ export const ScheduleItem = ({ item }) => {
   return (
     <Wrapper>
       <Time>
-        {timeStart}
-        <TimeDivider> - </TimeDivider>
-        {timeEnd}
+        <TimeText>
+          {timeStart}
+          {timeEnd && <TimeDivider> - </TimeDivider>}
+          {timeEnd}
+        </TimeText>
         <IconWrapper>
           <Icon />
         </IconWrapper>

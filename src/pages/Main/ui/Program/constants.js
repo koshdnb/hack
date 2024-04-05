@@ -18,7 +18,7 @@ export const scheduleDay1 = [
     description:
       'Teams start working on their projects. Access to mentors and technical support throughout the day.',
     timeStart: '10:00',
-    timeEnd: '15:00',
+    timeEnd: '',
     icon: 'lamp',
   },
   {
@@ -75,7 +75,7 @@ export const scheduleDay2 = [
   {
     title: 'Project Pitches',
     description:
-        'Each team has 5 minutes to pitch their project and 3 minutes to answer questions from the judges.',
+      'Each team has 5 minutes to pitch their project and 3 minutes to answer questions from the judges.',
     timeStart: '16:30',
     timeEnd: '17:00',
     icon: 'lamp',
@@ -90,7 +90,7 @@ export const scheduleDay2 = [
   {
     title: 'Judging and Deliberation',
     description:
-        'Judges review projects and deliberate on the winners in various categories.',
+      'Judges review projects and deliberate on the winners in various categories.',
     timeStart: '17:30',
     timeEnd: '18:00',
     icon: 'event',

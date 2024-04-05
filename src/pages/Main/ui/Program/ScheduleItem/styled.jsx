@@ -31,8 +31,15 @@ export const Time = styled.div`
   line-height: 21.68px;
   text-align: center;
   border-radius: 50px;
-  padding-left: 42px;
   align-items: center;
+`;
+
+export const TimeText = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: calc(100% - 43px);
 `;
 
 export const TimeDivider = styled.span`
@@ -44,6 +51,7 @@ export const TimeDivider = styled.span`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `;
+
 
 export const Title = styled.div`
   display: inline;
