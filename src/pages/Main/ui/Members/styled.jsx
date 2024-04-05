@@ -32,6 +32,7 @@ export const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 12px;
   margin-top: 40px;
 
@@ -47,15 +48,21 @@ export const CardWrapper = styled.div`
   align-items: center;
   width: 220px;
 
-  :nth-child(1),
-  :nth-child(2),
-  :nth-child(6),
-  :nth-child(7) {
-    width: 33%;
-  }
+  :nth-child(4),
+  :nth-child(5) {
+    ${mediaMax.m} {
+      margin-top: 16px;
+    }
 
-  ${mediaMax.s} {
-    width: auto;
+    > img {
+      width: 169px;
+      height: auto;
+      margin-bottom: 12px;
+    }
+
+    > div {
+      color: #c1bfbf;
+    }
   }
 `;
 

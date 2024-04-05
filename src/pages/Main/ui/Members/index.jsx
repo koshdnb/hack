@@ -27,25 +27,25 @@ let teamMembers = [
     description: 'Managing Director Capacitor Partner',
   },
   {
-    imgSrc: '/images/jury/3.png',
-    name: 'Sergei Dobrovolskii',
-    description: 'CEO, Founder Quadcode',
+    imgSrc: '/images/jury/unknown.png',
+    name: 'To be continue',
+    description: '',
   },
   {
-    imgSrc: '/images/jury/2.png',
-    name: 'Felix Vladimirsky',
-    description: 'Business Owner IQ Option',
+    imgSrc: '/images/jury/unknown.png',
+    name: 'To be continue',
+    description: '',
   },
-  {
-    imgSrc: '/images/jury/1.png',
-    name: 'Michael Tyrimos',
-    description: 'Managing Director Capacitor Partner',
-  },
-  {
-    imgSrc: '/images/jury/3.png',
-    name: 'Sergei Dobrovolskii',
-    description: 'CEO, Founder Quadcode',
-  },
+  // {
+  //   imgSrc: '/images/jury/1.png',
+  //   name: 'Michael Tyrimos',
+  //   description: 'Managing Director Capacitor Partner',
+  // },
+  // {
+  //   imgSrc: '/images/jury/3.png',
+  //   name: 'Sergei Dobrovolskii',
+  //   description: 'CEO, Founder Quadcode',
+  // },
 ];
 
 export const Members = () => {
