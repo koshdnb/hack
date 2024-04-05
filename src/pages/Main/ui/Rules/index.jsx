@@ -52,7 +52,7 @@ export const Rules = () => {
                   <Rule key={rule} dangerouslySetInnerHTML={{ __html: rule }} />
                 ))}
               </RulesList>
-              <Button {...getTriggerProps()}>Read the FAQ</Button>
+              <Button {...getTriggerProps()}>READ FULL TERMS</Button>
               <Modal {...modalProps}>
                 <FullRules />
               </Modal>
