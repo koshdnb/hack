@@ -49,7 +49,7 @@ let sponsors = [
 
 export const Sponsors = () => {
   return (
-    <Wrapper>
+    <Wrapper id="Sponsors">
       <Layout>
         <SponsorsWrap>
           <GradientTitle>Sponsors</GradientTitle>
