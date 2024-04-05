@@ -27,22 +27,22 @@ let sponsors = [
   {
     title: 'gold sponsor',
     logos: [
-      <CyprusMailIcon key={1} viewBox="0 0 302 50" />,
-      <FastForwardIcon key={2} viewBox="0 0 227 25" />,
+      <CyprusMailIcon key={1} viewBox="0 0 115 32" />,
+      <FastForwardIcon key={2} viewBox="0 0 116 32" />,
     ],
   },
   {
     title: 'silver sponsors',
     logos: [
-      <InBusinessIcon key={3} viewBox="0 0 53 23" />,
-      <QuadcodeIcon key={4} viewBox="0 0 190 52" />,
+      <InBusinessIcon key={3} viewBox="0 0 116 32" />,
+      <FastForwardIcon key={2} viewBox="0 0 116 32" />,
     ],
   },
   {
     title: 'bronze sponsors',
     logos: [
-      <QuadcodeIcon key={5} viewBox="0 0 190 52" />,
-      <ProtothlimaIcon key={6} viewBox="0 0 595.3 841.9" />,
+      <CyprusMailIcon key={1} viewBox="0 0 115 32" />,
+      <ProtothlimaIcon key={6} viewBox="0 0 116 18" />,
     ],
   },
 ];
@@ -64,8 +64,14 @@ export const Sponsors = () => {
           <div>
             <GradientTitle>Community partners</GradientTitle>
             <LogosWrap>
-              <QuadcodeIcon viewBox="0 0 190 52" />
-              <NextImage src="/images/techisland.png" width={220} height={32} />
+              <FastForwardIcon key={2} viewBox="0 0 116 32" />
+              <div>
+                <NextImage
+                  src="/images/techisland.png"
+                  width={220}
+                  height={32}
+                />
+              </div>
             </LogosWrap>
           </div>
         </SponsorsWrap>

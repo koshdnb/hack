@@ -64,4 +64,8 @@ export const LogosWrap = styled.div`
   > svg {
     width: 190px;
   }
+
+  > div {
+    padding-bottom: 7px;
+  }
 `;
