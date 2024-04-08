@@ -19,6 +19,7 @@
     "@iq/utils": "^1.8.1",
     "@reduxjs/toolkit": "1.9.7",
     "@svgr/webpack": "^8.1.0",
+    "@typeform/embed-react": "^3.16.0",
     "axios": "^1.6.2",
     "final-form": "^4.20.10",
     "js-cookie": "^3.0.5",
