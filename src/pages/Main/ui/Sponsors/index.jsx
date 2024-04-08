@@ -8,6 +8,7 @@ import CyprusMailIcon from './images/cyprus_mail.svg';
 import FastForwardIcon from './images/fastforward.svg';
 import InBusinessIcon from './images/inbusiness-news.svg';
 import ProtothlimaIcon from './images/PROTATHLIMA.svg';
+import CapacitIcon from './images/capacit-partners.svg';
 
 import {
   Wrapper,
@@ -39,13 +40,17 @@ let sponsors = [
       <InBusinessIcon key={3} viewBox="0 0 116 32" />,
       <CyprusMailIcon key={1} viewBox="0 0 115 32" />,
       <ProtothlimaIcon key={6} viewBox="0 0 116 18" />,
-      <NextImage
-          key="mix fm"
+      <div
+        key="mix fm"
+        style={{ width: '190px', display: 'flex', justifyContent: 'center' }}
+      >
+        <NextImage
           alt="mix fm"
           src="/images/mix-fm-logo.png"
           width={120}
           height={62}
-      />
+        />
+      </div>,
     ],
   },
 ];
@@ -58,23 +63,23 @@ export const Sponsors = () => {
           <CommunityWrapper>
             <GradientTitle>Community partners</GradientTitle>
             <LogosWrap>
-              <FastForwardIcon key={2} viewBox="0 0 116 32"/>
+              <CapacitIcon key={2} viewBox="0 0 116 32" />
               <div>
                 <NextImage
-                    src="/images/techisland.png"
-                    width={220}
-                    height={32}
+                  src="/images/techisland.png"
+                  width={220}
+                  height={32}
                 />
               </div>
             </LogosWrap>
           </CommunityWrapper>
           <GradientTitle>Media Sponsors</GradientTitle>
           <SponsorsList>
-            {sponsors.map(({title, logos}) => (
-                <SponsorsItem key={title}>
-                  {/*<Title>{title}</Title>*/}
-                  <LogosWrap>{logos.map((Logo) => Logo)}</LogosWrap>
-                </SponsorsItem>
+            {sponsors.map(({ title, logos }) => (
+              <SponsorsItem key={title}>
+                {/*<Title>{title}</Title>*/}
+                <LogosWrap>{logos.map((Logo) => Logo)}</LogosWrap>
+              </SponsorsItem>
             ))}
           </SponsorsList>
         </SponsorsWrap>

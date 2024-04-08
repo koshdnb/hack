@@ -19,12 +19,12 @@ let teamMembers = [
   {
     imgSrc: '/images/jury/2.png',
     name: 'Felix Vladimirsky',
-    description: 'Business Owner IQ Option',
+    description: 'Chief Revenue Officer at Quadcode',
   },
   {
     imgSrc: '/images/jury/1.png',
     name: 'Michael Tyrimos',
-    description: 'Managing Director Capacitor Partner',
+    description: 'Managing Director Capacitor Partners',
   },
   {
     imgSrc: '/images/jury/unknown.png',

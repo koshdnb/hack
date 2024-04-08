@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 `;
 
 export const SponsorsWrap = styled.div`
-  max-width: 825px;
+  max-width: 750px;
   margin: 0 auto;
   padding: 70px 0 120px 0;
 `;
