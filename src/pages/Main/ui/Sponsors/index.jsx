@@ -16,6 +16,7 @@ import {
   SponsorsItem,
   Title,
   LogosWrap,
+  CommunityWrapper,
   CardWrapper,
   Image,
   Name,
@@ -24,25 +25,27 @@ import {
 } from './styled';
 
 let sponsors = [
+  // {
+  //   title: 'gold sponsor',
+  //   logos: [
+  //     <CyprusMailIcon key={1} viewBox="0 0 115 32" />,
+  //     <FastForwardIcon key={2} viewBox="0 0 116 32" />,
+  //   ],
+  // },
   {
-    title: 'gold sponsor',
+    title: 'media sponsors',
     logos: [
-      <CyprusMailIcon key={1} viewBox="0 0 115 32" />,
       <FastForwardIcon key={2} viewBox="0 0 116 32" />,
-    ],
-  },
-  {
-    title: 'silver sponsors',
-    logos: [
       <InBusinessIcon key={3} viewBox="0 0 116 32" />,
-      <FastForwardIcon key={2} viewBox="0 0 116 32" />,
-    ],
-  },
-  {
-    title: 'bronze sponsors',
-    logos: [
       <CyprusMailIcon key={1} viewBox="0 0 115 32" />,
       <ProtothlimaIcon key={6} viewBox="0 0 116 18" />,
+      <NextImage
+          key="mix fm"
+          alt="mix fm"
+          src="/images/mix-fm-logo.png"
+          width={120}
+          height={62}
+      />
     ],
   },
 ];
@@ -52,28 +55,28 @@ export const Sponsors = () => {
     <Wrapper id="Sponsors">
       <Layout>
         <SponsorsWrap>
-          <GradientTitle>Sponsors</GradientTitle>
-          <SponsorsList>
-            {sponsors.map(({ title, logos }) => (
-              <SponsorsItem key={title}>
-                <Title>{title}</Title>
-                <LogosWrap>{logos.map((Logo) => Logo)}</LogosWrap>
-              </SponsorsItem>
-            ))}
-          </SponsorsList>
-          <div>
+          <CommunityWrapper>
             <GradientTitle>Community partners</GradientTitle>
             <LogosWrap>
-              <FastForwardIcon key={2} viewBox="0 0 116 32" />
+              <FastForwardIcon key={2} viewBox="0 0 116 32"/>
               <div>
                 <NextImage
-                  src="/images/techisland.png"
-                  width={220}
-                  height={32}
+                    src="/images/techisland.png"
+                    width={220}
+                    height={32}
                 />
               </div>
             </LogosWrap>
-          </div>
+          </CommunityWrapper>
+          <GradientTitle>Media Sponsors</GradientTitle>
+          <SponsorsList>
+            {sponsors.map(({title, logos}) => (
+                <SponsorsItem key={title}>
+                  {/*<Title>{title}</Title>*/}
+                  <LogosWrap>{logos.map((Logo) => Logo)}</LogosWrap>
+                </SponsorsItem>
+            ))}
+          </SponsorsList>
         </SponsorsWrap>
       </Layout>
     </Wrapper>
