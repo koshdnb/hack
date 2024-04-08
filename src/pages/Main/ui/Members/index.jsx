@@ -28,12 +28,12 @@ let teamMembers = [
   },
   {
     imgSrc: '/images/jury/unknown.png',
-    name: 'To be continue',
+    name: 'To Be Revealed Soon',
     description: '',
   },
   {
     imgSrc: '/images/jury/unknown.png',
-    name: 'To be continue',
+    name: 'To Be Revealed Soon',
     description: '',
   },
   // {

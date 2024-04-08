@@ -38,7 +38,7 @@ export const scheduleDay1 = [
     icon: 'lamp',
   },
   {
-    title: 'Evening Networking',
+    title: 'Evening Networking & Hacking',
     description:
       'Teams continue working on their projects. Optional networking and informal discussion among participants.',
     timeStart: '19:00',
