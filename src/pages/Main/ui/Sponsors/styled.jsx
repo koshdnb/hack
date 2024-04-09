@@ -67,6 +67,10 @@ export const LogosWrap = styled.div`
     width: 190px;
   }
 
+  > a {
+    width: 190px;
+  }
+
   > div {
     padding-bottom: 7px;
   }

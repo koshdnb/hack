@@ -83,7 +83,7 @@ export const Footer = () => {
           <SocialList>
             {socials.map(({ name, url, Icon }) => (
               <SocialItem key={url}>
-                <SocialLink href={url}>
+                <SocialLink href={url} target="_blank">
                   <span>{name}</span>
                   <Icon />
                 </SocialLink>
