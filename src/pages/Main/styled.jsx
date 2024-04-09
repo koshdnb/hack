@@ -91,16 +91,16 @@ export const FooterWrap = styled.div`
     }
 
     ${mediaMax.l} {
-      top: 65%;
+      top: 73%;
     }
 
-    ${mediaMax.m} {
-      top: 65%;
-    }
+    /* ${mediaMax.m} {
+      top: 73%;
+    } */
 
-    ${mediaMax.s} {
+    /* ${mediaMax.s} {
       top: 70%;
-    }
+    } */
   }
 `;
 
