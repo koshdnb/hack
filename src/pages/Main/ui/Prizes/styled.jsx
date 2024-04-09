@@ -7,7 +7,8 @@ export const Wrapper = styled.div`
   position: relative;
   padding-top: 100px;
   padding-bottom: 88px;
-  background-image: url('/images/prizes-bg.png'), radial-gradient(    45.09% 45.09% at 50% 50%,    #1d1c1c 0%,    #161414 100%  );
+  background-image: url('/images/prizes-bg.png'),
+    radial-gradient(45.09% 45.09% at 50% 50%, #1d1c1c 0%, #161414 100%);
   background-size: 100% auto;
   background-position: 100%;
   background-repeat: no-repeat;
@@ -35,12 +36,15 @@ export const Wrapper = styled.div`
   }
 
   ${mediaMax.m} {
+    padding-top: 10px;
+
     ::before {
       top: -77px;
     }
     ::after {
       top: 60%;
     }
+  }
 `;
 
 export const PrizesWrap = styled.div`
@@ -139,7 +143,7 @@ export const PrizeText = styled(GradientTitle)`
 
   -webkit-text-stroke: 5px transparent;
   color: #161414;
-  
+
   & > span {
     font-size: 38px;
   }
