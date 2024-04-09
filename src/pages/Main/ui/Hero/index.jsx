@@ -2,6 +2,7 @@ import { Modal, useModal } from 'react-morphing-modal';
 import RegistrationForm from '/src/shared/ui/RegistrationForm';
 
 import HackathonIcon from './images/hackathon.svg';
+import HackathonIcon1 from './images/Hackathon1.svg';
 import HackathonMobIcon from './images/hackathon-mob.svg';
 
 import { Layout, Button } from '../../styled';
@@ -26,7 +27,9 @@ export default function Hero() {
       <Layout>
         <ContentWrap>
           <LogoWrap>
-            <HackathonIcon viewBox="0 0 514 79" />
+            <div style={{width:'514px', height: '80px', marginTop: '-20px'}}>
+              <HackathonIcon1/>
+            </div>
             <HackathonMobIcon viewBox="0 0 162 287" />
           </LogoWrap>
           <TextWrap>

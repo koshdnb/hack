@@ -16,12 +16,12 @@ export const ContentWrap = styled.div`
   align-items: center;
 `;
 
-export const LogoWrap = styled.p`
+export const LogoWrap = styled.div`
   margin: 0 auto;
   width: fit-content;
   margin-bottom: 175px;
 
-  > svg:nth-child(2) {
+  > svg {
     display: none;
   }
 
@@ -36,11 +36,11 @@ export const LogoWrap = styled.p`
       width: 100%;
     }
 
-    > svg:first-of-type {
+    > div {
       display: none;
     }
 
-    > svg:nth-child(2) {
+    > svg {
       display: flex;
     }
   }
