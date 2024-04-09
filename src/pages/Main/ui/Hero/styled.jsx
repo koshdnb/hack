@@ -3,7 +3,10 @@ import { mediaMax } from '../../../../shared/libs/media';
 
 export const Wrapper = styled.div`
   padding-top: 64px;
-  /* padding-bottom: 60px; */
+
+  ${mediaMax.l} {
+    padding-top: 0;
+  }
 `;
 
 export const ContentWrap = styled.div`
@@ -40,6 +43,10 @@ export const LogoWrap = styled.p`
     > svg:nth-child(2) {
       display: flex;
     }
+  }
+
+  ${mediaMax.m} {
+    margin-bottom: 175px;
   }
 `;
 

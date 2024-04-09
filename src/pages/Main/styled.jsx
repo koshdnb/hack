@@ -29,6 +29,10 @@ export const HeaderWrap = styled.div`
     background-position: center 263px;
   }
 
+  ${mediaMax.m} {
+    background-position: center 195px;
+  }
+
   ${mediaMax.s} {
     background-size: 270%;
   }
