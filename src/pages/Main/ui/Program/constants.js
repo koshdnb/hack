@@ -1,7 +1,7 @@
 export const scheduleDay1 = [
   {
     // title: 'Meet & Greet',
-    title: 'Opening and Welcome Speeches.',
+    title: 'Opening and Welcome Speeches',
     timeStart: '09:00',
     timeEnd: '09:30',
     icon: 'meet',

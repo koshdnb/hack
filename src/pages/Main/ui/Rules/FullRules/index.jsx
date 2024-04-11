@@ -79,7 +79,7 @@ export const FullRules = () => {
       <h3>Criteria</h3>
       <p>Projects will be judged on innovation, technical sophistication, user impact, and presentation quality.
           Additional points will be awarded for creativity, effective use of provided APIs/data, and alignment with the
-          theme of fintech personalisation.</p>
+          theme of fintech personalization.</p>
 
       <h3>Awards</h3>
       <p>Prizes will be awarded to the top teams as determined by the judges. Special awards will be announced (if

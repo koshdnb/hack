@@ -14,7 +14,7 @@ let teamMembers = [
   {
     imgSrc: '/images/jury/3.png',
     name: 'Sergei Dobrovolskii',
-    description: 'CEO, Founder Quadcode',
+    description: 'CEO, Founder at Quadcode',
   },
   {
     imgSrc: '/images/jury/2.png',
@@ -24,7 +24,7 @@ let teamMembers = [
   {
     imgSrc: '/images/jury/1.png',
     name: 'Michael Tyrimos',
-    description: 'Managing Director Capacitor Partners',
+    description: 'Managing Director at Capacitor Partners',
   },
   {
     imgSrc: '/images/jury/unknown.png',

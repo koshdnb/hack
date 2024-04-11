@@ -34,8 +34,7 @@ export const Prizes = () => {
           <Subtitle>
             This HackAIthon offers prizes and rewards for exceptional
             innovation, featuring a 1st place prize of <strong>€30,000</strong>{' '}
-            in cash, a 2nd place prize of <strong>€7,500</strong> in non
-            monetary rewards, and a 3rd place prize valued at{' '}
+            in cash, a 2nd place prize of <strong>€7,500</strong><br/> in non-monetary rewards, and a 3rd place prize valued at{' '}
             <strong>€2,500</strong> in non-monetary rewards.
           </Subtitle>
           <PrizesList>

@@ -23,7 +23,7 @@ export default function Main() {
           name="description"
           content="Cyprus' biggest hackathon, HackAIthon 2024, invites innovators to tackle challenges in trading, AR/VR, education, and more, using AI for financial personalization. Join us in Limassol for the ultimate fintech innovation event."
         />
-        <title>HackAIthon: AI in Fintech - The Power of Personalisation</title>
+        <title>HackAIthon: AI in Fintech - The Power of Personalization</title>
         <meta
           name="keywords"
           content="HackAIthon 2024, AI in Fintech, Financial Personalization, Cyprus Hackathon, Fintech Challenges, Trading Innovation, AR/VR Finance, AI Education in Finance, Fintech Development, Limassol Event"

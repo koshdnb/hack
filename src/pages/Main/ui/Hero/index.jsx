@@ -33,7 +33,7 @@ export default function Hero() {
             <HackathonMobIcon viewBox="0 0 162 287" />
           </LogoWrap>
           <TextWrap>
-            <Title>AI in Fintech -  The Power of Personalisation</Title>
+            <Title>AI in Fintech -  The Power of Personalization</Title>
             <Subtitle>
               The future is shaped by automation and AI. We invite the best talent to participate in one of Cyprus&apos;s grandest hackathons - To envision, craft, and develop pioneering solutions in the industry.
             </Subtitle>
