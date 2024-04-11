@@ -22,7 +22,7 @@ const MyApp = ({ Component, pageProps }) => {
       `}</style>
       <App>
         <Component {...pageProps} />
-        <AcceptCookieNotification />
+        {/*<AcceptCookieNotification />*/}
       </App>
     </>
   );

@@ -29,10 +29,6 @@ const links = [
     url: '/privacy-policy',
   },
   {
-    name: 'Cookies Policy',
-    url: 'cookie-policy',
-  },
-  {
     name: '@2024 Quadcode',
     url: '/',
   },
