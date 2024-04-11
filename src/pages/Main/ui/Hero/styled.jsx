@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   padding-top: 64px;
 
   ${mediaMax.l} {
-    padding-top: 0;
+    padding-top: 24px;
   }
 `;
 
@@ -33,7 +33,8 @@ export const LogoWrap = styled.div`
     margin-bottom: 330px;
 
     > svg {
-      width: 100%;
+      width: 70%;
+      margin: 0 auto;
     }
 
     > div {
@@ -47,6 +48,10 @@ export const LogoWrap = styled.div`
 
   ${mediaMax.m} {
     margin-bottom: 175px;
+
+    > svg {
+      width: 54%;
+    }
   }
 `;
 
