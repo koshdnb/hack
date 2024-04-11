@@ -26,14 +26,15 @@ export const HeaderWrap = styled.div`
   }
 
   ${mediaMax.l} {
-    background-position: center 263px;
+    background-position: 47% 226px;
   }
 
-  ${mediaMax.m} {
-    background-position: center 195px;
-  }
+  /* ${mediaMax.m} {
+    background-position: 47% 226px;
+  } */
 
   ${mediaMax.s} {
+    background-position: 47% 270px;
     background-size: 270%;
   }
 `;
