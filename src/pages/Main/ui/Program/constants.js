@@ -11,7 +11,7 @@ export const scheduleDay1 = [
     description: ' A successful entrepreneur shares their journey.',
     timeStart: '09:30',
     timeEnd: '10:00',
-    icon: 'lamp',
+    icon: 'keynote',
   },
   {
     title: 'Hackathon Begins',
@@ -19,7 +19,7 @@ export const scheduleDay1 = [
       'Teams start working on their projects. Access to mentors and technical support throughout the day.',
     timeStart: '10:00',
     timeEnd: '',
-    icon: 'lamp',
+    icon: 'stopwatch',
   },
   {
     title: 'Tech Talk #1',
@@ -27,7 +27,7 @@ export const scheduleDay1 = [
       'Insightful talk from a successful entrepreneur (Optional Attendance).',
     timeStart: '15:00',
     timeEnd: '16:00',
-    icon: 'lamp',
+    icon: 'talk',
   },
   {
     title: 'Tech Talk #2',
@@ -35,7 +35,7 @@ export const scheduleDay1 = [
       'Insightful talk from a successful entrepreneur (Optional Attendance).',
     timeStart: '18:00',
     timeEnd: '19:00',
-    icon: 'lamp',
+    icon: 'talk2',
   },
   {
     title: 'Evening Networking & Hacking',
@@ -62,7 +62,7 @@ export const scheduleDay2 = [
       'Teams submit their presentations, project links, etc. and have meetings with their mentors to finalize their pitch.',
     timeStart: '15:00',
     timeEnd: '16:00',
-    icon: 'event',
+    icon: 'deadline',
   },
   {
     title: 'Shortlisted Teams',
@@ -70,7 +70,7 @@ export const scheduleDay2 = [
       'The shortlisted teams that will present before the judges are announced.',
     timeStart: '16:00',
     timeEnd: '16:30',
-    icon: 'lamp',
+    icon: 'shortlist',
   },
   {
     title: 'Project Pitches',
@@ -78,7 +78,7 @@ export const scheduleDay2 = [
       'Each team has 5 minutes to pitch their project and 3 minutes to answer questions from the judges.',
     timeStart: '16:30',
     timeEnd: '17:00',
-    icon: 'lamp',
+    icon: 'rocket',
   },
   {
     title: 'Pitching Concludes - Networking Break',
@@ -93,7 +93,7 @@ export const scheduleDay2 = [
       'Judges review projects and deliberate on the winners in various categories.',
     timeStart: '17:30',
     timeEnd: '18:00',
-    icon: 'event',
+    icon: 'judging',
   },
   {
     title: 'Awards Ceremony and Closing Remarks',
@@ -101,7 +101,7 @@ export const scheduleDay2 = [
       'Winners are announced, prizes awarded, and closing remarks are made. Opportunities for post-event networking.',
     timeStart: '18:00',
     timeEnd: '18:30',
-    icon: 'checkpoint',
+    icon: 'trophy',
   },
   {
     title: 'Networking & Closing Party',

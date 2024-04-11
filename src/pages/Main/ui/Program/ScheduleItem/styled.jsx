@@ -52,7 +52,6 @@ export const TimeDivider = styled.span`
   -webkit-text-fill-color: transparent;
 `;
 
-
 export const Title = styled.div`
   display: inline;
   color: #f70d29;
@@ -98,6 +97,15 @@ export const IconWrapper = styled.div`
   background: linear-gradient(#1d1d1d, #1d1d1d) padding-box,
     linear-gradient(to right, #ec03ff 0%, #f70d29 100%) border-box;
   border: 1px solid transparent;
+`;
+
+export const IconReducer = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
 `;
 
 export const DividerIcon = styled(DividerSvg)`

@@ -48,6 +48,11 @@ export const CardWrapper = styled.div`
   align-items: center;
   width: 220px;
 
+  :first-child {
+    position: relative;
+    top: -10px;
+  }
+
   :nth-child(4),
   :nth-child(5) {
     ${mediaMax.m} {
