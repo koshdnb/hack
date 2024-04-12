@@ -34,9 +34,9 @@ export const LogoWrap = styled.div`
   ${mediaMax.l} {
     margin-bottom: 330px;
 
-    > svg {
+    /* > svg {
       width: 70%;
-    }
+    } */
 
     > div {
       display: none;
@@ -50,9 +50,9 @@ export const LogoWrap = styled.div`
   ${mediaMax.m} {
     margin-bottom: 175px;
 
-    > svg {
-      width: 54%;
-    }
+    /* > svg {
+      width: 43vw;
+    } */
   }
 `;
 

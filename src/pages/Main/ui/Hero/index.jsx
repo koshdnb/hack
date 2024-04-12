@@ -29,7 +29,7 @@ export default function Hero() {
             <div style={{ width: '514px', height: '80px', marginTop: '-20px' }}>
               <HackathonIcon />
             </div>
-            <HackathonMobIcon viewBox="0 0 578 1075" />
+            <HackathonMobIcon viewBox="0 0 162 301" />
           </LogoWrap>
           <TextWrap>
             <Title>AI in Fintech - The Power of Personalization</Title>
