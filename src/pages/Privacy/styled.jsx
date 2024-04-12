@@ -18,7 +18,7 @@ export const Wrapper = styled.div`
   max-width: 900px;
   margin: 0 auto 96px auto;
   color: white;
-  padding: 16px;
+  padding: 0 24px;
   margin-top: 32px;
 
   h1 {

@@ -1,6 +1,7 @@
 import { Wrapper, Title } from './styled';
 import { Footer } from '../../shared/ui/Footer';
 import Header from '../../shared/ui/Header';
+import Link from 'next/link';
 
 export const Privacy = () => {
   return (
@@ -29,9 +30,9 @@ export const Privacy = () => {
             This Privacy Policy relates to your use of this website and your
             registration at the “HackAlthon” event through{' '}
           </span>
-          <a href="http://www.quadcodehackathon.com/">
+          <Link href="/">
             <span>http://www.quadcodehackathon.com/</span>
-          </a>
+          </Link>
           <span>
             {' '}
             (<b>Website</b>) organized by us, and to the information collected
@@ -98,8 +99,8 @@ export const Privacy = () => {
           <span>
             This Privacy Policy is intended to help you understand why and how
             we may use your information and may be supplemented from time to
-            time by additional policies or guidance ("<b>Additional Policies</b>
-            "). Wherever such Additional Policies are in any respect
+            time by additional policies or guidance (&quot;<b>Additional Policies</b>
+            &quot;). Wherever such Additional Policies are in any respect
             inconsistent with this Privacy Policy, this Privacy Policy shall
             only apply to the extent that it is consistent, or may be made
             consistent, with that Additional Policy.
@@ -190,8 +191,9 @@ export const Privacy = () => {
             personal data, such us:
           </span>
         </p>
-        <table border="1" cellPadding="0" cellSpacing="0" width="100%">
-          <tbody>
+        <div>
+          <table border="1" cellPadding="0" cellSpacing="0" width="100%">
+            <tbody>
             <tr>
               <td width="50%">
                 <p>
@@ -210,7 +212,7 @@ export const Privacy = () => {
                     </i>
                   </b>
                   <span>
-                    <br />
+                    <br/>
                     Please note that the examples are illustrative and
                     non-exhaustive
                   </span>
@@ -359,8 +361,9 @@ export const Privacy = () => {
                 </p>
               </td>
             </tr>
-          </tbody>
-        </table>
+            </tbody>
+          </table>
+        </div>
         <p>
           <b>
             <span>&nbsp;</span>
@@ -547,15 +550,16 @@ export const Privacy = () => {
         <p>
           <span>&nbsp;</span>
         </p>
-        <table border="0" cellPadding="0" cellSpacing="0" width="700">
-          <tbody>
+        <div style={{overflowX: 'scroll'}}>
+          <table border="0" cellPadding="0" cellSpacing="0" width="700" style={{tableLayout: 'fixed'}}>
+            <tbody>
             <tr>
               <td valign="bottom" width="39"></td>
               <td valign="bottom" width="198">
                 <p>
                   <b>
                     <span>
-                      <br />
+                      <br/>
                       PURPOSE ACTIVITY
                     </span>
                   </b>
@@ -1016,8 +1020,9 @@ export const Privacy = () => {
                 </p>
               </td>
             </tr>
-          </tbody>
-        </table>
+            </tbody>
+          </table>
+        </div>
         <p>
           <span>&nbsp;</span>
         </p>
@@ -1423,11 +1428,6 @@ export const Privacy = () => {
         </p>
         <p>
           <b>
-            <span>&nbsp;</span>
-          </b>
-        </p>
-        <p>
-          <b>
             <span>OUR CONTACT DETAILS</span>
           </b>
         </p>
@@ -1471,8 +1471,19 @@ export const Privacy = () => {
             by publishing a new version on our website.{' '}
           </span>
         </p>
+        <p className="MsoNormal">
+          <span lang="EN">
+            &nbsp;
+          </span>
+        </p>
+
+        <p className="MsoNormal">
+          <span lang="EN">
+            Last update: 11.04.2024
+          </span>
+        </p>
       </Wrapper>
-      <Footer />
+      <Footer/>
     </div>
   );
 };

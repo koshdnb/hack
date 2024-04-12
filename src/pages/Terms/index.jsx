@@ -1,6 +1,7 @@
 import { Wrapper, Title } from './styled';
 import { Footer } from '../../shared/ui/Footer';
 import Header from '../../shared/ui/Header';
+import Link from 'next/link';
 
 export const Terms = () => {
   return (
@@ -23,8 +24,6 @@ export const Terms = () => {
             <span lang="EN">TERMS AND CONDITIONS</span>
           </b>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -90,8 +89,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             BY ACCEPTING THESE TERMS ONLINE, AND/OR BY
@@ -104,7 +101,7 @@ export const Terms = () => {
             (A) CONFIRM THAT YOU ARE AWARE AND THAT YOU COMPLY AT ALL TIMES WITH
             THE PRESENT TERMS AND AGREE TO BE BOUND BY THEM AS ASLO BY THE
             ORGANIZER’S PRIVACY POLICY AVAILABLE AT{' '}
-            <a href="/privacy-policy">Privacy policy</a>
+            <Link href="/privacy-policy">Privacy policy</Link>
             (HEREINAFTER REFERRED TO AS THE “WEBSITE”, CONSENT FOR PROCESSING OF
             PERSONAL DATA, TEAM FORMATION ACKNOWLEDGMENTS, APPLICATIONS AND
             FORMS AND ANY AND ALL OTHER DOCUMENTATION YOU MAY BE REQUESTED TO
@@ -122,8 +119,6 @@ export const Terms = () => {
             STATEMENT OTHER THAN AS EXPRESSLY SET FORTH IN THESE TERMS;{' '}
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">1. HACKAITHON EVENT</span>
@@ -194,7 +189,7 @@ export const Terms = () => {
         <p className="MsoNormal">
           <span lang="EN">(b) Your </span>
           <span lang="EN">
-            submission must adhere to the Hackathon's theme of AI-driven
+            submission must adhere to the Hackathon&apos;s theme of AI-driven
             personalization in fintech (
           </span>
           <span lang="EN">
@@ -299,7 +294,6 @@ export const Terms = () => {
           </span>
         </p>
 
-
         <p className="MsoNormal">
           <span lang="EN">
             1.12. You hereby acknowledge and accept that in order for the
@@ -364,8 +358,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             1.16. The Organizer has no responsibility whatsoever to give You a
@@ -373,8 +365,6 @@ export const Terms = () => {
             at any time at its own discretion.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -391,8 +381,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             1.18. In the event that You provide data, links, information and
@@ -402,8 +390,6 @@ export const Terms = () => {
             stage of HackAIthon, even after a Prize has been awarded.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -418,8 +404,6 @@ export const Terms = () => {
             attendance from HackAIthon.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -450,8 +434,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             1.21. In order to participate in and attend HackAIthon You must
@@ -463,10 +445,6 @@ export const Terms = () => {
             as “Supplementary Documents”).
           </span>
         </p>
-
-        
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -483,8 +461,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             1.23. The Organizer reserves at all times the right not to allow the
@@ -493,8 +469,6 @@ export const Terms = () => {
             and judgment contradict the present Terms.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -507,8 +481,6 @@ export const Terms = () => {
             present Terms.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">2. TEAMS RULES</span>
@@ -523,8 +495,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             2.2. Teams are not allowed under these Terms to be branded and/or
@@ -532,8 +502,6 @@ export const Terms = () => {
             carry any logo and/or trademark and/or brand name.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -545,8 +513,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             2.4. Participants shall form Teams taking into
@@ -556,8 +522,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             2.5. As an individual Participant, part of a Team under these Terms,
@@ -566,8 +530,6 @@ export const Terms = () => {
             overall registration, presence and attendance in HackAIthon:
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">a. Behave in an ethical manner;</span>
@@ -652,8 +614,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             2.6. You hereby agree and grant the Organizer the right, at any time
@@ -668,8 +628,6 @@ export const Terms = () => {
             the Organizer.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">3. TOPICS AND PROJECTS</span>
@@ -691,8 +649,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             3.2. You must participate and attend HackAIthon with one Topic only
@@ -702,8 +658,6 @@ export const Terms = () => {
             Event.{' '}
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -728,8 +682,6 @@ export const Terms = () => {
             And any other suggested topic relevant to the nature of the Event.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -845,8 +797,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">4. WINNING PROJECT AND PRIZE</span>
         </p>
@@ -859,8 +809,6 @@ export const Terms = () => {
             criteria, methods, and means.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -912,8 +860,6 @@ export const Terms = () => {
           <span lang="EN">i. The organization and work of the Team.</span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             4.3. A Project that does not meet the above requirements at all
@@ -932,8 +878,6 @@ export const Terms = () => {
             and/or the Evaluation Committee and/or the sponsors.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -962,8 +906,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             4.5. Each and all individuals who will receive a monetary amount as
@@ -976,8 +918,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             4.6. You hereby acknowledge and accept that You have no opinion,
@@ -987,8 +927,6 @@ export const Terms = () => {
             whatsoever as a result of such decision.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -1010,8 +948,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             4.8. You hereby understand and accept that You may only receive a
@@ -1021,8 +957,6 @@ export const Terms = () => {
             the Organizer.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN"> </span>
@@ -1040,8 +974,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             4.10. The individuals of a winning Team do not have the right to
@@ -1049,8 +981,6 @@ export const Terms = () => {
             prize/gift they will be awarded/receive.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -1066,8 +996,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             4.12. In case You are part of a Team with a Winning Project and/or
@@ -1078,8 +1006,6 @@ export const Terms = () => {
             YouTube, Facebook , etc.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -1094,8 +1020,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             4.14. In the case that You do not receive any Prize and/or gift
@@ -1107,8 +1031,6 @@ export const Terms = () => {
             constitutes valid and adequate consideration under these Terms.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">5. EQUIPMENT, SERVICES AND EXPENSES &nbsp;</span>
@@ -1123,8 +1045,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             5.2. The Organizer will not provide and You must have/bring Your own
@@ -1134,8 +1054,6 @@ export const Terms = () => {
             any inventory for HackAIthon.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -1148,8 +1066,6 @@ export const Terms = () => {
             whatsoever to cover any such expenses.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -1166,8 +1082,6 @@ export const Terms = () => {
             for claims of any forms of food poisoning.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">6. ADVERTISING, PUBLICITY AND RECORDINGS</span>
@@ -1210,8 +1124,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             6.2. You hereby agree and provide the Organizer the non-exclusive,
@@ -1239,8 +1151,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             6.3. You hereby understand and accept that the Organizer and/or
@@ -1257,8 +1167,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             6.4. Should the Organizer and/or Licensed Parties and/or authorized
@@ -1274,8 +1182,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             6.5. You hereby acknowledge and accept that You and/or Your Team are
@@ -1289,8 +1195,6 @@ export const Terms = () => {
             HackAIthon, related IPs and HackAIthon Content.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -1310,8 +1214,6 @@ export const Terms = () => {
             responsibilities under this clause.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -1355,8 +1257,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             7.2. You hereby acknowledge and accept that You and/or Your Team are
@@ -1373,27 +1273,9 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
-            7.3. You acknowledge that You transfer and assign to the Organizer
-            absolutely with full title guarantee all its right, title and
-            interest in and all other rights in all Projects and You hereby
-            agree that the Organizer is not and shall not be obliged in any way
-            to provide any reports to You and/or Your Team for the Organizer’s
-            Rights, as well as the Organizer is entitled at its sole discretion
-            and without any prior approval to transfer, license, assign any
-            intellectual property rights, title or interest in any and all
-            Organizer’s Rights.
-          </span>
-        </p>
-
-        
-
-        <p className="MsoNormal">
-          <span lang="EN">
-            7.4. You and/or Your Team have no right whatsoever to stop, prevent,
+            7.3. You and/or Your Team have no right whatsoever to stop, prevent,
             deprive, eliminate, terminate, rescind the granting of any
             rights/rights of the Organizer and/or to enjoin, restrain, seek to
             enjoin, restrain HackAIthon and/or the production, utilization of
@@ -1402,19 +1284,15 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
-            7.5. Any expenses, costs, charges You may have suffered for the
+            7.4. Any expenses, costs, charges You may have suffered for the
             creation, development of the Organizer’s Rights and/or Your Data
             shall not forbid and/or limit the Organizer’s rights under this
             clause 8 and You hereby release the Organizer from any claims and
             refunds in relation to such expenses.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">8. REPRESENTATIONS AND WARRANTIES</span>
@@ -1423,8 +1301,6 @@ export const Terms = () => {
         <p className="MsoNormal">
           <span lang="EN">8.1. You hereby represent and warrant that:</span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -1635,8 +1511,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             aa. You will not engage in any action liable to impair in any way
@@ -1761,13 +1635,12 @@ export const Terms = () => {
 
         <p className="MsoNormal">
           <span lang="EN">
-              oo. Any and all Prizes and gifts under these Terms are provided as
-              is and You hereby release the Organizer and sponsors from any
-              responsibility in relation to their functionality,
-              dysfunctionality, malfunction, etc. and you hereby indemnify the
-              Organizer and sponsors against any and all legal actions in
-              connection to the said Prizes and gifts;
-            &nbsp;
+            oo. Any and all Prizes and gifts under these Terms are provided as
+            is and You hereby release the Organizer and sponsors from any
+            responsibility in relation to their functionality, dysfunctionality,
+            malfunction, etc. and you hereby indemnify the Organizer and
+            sponsors against any and all legal actions in connection to the said
+            Prizes and gifts; &nbsp;
           </span>
         </p>
 
@@ -1847,8 +1720,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">9. PERSONAL DATA</span>
         </p>
@@ -1866,11 +1737,9 @@ export const Terms = () => {
             data making Your identification possible (collectively hereinafter
             referred to as “Personal Data”), as also all rights, permissions and
             authorizations to process Your data in accordance with the Privacy
-            Policy available at <a href="/privacy-policy">privacy policy</a>.
+            Policy available at <Link href="/privacy-policy">privacy policy</Link>.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">10. INDEMNIFICATION</span>
@@ -1900,8 +1769,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">11. LIMITATION OF LIABILITY AND WARRANTY</span>
         </p>
@@ -1919,8 +1786,6 @@ export const Terms = () => {
             WINNING, RESULTS OR SECURITY OF ANY KIND.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -1951,8 +1816,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             11.3. Your hereby accept that temporary restrictions or
@@ -1965,10 +1828,6 @@ export const Terms = () => {
             any time and for any reason, without explanation or prior notice.
           </span>
         </p>
-
-        
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -2006,8 +1865,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             11.5. You hereby understand and accept that the Organizer does not
@@ -2019,8 +1876,6 @@ export const Terms = () => {
             the users proceed at their own risk.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -2035,14 +1890,12 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">12. CONFIDENTIALITY</span>
         </p>
 
         <p className="MsoNormal">
-          <span lang="EN">
+          <span lang="EN" style={{lineBreak: 'anywhere'}}>
             12.1. You hereby agree that the present Terms are confidential. In
             addition, You acknowledge that in connection with these Terms and
             HackAIthon, You may have access to the Organizer’s and/or its
@@ -2070,8 +1923,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             12.2. You must not disclose to any third parties any confidential
@@ -2082,8 +1933,6 @@ export const Terms = () => {
             Organizer’s instructions.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -2097,16 +1946,12 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             12.4. Your obligations under this confidentiality clause shall
             survive termination of these Terms.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -2115,8 +1960,6 @@ export const Terms = () => {
             indemnifying the latter for the damages incurred.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -2129,10 +1972,6 @@ export const Terms = () => {
             disclosure.
           </span>
         </p>
-
-        
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">13. INDEPENDENT CONTRACTOR</span>
@@ -2149,8 +1988,6 @@ export const Terms = () => {
             other relationship other than that of an independent contractor.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -2172,8 +2009,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">14. FORCE MAJEURE EVENTS</span>
         </p>
@@ -2192,8 +2027,6 @@ export const Terms = () => {
             published and/or otherwise provided.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -2214,8 +2047,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             14.3. The Organizer reserves the right to do any such substitutions,
@@ -2227,8 +2058,6 @@ export const Terms = () => {
             its own discretion.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">15. MISCELLANEOUS</span>
@@ -2244,8 +2073,6 @@ export const Terms = () => {
             Supplementary Documents, these Terms shall prevail.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -2265,8 +2092,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             15.3. The Organizer reserves the right, at our sole discretion, to
@@ -2280,8 +2105,6 @@ export const Terms = () => {
             thereupon agree to be bound by them.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">
@@ -2297,8 +2120,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             15.5. These Terms, and all rights and obligations required
@@ -2311,8 +2132,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             15.6. If any part of these Terms is determined to be void, invalid
@@ -2323,8 +2142,6 @@ export const Terms = () => {
           </span>
         </p>
 
-        
-
         <p className="MsoNormal">
           <span lang="EN">
             15.7. A failure by the Organizer to enforce any provision of these
@@ -2333,8 +2150,6 @@ export const Terms = () => {
             and every provision of these Terms.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">16. TERM</span>
@@ -2347,8 +2162,6 @@ export const Terms = () => {
             until the end of HackAIthon event.
           </span>
         </p>
-
-        
 
         <p className="MsoNormal">
           <span lang="EN">17. COMMUNICATION</span>
@@ -2374,8 +2187,20 @@ export const Terms = () => {
             (b) for the Participant: at the email connected to its registration.{' '}
           </span>
         </p>
+
+        <p className="MsoNormal">
+          <span lang="EN">
+            &nbsp;
+          </span>
+        </p>
+
+        <p className="MsoNormal">
+          <span lang="EN">
+            Last update: 11.04.2024
+          </span>
+        </p>
       </Wrapper>
-      <Footer />
+      <Footer/>
     </div>
   );
 };

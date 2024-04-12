@@ -14,6 +14,7 @@ import {
   LinkList,
   LinkItem,
   Link,
+  LinkLogo,
   SocialList,
   SocialItem,
   SocialLink,
@@ -63,12 +64,16 @@ export const Footer = () => {
           </Address>
           <Email>
             Have any queries? Email us directly at 
-            <a href="mailto:hackathon@quadcode.com"><strong>hackathon@quadcode.com</strong></a>
+            <a href="mailto:hackathon@quadcode.com">
+              <strong>hackathon@quadcode.com</strong>
+            </a>
           </Email>
         </TopWrap>
 
         <BottomWrap>
-          <Iqoption />
+          <LinkLogo href="/">
+            <Iqoption />
+          </LinkLogo>
           <LinkList>
             {links.map(({ name, url }) => (
               <LinkItem key={url}>

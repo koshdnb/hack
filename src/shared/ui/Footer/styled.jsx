@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { TextGradient, BaseLink } from '../../styles/theme';
 import { mediaMax } from '../../libs/media';
+import LinkUI from "next/link";
 
 export const Wrapper = styled.div`
   position: relative;
@@ -72,6 +73,8 @@ export const Link = styled.a`
 
   ${BaseLink()}
 `;
+
+export const LinkLogo = styled(LinkUI)``;
 
 export const SocialList = styled.ul`
   display: flex;
