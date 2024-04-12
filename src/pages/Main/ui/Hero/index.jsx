@@ -39,7 +39,10 @@ export default function Hero() {
               - To envision, craft, and develop pioneering solutions in the
               industry.
             </Subtitle>
-            <Date>The Warehouse by IT Quarter June 15th & 16th, 2024</Date>
+            <Date>
+              The Warehouse by IT Quarter
+              June&nbsp;15th&nbsp;&&nbsp;16th,&nbsp;2024
+            </Date>
           </TextWrap>
           <Button {...getTriggerProps()}>Register now</Button>
           <Modal {...modalProps}>
