@@ -17,6 +17,8 @@ export const ContentWrap = styled.div`
 `;
 
 export const LogoWrap = styled.div`
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
   width: fit-content;
   margin-bottom: 175px;
@@ -34,7 +36,6 @@ export const LogoWrap = styled.div`
 
     > svg {
       width: 70%;
-      margin: 0 auto;
     }
 
     > div {
