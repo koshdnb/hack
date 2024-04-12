@@ -3,7 +3,7 @@ import { mediaMax } from '../../../../shared/libs/media';
 
 export const Wrapper = styled.div`
   padding-top: 100px;
-  padding-bottom: 88px;
+  padding-bottom: 12px;
   background: radial-gradient(
     45.09% 45.09% at 50% 50%,
     #1d1c1c 0%,

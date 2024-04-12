@@ -26,9 +26,12 @@ export const Title = styled.h1`
 
 export const IdeaWrap = styled.div`
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 360px;
   height: 167px;
-  padding: 21px 24px 42px;
+  padding: 21px 24px 21px;
   margin: 0 auto;
   margin-top: 56px;
   margin-bottom: 230px;
