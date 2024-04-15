@@ -37,6 +37,7 @@ import {
   IconReducer,
   DividerIcon,
 } from './styled';
+import useIOSVersion from "../../../../../shared/libs/hooks";
 
 export const ScheduleItem = ({ item }) => {
   const { title, description, timeStart, timeEnd, icon: iconName } = item;
@@ -61,6 +62,8 @@ export const ScheduleItem = ({ item }) => {
     judging: <Judging />,
     trophy: <Trophy />,
   };
+  const iosVersion = useIOSVersion();
+  const isOldIOS = iosVersion && iosVersion < 17;
 
   const Icon = icons[iconName];
 
@@ -76,7 +79,7 @@ export const ScheduleItem = ({ item }) => {
         <DividerIcon />
       </Time>
       <Event>
-        {title && <Title>{title}</Title>}
+        {title && <Title oldIos={isOldIOS}>{title}</Title>}
         {description && <Description>{description}</Description>}
       </Event>
     </Wrapper>

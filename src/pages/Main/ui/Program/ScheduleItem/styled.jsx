@@ -54,14 +54,19 @@ export const TimeDivider = styled.span`
 
 export const Title = styled.div`
   display: inline;
-  color: #f70d29;
-  background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #ec03ff;
   font-size: 20px;
   font-weight: 700;
   line-height: 22px;
   text-align: left;
+  
+  ${({ oldIos }) =>
+    !oldIos &&
+    `
+    background: linear-gradient(90deg, #f70d29 0%, #ec03ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  `}}
 `;
 
 export const Description = styled.div`
