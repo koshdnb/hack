@@ -61,7 +61,7 @@ export const scheduleDay2 = [
     description:
       'Teams submit their presentations, project links, etc. and have meetings with their mentors to finalize their pitch.',
     timeStart: '15:00',
-    timeEnd: '16:00',
+     // timeEnd: '16:00',
     icon: 'deadline',
   },
   {
@@ -69,7 +69,7 @@ export const scheduleDay2 = [
     description:
       'The shortlisted teams that will present before the judges are announced.',
     timeStart: '16:00',
-    timeEnd: '16:30',
+    // timeEnd: '16:30',
     icon: 'shortlist',
   },
   {
@@ -77,36 +77,36 @@ export const scheduleDay2 = [
     description:
       'Each team has 5 minutes to pitch their project and 3 minutes to answer questions from the judges.',
     timeStart: '16:30',
-    timeEnd: '17:00',
+    timeEnd: '17:30',
     icon: 'rocket',
   },
   {
     title: 'Pitching Concludes - Networking Break',
     description: 'Networking Break Judges breakout to decide on the result.',
-    timeStart: '17:00',
-    timeEnd: '17:30',
+    timeStart: '17:30',
+    timeEnd: '17:45',
     icon: 'network',
   },
   {
     title: 'Judging and Deliberation',
     description:
       'Judges review projects and deliberate on the winners in various categories.',
-    timeStart: '17:30',
-    timeEnd: '18:00',
+    timeStart: '17:45',
+    timeEnd: '18:15',
     icon: 'judging',
   },
   {
     title: 'Awards Ceremony and Closing Remarks',
     description:
       'Winners are announced, prizes awarded, and closing remarks are made. Opportunities for post-event networking.',
-    timeStart: '18:00',
-    timeEnd: '18:30',
+    timeStart: '18:15',
+    timeEnd: '18:45',
     icon: 'trophy',
   },
   {
     title: 'Networking & Closing Party',
-    timeStart: '18:30',
-    timeEnd: '20:00',
+    timeStart: '18:45',
+    timeEnd: '20:30',
     icon: 'party',
   },
 ];

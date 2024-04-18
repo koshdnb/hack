@@ -9,122 +9,170 @@ export const Terms = () => {
       <Header />
       <Wrapper>
         <Title>TERMS AND CONDITIONS</Title>
-        <p className="MsoNormal">
+        <p>
           <b>
             <span lang="EN">QUADCODE HackAIthon</span>
           </b>
         </p>
-
-        <p className="MsoNormal">
-          <span lang="EN"> </span>
+        <p>
+          <span lang="EN">&nbsp;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <b>
             <span lang="EN">TERMS AND CONDITIONS</span>
           </b>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            These Terms and Conditions (hereinafter referred to as the “Terms”)
-            govern Your registration, participation and attendance in 2024
-            HackAIthon hosted by QCL Quad Code Ltd, on June 15<sup>th</sup> and
-            16<sup>th</sup>, 2024, at The Warehouse by IT Quarter, in Limassol,
-            Cyprus (hereinafter referred to as “Venue”), as described herein
-            (hereinafter referred to as “HackAIthon” and/or the “Event”).
+            These Terms and Conditions (Terms) govern our relationship with You
+            for Your registration, participation and attendance in the 2024
+            HackAIthon event hosted by QCL Quad Code Ltd, &nbsp;to take place on
+            June 15<sup>th</sup> and 16<sup>th</sup> 2024, at The Warehouse by
+            IT Quarter, in Limassol, Cyprus (Venue), as described herein
+            (HackAIthon or Event).
           </span>
         </p>
-
-        <p className="MsoNormal">
-          <span lang="EN">
-            These Terms are effective upon submitting Your online registration
-            (hereinafter referred to as the “Effective Date”) and are concluded
-            between:{' '}
-          </span>
+        <p>
+          <span lang="EN">&nbsp;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
-            QCL Quad Code CY Limited, a company registered in accordance with
-            the laws of the Republic of Cyprus, with registration number
+            We are QCL Quad Code CY Limited, a company registered in accordance
+            with the laws of the Republic of Cyprus, with registration number
             HE391725 and having its registered office at Spyrou Kyprianou Avenue
-            &amp; Evgeniou Voulgareos 4153, Kato Polemidia, Limassol, Cyprus
-            (hereinafter referred to as “Organizer”), and{' '}
+            &amp; Evgeniou Voulgareos 4153, Kato Polemidia, Limassol, Cyprus (
+            Organizer), and{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            You, an individual interested in and therefore registering for Your
-            possible participation and attendance in HackAIthon (hereinafter
-            referred to as “You”/ “Your” /“Yours”),{' '}
+            You are an individual interested in and therefore registering for
+            Your possible participation and attendance in HackAIthon
+            (hereinafter referred to as “You”/ “Your” /“Yours”),{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             collectively referred to as the “Parties” and separately as the
             “Party”.
           </span>
         </p>
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
+          <span lang="EN">WHEREAS,</span>
+        </p>
+        <p>
           <span lang="EN">
-            WHEREAS, the Organizer is hosting HackAIthon in Cyprus; and
+            (a)<span>&nbsp;&nbsp; </span>
+          </span>
+          <span lang="EN">
+            the Organizer is hosting HackAIthon in Cyprus; and
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
-            WHEREAS, You seek to register, participate and attend HackAIthon;
+            (b)<span>&nbsp;&nbsp; </span>
+          </span>
+          <span lang="EN">
+            You seek to register, participate and attend HackAIthon;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            NOW, in consideration of the mutual promises herein contained and
-            for other good and valuable consideration, the receipt and
-            sufficiency of which are hereby acknowledged, You and the Organizer
-            agree as follows:
+            BY SUBMITTING A REGISTRATION FORM THROUGH OUR WEBSITE (
+            <b>Preliminary</b> <b>Registration</b>), YOU:
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
+          <b>
+            <span lang="EN">
+              (A)<span>&nbsp;&nbsp;&nbsp;</span>
+            </span>
+          </b>
           <span lang="EN">
-            BY ACCEPTING THESE TERMS ONLINE, AND/OR BY
-            REGISTERING/PARTICIPATING/ATTENDING HACKAITHON YOU{' '}
+            CONFIRM THAT YOU ARE AWARE AND THAT YOU COMPLY AT ALL TIMES WITH THE
+            PRESENT TERMS AND AGREE TO BE BOUND BY THEM{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <b>
+            <span lang="EN">
+              (B)<span>&nbsp;&nbsp;&nbsp;</span>
+            </span>
+          </b>
           <span lang="EN">
-            (A) CONFIRM THAT YOU ARE AWARE AND THAT YOU COMPLY AT ALL TIMES WITH
-            THE PRESENT TERMS AND AGREE TO BE BOUND BY THEM AS ASLO BY THE
-            ORGANIZER’S PRIVACY POLICY AVAILABLE AT{' '}
-            <Link href="/privacy-policy">Privacy policy</Link>
-            (HEREINAFTER REFERRED TO AS THE “WEBSITE”, CONSENT FOR PROCESSING OF
-            PERSONAL DATA, TEAM FORMATION ACKNOWLEDGMENTS, APPLICATIONS AND
-            FORMS AND ANY AND ALL OTHER DOCUMENTATION YOU MAY BE REQUESTED TO
-            AND/OR ACTUALLY SIGN/AGREE TO/ACCEPT FOR HACKAITHON AND/OR YOUR
-            THEREIN REGISTRATION, PARTICIPATION AND ACCEPTANCE (HEREINAFTER
-            COLLECTIVELY REFERRED TO AS THE “SUPPLEMENTARY DOCUMENTS”;{' '}
+            CONSENT TO THE ORGANIZER’S PRIVACY POLICY AVAILABLE AT
+          </span>
+          <span lang="EN">
+            {' '}
+            &nbsp;
+            <a href="https://www.quadcodehackathon.com/terms-and-conditions">
+              <span>
+                https://www.quadcodehackathon.com/terms-and-conditions
+              </span>
+            </a>
+          </span>
+          <span>
+            <span lang="EN"> A</span>
+          </span>
+          <span lang="EN">ND TYPEFORM SL </span>
+          <span lang="EN">
+            <a href="https://admin.typeform.com/to/dwk6gt/?tid=f95361f9-87ee-4140-a078-171a54afb687&amp;typeform-source=www.typeform.com">
+              <span>
+                https://admin.typeform.com/to/dwk6gt/?tid=f95361f9-87ee-4140-a078-171a54afb687&amp;typeform-source=www.typeform.com
+              </span>
+            </a>
+          </span>
+          <span lang="EN">FOR </span>
+          <span>THE</span>
+          <span lang="EN">
+            PROCESSING OF YOUR PERSONAL DATA collected via TEAM FORMATION
+            ACKNOWLEDGMENTS, APPLICATIONS AND FORMS AND ANY AND ALL OTHER
+            DOCUMENTATION YOU MAY BE REQUESTED TO AND/OR ACTUALLY SIGN/AGREE
+            TO/ACCEPT FOR HACKAITHON AND/OR YOUR THEREIN REGISTRATION,
+            PARTICIPATION AND ACCEPTANCE;{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <b>
+            <span lang="EN">
+              (C)<span>&nbsp;&nbsp;&nbsp;</span>
+            </span>
+          </b>
           <span lang="EN">
-            (B) ACKNOWLEDGE AND AGREE THAT YOU HAVE INDEPENDENTLY EVALUATED THE
-            DESIRABILITY OF REGISTERING, PARTICIPATING AND ATTENDING HACKAITHON
-            AND YOU ARE NOT RELYING ON ANY REPRESENTATION, GUARANTEE, OR
-            STATEMENT OTHER THAN AS EXPRESSLY SET FORTH IN THESE TERMS;{' '}
+            CONFIRM THAT YOU HAVE INDEPENDENTLY EVALUATED THE DESIRABILITY OF
+            REGISTERING, PARTICIPATING AND ATTENDING HACKAITHON AND YOU ARE NOT
+            RELYING ON ANY REPRESENTATION, GUARANTEE, OR STATEMENT OTHER THAN AS
+            EXPRESSLY SET FORTH IN THESE TERMS.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">1. HACKAITHON EVENT</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.1. HackAIthon is a competitive event organized and hosted by the
             Organizer in which You and other individuals shall work in Teams (as
@@ -133,154 +181,188 @@ export const Terms = () => {
             functioning product by the end of the Event.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            1.2. HackAIthon shall commence on June 15<sup>th</sup>, 2024 at
-            09:00 a.m. and finish on June 16th at 20:00 p.m.{' '}
+            1.2. HackAIthon shall commence on June 15<sup>th</sup> 2024 at 09:00
+            a.m. and finish on June 16<sup>th</sup>
+            at 20:00 p.m.{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.3. Your registration, participation and attendance in HackAIthon
             is free of charge.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.4. In order to participate in and attend HackAIthon, must first
-            register online at
-            <a href="http://www.quadcodehackathon.com/">
-              http://www.quadcodehackathon.com/
-            </a>{' '}
-            at any given time from April 15<sup>th</sup>, 2024 until May 30
-            <sup>th</sup>, 2024.{' '}
+            register online at{' '}
+          </span>
+          <span lang="EN">
+            <a href="https://www.quadcodehackathon.com/">
+              <span>https://www.quadcodehackathon.com/</span>
+            </a>
+          </span>
+          <span lang="EN">
+            &nbsp;&nbsp;at any given time from April 15<sup>th</sup>, 2024 until
+            May 30<sup>th</sup>, 2024.{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            {' '}
-            1.5. Qualifications and Validity of registration:{' '}
-          </span>
-          <span lang="EN">
-            You shall register in HackAIthon as a Participant, and:
+            1.5. Conditions for registration: You will be required to:
           </span>
         </p>
-
-        <p className="MsoNormal">
-          <span lang="EN">
-            (a) You acknowledge that You have an idea for the project to be
-            developed in HackAIthon and you have qualifications, experience and
-            a certain position as software developer, software designer, AI
-            researcher, fintech entrepreneur, computer programmers,
-            cybersecurity analysts, social media managers, data scientist and
-            analysts, financial expert and relevant positions that may be
-            utilized for the development of an impact,
-          </span>
-          <b>
-            <span lang="EN-GB">intuitive</span>
-          </b>
-          <span lang="EN"> financial solution. </span>
+        <p>
+          <span lang="EN">&nbsp;</span>
         </p>
-
-        <p className="MsoNormal">
-          <span lang="EN">(b) Your </span>
+        <p>
           <span lang="EN">
-            submission must adhere to the Hackathon&apos;s theme of AI-driven
-            personalization in fintech (
+            (a)<span>&nbsp;&nbsp; </span>
           </span>
           <span lang="EN">
+            submit an idea for a software project to be developed during the
+            HackAIthon. The Idea must be related to the development of an
+            impactful financial/trading software solution as described in the
+            Topic section 3 of these Terms, and{' '}
+            <span>
+              must adhere to the Hackathon&apos;s theme of AI-driven personalization
+              in fintech (
+            </span>
             innovate with AI-driven education, trading chatbots, personalized
-            trading platforms, and AR/VR environments). Failure to do so may
-            result in the organizer rejecting Your participation or entry.
+            trading platforms, and AR/VR environments) (Idea). Failure to do so
+            may result in the rejection of your Preliminary Registration,{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
-            (c) In order for Your registration, participation and attendance in
-            HackAIthon to be accepted by the Organizer, You must fill in and
-            submit all required data, links, information and documentation as
-            and when requested by the Organizer. If You provide false
-            information may result the rejection of Your registration or
-            disqualification from the Event.
+            (b)<span>&nbsp;&nbsp; </span>
           </span>
-        </p>
-
-        <p className="MsoNormal">
           <span lang="EN">
-            1.6. Eligibility: The Organizer will choose the Participants for the
-            Event at its sole discretion. Your registration may not be accepted.
-            Your registration, participation and attendance at HackAIthon are
-            subject to constant approval and acceptance by the Organizer. The
-            Organizer may at its sole discretion accept or reject Your
-            registration, participation and attendance in HackAIthon for any
-            reason and at any time before and/or during HackAIthon, regardless
-            Your acceptance of registration, participation and attendance at any
-            other time.{' '}
+            state whether you have certain position as software developer,
+            software designer, AI researcher, fintech entrepreneur, computer
+            programmers, cybersecurity analysts, social media managers, data
+            scientist and analysts, financial expert or any other relevant
+            positions that have afforded you the necessary qualifications and
+            experience to work with a team and you are interested to bring an
+            Idea to life.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
-            1.7. Formation and Capacity: You can register as sole individual, or
-            along with other individuals forming a Team of minimum two (2) and
-            maximum five (5) individuals. Participants whose registration will
-            be accepted by the Organizer must, from April 15<sup>th</sup> until
-            June 14<sup>th</sup> 2024 form groups/be part of a group composed
-            from minimum two (2) and maximum five (5) individuals as further
-            described in these Terms (hereinafter referred to as “Team(s)”). The
-            words “You”/ “Your” /“Yours” under these Terms shall and must refer
-            to and include Your Team when and as applicable at the sole
-            discretion of the Organizer. The Organizer shall accept maximum
-            twenty (20) Teams of up to five (5) Participants.{' '}
+            (c)<span>&nbsp;&nbsp; </span>
           </span>
-        </p>
-
-        <p className="MsoNormal">
           <span lang="EN">
-            1.8. Participants being part of a Team which is accepted by the
-            Organization to participate in and attend HackAIthon must, within
-            timeframes set by the Organizer, use their Topics, ideas and
-            qualifications and work together to initiate, develop and finalize a
-            product/project which must comply with the requirements set by
-            Organizer as further described in these Terms (hereinafter referred
-            to as the “Project(s)”).
+            fill in and submit all required data, links, information and
+            documentation as and when requested by the Organizer. If You provide
+            false information may result the rejection of Your Preliminary
+            Registration or disqualification from the Event.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
-            1.9. You and Your Team may ask assistance and/or guidance for your
-            Project, from expertised people that shall be available at the venue
-            at the Event (hereinafter referred to as the “Mentors”). Mentors
-            shall not be part of Your Team.
+            (d)<span>&nbsp;&nbsp; </span>
+          </span>
+          <span lang="EN">
+            state whether you will participate as part of a team or as a
+            singularity. If you register as a Team, further information for the
+            Team shall be required.{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
+          <span lang="EN">
+            1.6. Eligibility:&nbsp; The Organizer will choose the Participants
+            for the Event and confirm any Preliminary Registration at its sole
+            discretion and will notify you via email (<b>Registration</b>).
+            &nbsp;Your Preliminary Registration may not be accepted.&nbsp; Your
+            registration, participation and attendance at HackAIthon are subject
+            to constant review and acceptance by the Organizer. In simple words,
+            the Organizer may at its sole discretion accept or reject Your
+            Preliminary Registration and/or may disqualify you at any time
+            following Registration, for any or no reason and at any time before
+            and/or during HackAIthon, regardless Your participation submission
+            and/or approval of Preliminary Registration. If the Organizer
+            accepts Your Preliminary Registration, you will be considered a
+            Participant. &nbsp;
+          </span>
+        </p>
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
+          <span lang="EN">
+            1.7. Formation and Capacity:&nbsp; You can register as sole
+            individual, or along with other individuals forming a Team of
+            minimum two (2) and maximum five (5) individuals.&nbsp; Participants
+            whose registration will be accepted by the Organizer must, from
+            April 15<sup>th</sup>
+            until June 14<sup>th</sup> 2024 form groups/be part of a group
+            composed of minimum two (2) and maximum five (5) individuals as
+            further described in these Terms (Team(s)). The words “You”/ “Your”
+            /“Yours” “Participant” under these Terms shall and must refer to and
+            include Your Team when and as applicable at the sole discretion of
+            the Organizer.&nbsp; The Organizer shall accept maximum twenty (20)
+            Teams of up to five (5) Participants each.&nbsp;{' '}
+          </span>
+        </p>
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
+          <span lang="EN">
+            1.8. &nbsp;&nbsp;A Team Participant must, within timeframes set by
+            the Organizer, use their Ideas and qualifications and work together
+            to initiate, develop and finalize a Topic product/project which must
+            comply with the requirements set by Organizer as further described
+            in these Terms (Project(s)).
+          </span>
+        </p>
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
+          <span lang="EN">
+            1.9.&nbsp; You and Your Team may ask assistance and/or guidance for
+            your Project, from expertised people that shall be available at the
+            venue at the Event (Mentors). Mentors shall not be part of Your
+            Team.
+          </span>
+        </p>
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.10. For the purposes of HackAIthon, the Organizer shall appoint an
             evaluation committee comprised by individuals with academic and/or
-            professional experience in regards to HackAIthon (hereinafter
-            referred to as the “Evaluation Committee”), who by the end of
-            HackAIthon shall evaluate the Projects and at its own discretion
-            decide, declare, nominate and announce the best Project on
-            evaluation criteria further described in these Terms (hereinafter
-            referred to as the{' '}
-          </span>
-
-          <span lang="EN">“Winning Project”).</span>
-          <span lang="EN">
-            {' '}
-            For more information on the Prize, check <span>clause 4.</span>
+            professional experience in regard to HackAIthon (Evaluation
+            Committee), who by the end of HackAIthon shall evaluate the Projects
+            and at its own discretion decide, declare, nominate and announce the
+            best Project on evaluation criteria further described in these Terms
+            (Winning Project). For more information on the Prize, check section
+            4.{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.11. The Organizer at its sole discretion defines and states the
             rules of HackAIthon and of Your registration, participation and
@@ -293,8 +375,10 @@ export const Terms = () => {
             facilities, hardware, software and equipment.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.12. You hereby acknowledge and accept that in order for the
             Organizer to maintain the integrity of HackAIthon and to ensure Your
@@ -310,20 +394,27 @@ export const Terms = () => {
             at any time without any explanation, prior warning or notification.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.13. You hereby understand and agree that the rejection of Your
-            registration, participation and attendance in HackAIthon means
-            and/or automatically gives all rights to the Organizer to
-            immediately exclude You and/or forbid and/or stop and/or cancel Your
-            registration, participation and attendance in HackAIthon and deprive
-            and remove from You any and all rights You may have in HackAIthon, a
-            Project, a Prize.
+            Registration (preliminary or otherwise), participation and
+            attendance in HackAIthon means and/or automatically gives all rights
+            to the Organizer to immediately exclude You and/or forbid and/or
+            stop and/or cancel Your registration, participation and attendance
+            in HackAIthon and deprive and remove from You any and all rights You
+            may have in HackAIthon, a Project, a Prize.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.14. Rejection reasons may include amongst others: (a) the refusal
             to accept and abide by the present Terms as amended/updated from
@@ -336,15 +427,17 @@ export const Terms = () => {
             these Terms.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.15. Some reasons of rejection might at the sole discretion of the
             Organizer allow You to re-register in HackAIthon for one or multiple
             times, usually such reasons involving issues which You may improve
             in another registration. Such examples of rejection may be the
-            rejection of an Author’s registration as the idea does not seem to
-            correspond/be within the scope of the Organizer’s Topics (the idea
+            rejection of an Author’s registration as the Idea does not seem to
+            correspond/be within the scope of the Organizer’s Topics (the Idea
             may be amended in another registration) or the rejection of a
             Participant’s registration as the qualifications demonstrated are
             considered by the Organizer inadequate for a certain role/position
@@ -357,16 +450,20 @@ export const Terms = () => {
             these Terms.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.16. The Organizer has no responsibility whatsoever to give You a
             reason and/or justification of Your rejection, even if it may do so
             at any time at its own discretion.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.17. All data, links, information and documentation You provide at
             any time under these Terms and for your registration, participation
@@ -380,8 +477,10 @@ export const Terms = () => {
             necessary according to the Organizer alone.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.18. In the event that You provide data, links, information and
             documentation which is false and/or inaccurate and/or incomplete the
@@ -390,8 +489,10 @@ export const Terms = () => {
             stage of HackAIthon, even after a Prize has been awarded.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.19. The Organizer may at any time and through any communication
             means and channels request You to provide further, additional,
@@ -404,18 +505,18 @@ export const Terms = () => {
             attendance from HackAIthon.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.20. Upon Your successful registration and acceptance notification
             of your registration, You automatically give the Organizer the right
             to use Your email and any other necessary information and personal
             identifiable data of Yours as it considers fit and include/add You
             in groups or other type of chats through any communications channels
-            of its choice, Slack included, for the purposes of HackAIthon.
-          </span>
-          <span lang="EN">
-            You hereby understand and agree that You might be requested by the
+            of its choice, Slack included, for the purposes of HackAIthon. You
+            hereby understand and agree that You might be requested by the
             Organizer to participate in chatting, video calls and also provide
             through such communication channels data, links, information and
             documentation, and that Your denial and/or refusal and/or delay in
@@ -433,20 +534,27 @@ export const Terms = () => {
             communication channels in general.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.21. In order to participate in and attend HackAIthon You must
             physically attend HackAIthon and present Yourself at the Venue at
             any time specified/indicated and/or otherwise communicated to You by
             the Organizer, prove Your identity by showing a valid identification
             document (valid ID, Passport) and sign any and all documentation
-            deemed necessary according to the Organizer (hereinafter referred to
-            as “Supplementary Documents”).
+            deemed necessary according to the Organizer (Supplementary
+            Documents).
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.22. The Organizer may specify and You must follow guidelines on
             forbidding the display of trademarks and logos, clothing and gear
@@ -460,8 +568,10 @@ export const Terms = () => {
             Organizer at any time at its sole discretion.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.23. The Organizer reserves at all times the right not to allow the
             posting and/or withdraw from its Website and/or HackAIthon, content
@@ -469,8 +579,10 @@ export const Terms = () => {
             and judgment contradict the present Terms.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             1.24. The Organizer reserves the right at its own discretion to
             modify and/or cancel HackAIthon and/or any details in relation to
@@ -481,29 +593,34 @@ export const Terms = () => {
             present Terms.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">2. TEAMS RULES</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             2.1. In order for Your participation and attendance in HackAIthon to
             be accepted by the Organizer You must be part of a Team with minimum
-            two (2) Participants and maximum five (5) Participants. &nbsp; Each
-            group must be gathered, leaded, and represented by one person.{' '}
+            two (2) Participants and maximum five (5) Participants.&nbsp; Each
+            group must be gathered, leaded, and represented by one person.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             2.2. Teams are not allowed under these Terms to be branded and/or
             commercial and/or represent any business or company and must not
             carry any logo and/or trademark and/or brand name.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             2.3. Teams may be created and structured by the Participants
             themselves and/or by the Organizer itself in cases where individuals
@@ -512,17 +629,21 @@ export const Terms = () => {
             matched with other Participants, by the Organizer.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             2.4. Participants shall form Teams taking into
-            consideration/matching their ideas and qualifications. Teams
+            consideration/matching their Ideas and qualifications. Teams
             accepted by the Organizer to participate in and attend HackAIthon
             must work together on a Topic and create a common Project.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             2.5. As an individual Participant, part of a Team under these Terms,
             You hereby represent and warrant to communicate and act in
@@ -530,91 +651,80 @@ export const Terms = () => {
             overall registration, presence and attendance in HackAIthon:
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">a. Behave in an ethical manner;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             b. Respect all other Participants, Mentors and the Organizer;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">c. Treat others with dignity;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">d. Speak and behave courteously;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">e. Cooperate with others;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             f. Develop positive and respectful relationships and think about the
             effect on relationships before acting;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             g. Value the interests, ability and culture of others;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">h. Negotiate and resolve conflict with empathy;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">i. Care for self and others;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             j. Avoid and prevent if possible dangerous behavior and encourage
             others to avoid and prevent dangerous behavior;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             k. Not bully, harass, intimidate or discriminate against anyone;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">l. Follow fair competition rules and practices;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             m. Resolve conflict respectfully, calmly and fairly;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             n. Take personal responsibility for behavior and actions;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">o. Respect all property and premises</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             p. Comply with these Terms and follow the requirements and
             directions of the Organizer.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             2.6. You hereby agree and grant the Organizer the right, at any time
             and at its absolute discretion, to exclude and/or forbid and/or stop
@@ -628,81 +738,85 @@ export const Terms = () => {
             the Organizer.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">3. TOPICS AND PROJECTS</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             3.1. In order for Your registration, participation and attendance in
-            HackAIthon to be accepted by the Organizer Your idea and/or
+            HackAIthon to be accepted by the Organizer Your Idea and/or
             qualifications must correspond to a Topic. The Organizer will at its
-            own discretion decide whether Your idea and/or qualifications
+            own discretion decide whether Your Idea and/or qualifications
             correspond to the Theme of the HackAIthon and you hereby release the
-            Organizer from all liability in this regard. This fintech
+            Organizer from all liability in this regard.&nbsp; This fintech
             personalization HackAIthon challenges participants to innovate with
             AI-driven education, trading chatbots, personalized trading
-            platforms, and AR/VR environments. Additional ideas relevant to the
+            platforms, and AR/VR environments. Additional Ideas relevant to the
             topic AI for personalization in fintech can be proposed but need to
             be approved by the organizer.{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            3.2. You must participate and attend HackAIthon with one Topic only
+            3.2. You must participate and attend HackAIthon with{' '}
+            <b>
+              <u>one Topic only</u>
+            </b>{' '}
             and You have no right to change the said Topic during Your
-            participation and attendance in HackAIthon. All Projects must be
-            submitted by the Teams by the deadline on the second day of the
+            participation and attendance in HackAIthon.&nbsp; All Projects must
+            be submitted by the Teams by the deadline on the second day of the
             Event.{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            3.3. The Topics provided by the Organizer are as follows:
+            3.3. The Topics provided by the Organizer are defined as follows:
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">(a) AR/VR in finance</span>
         </p>
-
-        <p className="MsoNormal">
-          <span lang="EN">(b)Financial education</span>
+        <p>
+          <span lang="EN">(b) Financial Education</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">(c) Trading</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             And any other suggested topic relevant to the nature of the Event.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            3.4. Based on approved/accepted idea and qualifications You as part
+            3.4. Based on approved/accepted Idea and qualifications You as part
             of a Team shall develop a Project during HackAIthon. In order for a
             Project to be accepted for evaluation and/or to be a Winning Project
             must at all times meet all the below requirements:
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
-            (a)The implementation of the idea and the Project itself must only
+            (a)The implementation of the Idea and the Project itself must only
             be designed, created, developed, finalized and submitted to the
             Evaluation Committee and/or Organizer during HackAIthon within
             specific timeframes set by the Organizer and must be a prototype and
             constitute an original work;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (b) In case of IP rights of third persons on the Project, You must
             have obtained all necessary licenses and authorizations and ensure
@@ -711,32 +825,28 @@ export const Terms = () => {
             authorized third parties;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (c) The Project has not been the object of a previous competition
-            and/or contract with a third party; Pre-existing projects or
+            and/or contract with a third party;&nbsp; Pre-existing projects or
             significant development work prepared before the HackAIthon’s start
             date are not permitted;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (d) The Project must not be intended to and/or actually contradict,
             encourage, contain, refer to, display, include, allow access to,
             violate:
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             any trademark, logo or other signs protected by copyright or
             industrial property rights;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             the rights of a third person, including patents, trade secrets,
             rights assigned from licenses and contracts, the right to
@@ -744,181 +854,174 @@ export const Terms = () => {
             and any other rights that shall be protected according to the law;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             content that is illegal or contradicts does not create or reinforce
             racial discrimination or nationalism or feelings of rivalry or
             hostility among population groups;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             any pornographic, sexual explicit and discriminatory content
             (especially discrimination based on race, gender, sexual
             orientation, religion, political orientation of individual/ groups);
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             violence as idealized or insignificant state or incite violence
             toward a living creature, or might be defined as offensive, obscene
             and inappropriate;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             criminal acts or any threatening or other intimidating, harassing
             and abusive content;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             any applicable law or encourage unlawful behaviors;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (e) The Project must not compromise the moral education of children
             and youth, not create moral standards harmful to social welfare;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (f) The Project must not contradict the values of and not affect in
             any way the image, brand reputation and credibility of the Organizer
             and/or Licensed Parties and/or authorized third parties.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">4. WINNING PROJECT AND PRIZE</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             4.1. The Evaluation Committee shall at its own discretion evaluate
             all Projects and decide, declare, nominate and announce three
-            Winning Project s of HackAIthon based on its sole judgement,
+            Winning Projects of HackAIthon based on its sole judgement,
             criteria, methods, and means.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             4.2. The Evaluation Committee’s evaluation of the Projects will be
             based on criteria such as (not exhaustive list):
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
-            a. The originality, prototype and innovation of the idea, work,
+            a. The originality, prototype and innovation of the Idea, work,
             product and of the overall Project;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             b. With a minimum standard to provide a working prototype
           </span>
         </p>
-
-        <p className="MsoNormal">
-          <span lang="EN"> c. The business potential of the Project;</span>
+        <p>
+          <span lang="EN">c. The business potential of the Project;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
-            {' '}
             e. The respond of the Project to specific challenges and needs;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">f. The technology and solutions of the Project;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">g. The financial effect of the Project;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             h. The clarity, conceptual background and the overall presentation
             of the Project;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">i. The organization and work of the Team.</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             4.3. A Project that does not meet the above requirements at all
             times, at the Organizer’s sole discretion, will not be subject to
             evaluation and will not have the chance to be declared as a Winning
-            Project. You hereby acknowledge and agree that in any case Your
-            Project is a Winning Project and You are awarded with a Prize but it
-            is later proved and/or indicated and/or declared by the Organization
-            at its own discretion, with or without any proof demonstrated, that
-            the Project concerned did not meet and/or stopped meeting any of the
-            above requirements at any time, the Organizer has and retains all
-            rights possible to deprive and/or request a refund of the Prize
-            and/or gift from You and/or Your Team and You and/or Your Team must
-            return back to the Organizer all monetary amounts and/or gift You
-            and/or Your Team have received from HackAIthon and/or the Organizer
-            and/or the Evaluation Committee and/or the sponsors.
+            Project.&nbsp; You hereby acknowledge and agree that in any case
+            Your Project is a Winning Project and You are awarded with a Prize
+            but it is later proved and/or indicated and/or declared by the
+            Organization at its own discretion, with or without any proof
+            demonstrated, that the Project concerned did not meet and/or stopped
+            meeting any of the above requirements at any time, the Organizer has
+            and retains all rights possible to deprive and/or request a refund
+            of the Prize and/or gift from You and/or Your Team and You and/or
+            Your Team must return back to the Organizer all monetary amounts
+            and/or gift You and/or Your Team have received from HackAIthon
+            and/or the Organizer and/or the Evaluation Committee and/or the
+            sponsors.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            4.4. There will be three (3) winners at the completion of the Event.
-            The Participants of each Team of the Winning Project will equally
-            share amongst them the winning prizes as below (hereinafter referred
-            to as the “Prize”):{' '}
+            4.4. There will be three (3) winners at the completion of the
+            Event.&nbsp; The Participants of each Team of the Winning Project
+            will equally share amongst them the winning prizes as below
+            (hereinafter referred to as the “Prize”):{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (a) First winner Team: monetary amount of EUR30.000
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (b) Second winner Team: non-monetary prize of value EUR7.500
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (c) Third winner Team: non-monetary prize of value of EUR2.500
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             4.5. Each and all individuals who will receive a monetary amount as
             a Prize under these Terms and HackAIthon must and are the sole
             responsible persons to pay any and all taxes, expenses, fees,
-            charges required for receiving such monetary amount. You hereby
-            explicitly release the Organizer from any and all liability in
-            relation to taxes, expenses, fees, charges in relation to the
+            charges required for receiving such monetary amount.&nbsp; You
+            hereby explicitly release the Organizer from any and all liability
+            in relation to taxes, expenses, fees, charges in relation to the
             Prize/a Prize You may receive.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             4.6. You hereby acknowledge and accept that You have no opinion,
             judgement or right whatsoever to argue and/or question the decision
@@ -927,42 +1030,38 @@ export const Terms = () => {
             whatsoever as a result of such decision.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             4.7. You hereby acknowledge and accept that You have no opinion,
             judgement or right whatsoever to argue and/or question any possible
-            gallop and/or public’s opinion/vote/choice{' '}
-          </span>
-          <span lang="EN">and/or Winning Projects </span>
-          <span lang="EN">
+            gallop and/or public’s opinion/vote/choice and/or Winning Projects
             nor to claim to the Evaluation Committee and/or the Organizer for
-            any damage you may suffer, prize, reward whatsoever as a result.
-          </span>
-          <span lang="EN">
-            {' '}
-            You further disclaim and renounce any and all rights You may have
-            and release the Organizer and/or the Evaluation Committee from any
-            liability whatsoever in regards to the winning Teams, winning
-            Projects and Prizes and gift.
+            any damage you may suffer, prize, reward whatsoever as a
+            result.&nbsp; You further disclaim and renounce any and all rights
+            You may have and release the Organizer and/or the Evaluation
+            Committee from any liability whatsoever in regards to the winning
+            Teams, winning Projects and Prizes and gift.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             4.8. You hereby understand and accept that You may only receive a
-            prize if (a) You are a Participant or Author of a winning Team with
-            the Winning Project and (b) if You have not breached/were/are not in
+            prize if (a) You are a Participant of a winning Team with the
+            Winning Project and (b) if You have not breached/were/are not in
             breach of any of these Terms at any time, at the sole discretion of
             the Organizer.
           </span>
         </p>
-
-        <p className="MsoNormal">
-          <span lang="EN"> </span>
+        <p>
+          <span lang="EN">&nbsp;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             4.9. Any sponsor may, at its own discretion and at any time, decide
             to give non-monetary, promotional and/or any other type of gift(s)
@@ -973,41 +1072,34 @@ export const Terms = () => {
             gifts.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             4.10. The individuals of a winning Team do not have the right to
             request financial or other exchange instead of the specific
             prize/gift they will be awarded/receive.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             4.11. You hereby grant and accept that the Organizer has and
             retains, at all times, all rights possible to deprive and/or not
             provide and/or request a refund of any Prize and/or gift from You
-            and/or a winning Team and/or a Participant/an Author of a winning
-            Team, in any case You and/or a winning Team and/or a Participant/an
-            Author of a winning Team are/is /found to be/has been in breach of
-            these Terms at any time. In such a case, You hereby agree to return
-            the Prize/all monetary amount and/or gift You have received from the
-            Organizer.
+            and/or a winning Team, in any case You and/or a winning Team is/are
+            /found to be/has been in breach of these Terms at any time. In such
+            a case, You hereby agree to return the Prize/all monetary amount
+            and/or gift You have received from the Organizer.
           </span>
         </p>
-
-        <p className="MsoNormal">
-          <span lang="EN">
-            4.12. In case You are part of a Team with a Winning Project and/or
-            Public’s Winning Project, the Organizer reserves the right to
-            publicly announce/publish any information about You, including Your
-            name, email, etc. on the Organizer’s Website and social media
-            channels including but not limited to Slack , Instagram, LinkedIn,
-            YouTube, Facebook , etc.
-          </span>
+        <p>
+          <span lang="EN">&nbsp;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             4.13. In any case You are personally contacted by the Organization
             in relation to a Winning Project and Prize and gift but You fail to
@@ -1019,24 +1111,27 @@ export const Terms = () => {
             liability towards You.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             4.14. In the case that You do not receive any Prize and/or gift
             under HackAIthon and/or these Terms, You hereby agree and confirm
             that the possibility given to You by the Organizer through Your
             registration, participation and attendance in HackAIthon to
-            demonstrate and/or promote Your ideas and/or qualifications and/or
+            demonstrate and/or promote Your Idea and/or qualifications and/or
             skills in public and/or receive any type of offers as a result
             constitutes valid and adequate consideration under these Terms.
           </span>
         </p>
-
-        <p className="MsoNormal">
-          <span lang="EN">5. EQUIPMENT, SERVICES AND EXPENSES &nbsp;</span>
+        <p>
+          <span lang="EN">&nbsp;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">5. EQUIPMENT, SERVICES AND EXPENSES</span>
+        </p>
+        <p>
           <span lang="EN">
             5.1. During HackAIthon, the Organizer shall offer to You, for the
             purpose of the Event, part of the Venue as shared workspace, work
@@ -1044,8 +1139,10 @@ export const Terms = () => {
             Organizer.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             5.2. The Organizer will not provide and You must have/bring Your own
             equipment such as a laptop, computer screen, keyboard and any other
@@ -1054,8 +1151,10 @@ export const Terms = () => {
             any inventory for HackAIthon.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             5.3. Any and all expenses You may have had/realized for/because/due
             to Your registration, participation and attendance in HackAIthon and
@@ -1066,8 +1165,10 @@ export const Terms = () => {
             whatsoever to cover any such expenses.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             5.4. Hospitality, food and beverages and provision of any type of
             supporting services, if any, are offered on the condition that You,
@@ -1077,17 +1178,18 @@ export const Terms = () => {
             Venue and Venue’s owners and agree to undertake full responsibility
             for any possible damage, accident or harm caused to You and/or Your
             equipment and/or any other person and/or the property and
-            infrastructures because of You and/or Your equipment.&nbsp; You
-            further acknowledge that the Organizer does not accept any liability
-            for claims of any forms of food poisoning.
+            infrastructures because of You and/or Your equipment. You further
+            acknowledge that the Organizer does not accept any liability for
+            claims of any forms of food poisoning.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">6. ADVERTISING, PUBLICITY AND RECORDINGS</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             6.1. You hereby grant to the Organizer and its connected and/or
             affiliated companies, sponsors, contractors, strategic partners,
@@ -1097,21 +1199,21 @@ export const Terms = () => {
             record, hold, maintain, use, copy, reproduce, edit, modify,
             disseminate, destroy and/or to authorize third parties to do the
             same, at their own discretion, in relation to Your and/or Your
-            Teams’ s and/or Your Project’s idea, data, information,
+            Teams’ s and/or Your Project’s Idea, data, information,
             documentation, material, works, practices, technology, etc.,
             including but not limited to Your and/or Your Teams’ s and/or Your
             Project’s full name, initials, nicknames, pictures, images,
-            likeness, photographs, silhouette or form, animation, persona,
+            likeness, photos, silhouette or form, animation, persona,
             autograph/signature, biographical information, backstory, voice,
             chats performance, recordings, tags, interviews, feedbacks,
-            catchphrases, footage, tradenames, slogans, , logos and trademarks,
+            catchphrases, footage, tradenames, slogans, logos and trademarks,
             statistics, software, sources, etc., (collectively hereinafter
             referred to as “Your Data”), which was/is based and/or derived from
             any communication channels and/or Your registration, participation
             and attendance in HackAIthon and/or via any other way under/from
-            HackAIthon. The Organizer and/or Licensed Parties and/or authorized
-            third parties may do any and all herein described actions in
-            relation to Your Data in any way and for whatever purposes of its
+            HackAIthon.&nbsp; The Organizer and/or Licensed Parties and/or
+            authorized third parties may do any and all herein described actions
+            in relation to Your Data in any way and for whatever purposes of its
             sole discretion, including but not limited, for HackAIthon, the
             Event and competition itself, promotional and marketing purposes,
             business operations, HR purposes, in venues, production and/or media
@@ -1123,68 +1225,92 @@ export const Terms = () => {
             lawful purpose.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            6.2. You hereby agree and provide the Organizer the non-exclusive,
+            6.2 The Organizer reserves the right to publicly announce/publish
+            any information about You and your Team, including Your name, email,
+            photos, videos on the Organizer’s Website and social media channels
+            including but not limited to Slack, Instagram, LinkedIn, YouTube,
+            Facebook , etc. for marketing and promotional purposes.{' '}
+          </span>
+        </p>
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
+          <span lang="EN">
+            6.3. You hereby agree and provide the Organizer the non-exclusive,
             without exchange, irrevocable, worldwide, transferable license for
             use of what is posted on HackAIthon Website throughout and/or after
             the duration of HackAIthon, by the Organizer and/or Licensed Parties
             and/or authorized parties, complete and/or in segments, integrated
-            in another composition of audiovisual material, <a></a>for a
-            reasonable duration after the end of the Term, in any manner and for
-            as many times as the Organizers deem necessary for the purposes of
-            promotion, communication, projection and publicity of HackAIthon.
-            You hereby agree and grant the Organizer and/or Licensed Parties
-            and/or authorized parties the exclusive right to photograph, voice
-            and video record, publish, broadcast, show or perform, publicly show
-            or perform, display, stream, disseminate, telecast, transmit, air,
-            distribute, or otherwise exhibit or reproduce in any way and manner
-            whatsoever (including via the internet, audiovisual services via use
-            of mobile telephony networks, broadcasting, reproduction of printed
-            material, posting on the websites of the Organizers and on the
-            websites of their connected Companies or of other Content providers,
-            posting on social networks and platforms etc.), any and all part of
-            HackAIthon and/or Your and/or Your Team and/or Your Data and/or Your
-            Project, at any time at their own discretion (collectively
-            hereinafter referred to as “HackAIthon Content”).{' '}
+            in another composition of audiovisual material, for a reasonable
+            duration after the end of the Term, in any manner and for as many
+            times as the Organizers deem necessary for the purposes of
+            promotion, communication, projection and publicity of
+            HackAIthon.&nbsp; You hereby agree and grant the Organizer and/or
+            Licensed Parties and/or authorized parties the exclusive right to
+            photograph You and your Team, voice and video record, publish,
+            broadcast, show or perform, publicly show or perform, display,
+            stream, disseminate, telecast, transmit, air, distribute, or
+            otherwise exhibit or reproduce in any way and manner whatsoever
+            (including via the internet, audiovisual services via use of mobile
+            telephony networks, broadcasting, reproduction of printed material,
+            posting on the websites of the Organizers and on the websites of
+            their connected Companies or of other Content providers, posting on
+            social networks and platforms etc.), any and all part of HackAIthon
+            and/or Your and/or Your Team and/or Your Data and/or Your Project,
+            at any time at their own discretion (collectively hereinafter
+            referred to as “HackAIthon Content”).{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            6.3. You hereby understand and accept that the Organizer and/or
+            6.4. You hereby understand and accept that the Organizer and/or
             Licensed Parties and/or authorized parties have the unrestricted
             right to record, hold, maintain, copy, reproduce, edit, modify,
             disseminate, destroy, publish, and/or otherwise use (including
             anonymously) and/or to authorize third parties to do the same in
-            relation to Your Data and HackAIthon Content, which shall be fully
-            owned by the Organizer as set forth below. You explicitly accept
-            that the Organizer and/or Licensed Parties and/or authorized parties
+            relation to the HackAIthon Content, which shall be fully owned by
+            the Organizer as set forth below.&nbsp; You explicitly accept that
+            the Organizer and/or Licensed Parties and/or authorized parties
             shall not and will not be obliged to effect any extra payments
             and/or actions in order to smoothly utilize Your Data and HackAIthon
             Content.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            6.4. Should the Organizer and/or Licensed Parties and/or authorized
+            6.5. Should the Organizer and/or Licensed Parties and/or authorized
             third parties receive any demands/lawsuits/claims from any third
             parties in connection with their utilization of Your Data and/or
-            HackAIthon Content, You and/or Your Team shall on Your own and for
-            Your own account settle all such demands/lawsuits/claims in full,
-            and compensate the Organizer and/or its Licensed Parties and/or
+            HackAIthon Content, and any Idea and/or Project produced by You
+            and/or your Team
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in
+            the Event, You and/or Your Team shall on Your own and for Your own
+            account settle all such demands/lawsuits/claims in full, and
+            compensate the Organizer and/or its Licensed Parties and/or
             authorized third parties in full for any damages they sustained in
-            this connection. You hereby entitle the Organizer to demand in full
-            the compensation for any Licensed Parties’ and/or authorized third
-            parties’ damages from You on their behalf.{' '}
+            this connection.&nbsp; You hereby entitle the Organizer to demand in
+            full the compensation for any Licensed Parties’ and/or authorized
+            third parties’ damages from You on their behalf.{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            6.5. You hereby acknowledge and accept that You and/or Your Team are
+            6.6. You hereby acknowledge and accept that You and/or Your Team are
             not entitled and shall not, in any way directly or indirectly, on
             Your own or through any other third parties, photograph, record,
             publish, broadcast (including via the internet), show or perform,
@@ -1195,8 +1321,10 @@ export const Terms = () => {
             HackAIthon, related IPs and HackAIthon Content.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             6.6. In any case You receive and/or hold, through any way possible
             including via the Organizer itself, any Data/IP which is not Yours
@@ -1206,41 +1334,48 @@ export const Terms = () => {
             authorized third parties and Licensed Parties, You hereby agree to
             return and/or submit all such Data/IP to the Organizer and/or delete
             any copy you may have kept at the request of the Organizer,
-            immediately as soon as You have received it. You hereby agree to
-            respect and treat the Data/IP of any such and all persons in a legal
-            and confidential manner as if it is Yours. You hereby accept and
-            take all responsibility whatsoever for any and all claims and
-            damages occurred from Your failure to comply with Your
+            immediately as soon as You have received it.&nbsp; You hereby agree
+            to respect and treat the Data/IP of any such and all persons in a
+            legal and confidential manner as if it is Yours.&nbsp; You hereby
+            accept and take all responsibility whatsoever for any and all claims
+            and damages occurred from Your failure to comply with Your
             responsibilities under this clause.
           </span>
         </p>
-
-        <p className="MsoNormal">
-          <span lang="EN">
-            7. OWNERSHIP&nbsp; AND INTELLECTUAL PROPERTY RIGHTS
-          </span>
+        <p>
+          <span lang="EN">&nbsp;</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">7. OWNERSHIP AND INTELLECTUAL PROPERTY RIGHTS</span>
+        </p>
+        <p>
           <span lang="EN">
             7.1. You shall hold all ownership rights in Your Team’s Project
-            including codes, applications, designs, specifications, data models,
-            domain names, patents, database, derivative works and anything
-            related with the Project. You acknowledge that the Organizer shall
-            hold and maintain the unlimited right and without any permission
-            whatsoever or prior approval to search, find, collect, receive,
-            record, hold, maintain, use, copy, reproduce, edit, modify,
-            disseminate, destroy, with or without indicating Your and/or Your
-            Team’s denominations, names or pseudonyms, Project’s results and
-            content and/or to authorize the Licensed Parties and any third party
-            to do the same, at their own discretion, including but not limited,
-            for HackAIthon, the Event and competition itself, promotional and
-            marketing purposes, business operations, HR purposes, in venues,
-            production and/or media whatsoever, advertisements, merchandise,
-            marketing purposes, publicity materials, on websites and in social
-            media postings, in editorial content, and/or any projects, programs,
-            etc., whether now known or hereafter devised, anywhere in the world,
-            in perpetuity, royalty-free, for any lawful purpose any works,
+            including codes, applications, Ideas, materials, work, inventions,
+            designs, specifications, phototypes, data models, algorithms, domain
+            names, patents, database, trademarks, trade secrets, derivative
+            works and anything produced and/or created specifically for the
+            Event,.&nbsp;{' '}
+          </span>
+        </p>
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
+          <span lang="EN">
+            7.2. You acknowledge that the Organizer shall hold and maintain the
+            unlimited right and without any permission whatsoever to use, find,
+            collect, receive, record, hold, maintain, copy, reproduce, edit,
+            modify, disseminate, destroy, with or without indicating Your and/or
+            Your Team’s denominations, names or pseudonyms, and/or to authorize
+            the Licensed Parties to do the same, at their own discretion,
+            including but not limited, after the HackAIthon Event, for
+            promotional and marketing purposes of the Event and the Organizer,
+            for business operations and/or media whatsoever, advertisements,
+            merchandise, publicity materials, on websites and in social media
+            postings, in editorial content, and/or any projects, programs, etc.,
+            whether now known or hereafter devised, anywhere in the world, in
+            perpetuity, royalty-free, for any lawful purpose any works,
             activities, inventions, trademarks, software, technology, including,
             without limitation, all registered and unregistered trade names,
             service marks, trade dress, logos, and other identifying symbols,
@@ -1256,10 +1391,12 @@ export const Terms = () => {
             hereinafter referred to as the “Organizer’s Rights”).{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            7.2. You hereby acknowledge and accept that You and/or Your Team are
+            7.3. You hereby acknowledge and accept that You and/or Your Team are
             not entitled and shall not without the Organizer’s permission, in
             any way directly or indirectly, on Your own or through any other
             third parties, photograph, record, publish, broadcast (including via
@@ -1272,10 +1409,12 @@ export const Terms = () => {
             Data.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            7.3. You and/or Your Team have no right whatsoever to stop, prevent,
+            7.4. You and/or Your Team have no right whatsoever to stop, prevent,
             deprive, eliminate, terminate, rescind the granting of any
             rights/rights of the Organizer and/or to enjoin, restrain, seek to
             enjoin, restrain HackAIthon and/or the production, utilization of
@@ -1283,46 +1422,49 @@ export const Terms = () => {
             described under this clause.{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            7.4. Any expenses, costs, charges You may have suffered for the
+            7.5. Any expenses, costs, charges You may have suffered for the
             creation, development of the Organizer’s Rights and/or Your Data
             shall not forbid and/or limit the Organizer’s rights under this
             clause 8 and You hereby release the Organizer from any claims and
             refunds in relation to such expenses.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">8. REPRESENTATIONS AND WARRANTIES</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">8.1. You hereby represent and warrant that:</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             (a) You are 18 years of age or older and agree to provide the
             organizer with identification to confirm your age if required to do
-            so by the organizer. You have all rights, power and capacity to
-            enter into and abide by these Terms and any and all Supplementary
+            so by the organizer.&nbsp; You have all rights, power and capacity
+            to enter into and abide by these Terms and any and all Supplementary
             Documents which create binding contractual obligations for the
             purposes of HackAIthon and/or for Your therein registration,
             participation and attendance;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (b) You are Cypriot or Cyprus resident having permit per the laws of
             the Republic of Cyprus or you are currently in Cyprus and would like
             to attend;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (b) You and Your Team share the same responsibilities under these
             Terms and when a party of Your Team, Participant or Author, does not
@@ -1332,8 +1474,7 @@ export const Terms = () => {
             suffer consequences;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (c) All statements, data, links, information, documentation,
             material that You make, provide, submit at any time under these
@@ -1344,8 +1485,7 @@ export const Terms = () => {
             party rights;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (d) You give the Organizer an irrevocable non-exclusive right to
             collect, store and use at its own discretion Your personal
@@ -1356,8 +1496,7 @@ export const Terms = () => {
             information in case You are part of a winning Team/Winning Project;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (e) You will promptly respond to all communications and in no event
             later than within 48 hours since communicated by the Organizer,
@@ -1365,16 +1504,14 @@ export const Terms = () => {
             were contacted and/or as otherwise accepted by the Organizer;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (f) You will immediately and/or as soon as possible notify us of any
             changes to Your contact details or of any other information, data,
             documentation, etc. submitted by You for HackAIthon;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (f) You will forfeit any right You may have to a Prize and/or gift
             if You cannot be reached at the contact details You have provided
@@ -1382,18 +1519,19 @@ export const Terms = () => {
             calendar days since the first communication sent to You;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             (g) You and Your Team own and/or otherwise have and retain all
             rights, permits, power, authority, and capacity to provide and grant
             any and all rights and Project, software, development, technology,
-            products, solutions, ideas, works, data, information, materials and
+            products, solutions, Ideas, works, data, information, materials and
             in the volume granted by You and/or Your Team under these Terms;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (h) Your and/or Your Team’s exercise of any rights under these Terms
             will not violate, infringe or conflict with any rights of the
@@ -1406,8 +1544,7 @@ export const Terms = () => {
             these Terms
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (i) You will not remove any copyright, trademark or other
             proprietary rights notices contained in or on the HackAIthon and/or
@@ -1415,16 +1552,14 @@ export const Terms = () => {
             websites, etc.;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (j) You will not engage in any activity that violates or breaches
             the Organizer’s and/or Licensed Parties’ and/or any third party’s
             legal rights;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (k) You and Your Team will comply, in all respects, with all laws
             applicable regarding and/or arising out of Your obligations under
@@ -1432,16 +1567,14 @@ export const Terms = () => {
             state and local laws, rules and regulations;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (l) You were and are not involved in any illegal activities and/or
             in any advertising or marketing practices that are deceptive,
             misleading or fraudulent;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (m) You will act in a legal, ethical manner and maintain the highest
             degree of professionalism and standards of integrity, honesty and
@@ -1452,8 +1585,7 @@ export const Terms = () => {
             equipment and HackAIthon in general;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (n) You will not act in an unlawful, harmful, threatening,
             defamatory, offensive, harassing manner or in other similar way that
@@ -1463,8 +1595,7 @@ export const Terms = () => {
             partners and third party service providers and/or HackAIthon;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (o) You will not act in an unlawful, harmful, threatening,
             defamatory, offensive, harassing, neglectful or intentional manner
@@ -1473,8 +1604,7 @@ export const Terms = () => {
             regardless the severity;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (p) You will comply with all security and safety rules as indicated
             by the Organizer and/or Licensed Parties and their authorized third
@@ -1482,8 +1612,7 @@ export const Terms = () => {
             owners and personnel;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (q) You will comply with any and all health and safety and/or other
             requirements, instructions imposed and/or indicated by any
@@ -1492,8 +1621,7 @@ export const Terms = () => {
             representatives, and/or Venue and Venue’s owners and personnel;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (r) You will not override any security feature of the Website or
             jeopardize the security of Your or anyone else’s registration,
@@ -1501,8 +1629,7 @@ export const Terms = () => {
             register/participate/attend as yourself);
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (s) You will not interfere with and/or manipulate the process of
             HackAIthon in any way, especially technical processes, or attempt to
@@ -1510,8 +1637,10 @@ export const Terms = () => {
             Evaluation Committee and/or the Winning Project;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             aa. You will not engage in any action liable to impair in any way
             the smooth operation of HackAIthon, the internet, the registration,
@@ -1519,16 +1648,14 @@ export const Terms = () => {
             the Organizer’s systems;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             bb. You and Your Team will not upload or transmit through HackAIthon
             any computer viruses, macro viruses, Trojan horses, worms or
             anything other harmful activity;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             cc. You and Your Team will not use manual or automated software,
             devices or other means or processes to access, scrape or crawl the
@@ -1537,8 +1664,7 @@ export const Terms = () => {
             ‘mirroring’, or otherwise simulate their appearance or function;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             dd. You will not modify, create derivative works or copy or store
             any significant portion of the Organizer’s Website and/or HackAIthon
@@ -1546,23 +1672,20 @@ export const Terms = () => {
             authorized by the Organizer);
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             ee. You will not use filming equipment, screen capture or recording
             software, or any other devices to record HackAIthon and/or any
             aspect, procedure, information therein;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             ff. You will not attempt to grant any unauthorized access to any
             part or component of any website, software, HackAIthon;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             gg. You will not alter or modify any part of the Organizer’s Website
             other than as may be reasonably necessary for its intended use and
@@ -1570,8 +1693,7 @@ export const Terms = () => {
             medium without the Organizer’s prior written consent;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             hh. You will not engage in any activity that may harm in any way
             HackAIthon, the Organizer, Licensed Parties and their authorized
@@ -1580,8 +1702,7 @@ export const Terms = () => {
             attendees and overall premises and equipment;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             ii. You will not make any defamatory remarks and/or any untrue
             statements or claims about or on behalf of the Organizer, Licensed
@@ -1589,22 +1710,19 @@ export const Terms = () => {
             representatives;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             jj. You will not use HackAIthon’s and/or the Organizer’s Website,
             content for or in connection with commercial purposes;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             kk. You must follow at all times the instructions, guidelines, rules
             of the Organizer;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             ll. You will not act in any way to actually and/or with the
             intention to stop, prevent, deprive, eliminate, terminate in any way
@@ -1613,8 +1731,7 @@ export const Terms = () => {
             10 of these Terms;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             mm. You will not object, contradict, argue, question, accuse, bring
             a claim against and/or otherwise demand form the Organizer and/or
@@ -1624,27 +1741,25 @@ export const Terms = () => {
             indirectly given by You and/or Your Team;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             nn. You are solely and fully responsible for any and all taxes,
             dues, fees, expenses, charges in relation to the Prize and/or gift
             under these Terms;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <a name="_heading=h.gjdgxs"></a>
           <span lang="EN">
             oo. Any and all Prizes and gifts under these Terms are provided as
             is and You hereby release the Organizer and sponsors from any
             responsibility in relation to their functionality, dysfunctionality,
             malfunction, etc. and you hereby indemnify the Organizer and
             sponsors against any and all legal actions in connection to the said
-            Prizes and gifts; &nbsp;
+            Prizes and gifts;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             pp. You are strictly restricted to attempt to host or organize any
             event, contest, HackAIthon in conjunction with, contiguous to or
@@ -1655,8 +1770,7 @@ export const Terms = () => {
             discretion deems appropriate in the circumstances;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             qq. You must in Your best endeavor: i) ensure that any and all third
             parties act consistently with and do everything necessary in order
@@ -1667,8 +1781,7 @@ export const Terms = () => {
             such infringements and protect their rights;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             rr. You hereby accept that any inaction at a time where You shall
             act in order to fulfill the representation and warranties under this
@@ -1676,8 +1789,7 @@ export const Terms = () => {
             warranties;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             ss. In any case you are in breach of any representation and
             warranty, as also, of any other term of these Terms, regardless the
@@ -1692,8 +1804,7 @@ export const Terms = () => {
             warning or notification;
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             tt. The Organizer maintains at all times the right to take all
             action as described herein if affected third parties raise or
@@ -1711,24 +1822,24 @@ export const Terms = () => {
             allegations and claims and protect them.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             uu. You hereby declare that You and Your successors will entirely
             indemnify the Organizer against any and all third-parties claims
             against it in connection with the guarantees provided above.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">9. PERSONAL DATA</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             You hereby represent and warrant that the Organizer has all rights
             possible to obtained from You, for HackAIthon and/or Your
-            registration, participation and attendance therein and/or execution
+            registration, participation and attendance therein and/or acceptance
             of the present Terms, Your personal data, which may include amongst
             others and without limitation full name, age, registration address,
             citizenship, gender, place of residence, telephone number, postal
@@ -1737,15 +1848,23 @@ export const Terms = () => {
             data making Your identification possible (collectively hereinafter
             referred to as “Personal Data”), as also all rights, permissions and
             authorizations to process Your data in accordance with the Privacy
-            Policy available at <Link href="/privacy-policy">privacy policy</Link>.
+            Policy available at{' '}
           </span>
+          <span lang="EN">
+            <a href="https://www.quadcodehackathon.com/privacy-policy">
+              <span>https://www.quadcodehackathon.com/privacy-policy</span>
+            </a>
+          </span>
+          <span lang="EN">.</span>
+          <span lang="EN"> </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">10. INDEMNIFICATION</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             10.1. You hereby indemnify, defend and hold harmless the Organizer
             and the Licensed Parties from and against any and all claims
@@ -1768,12 +1887,13 @@ export const Terms = () => {
             Organizer.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">11. LIMITATION OF LIABILITY AND WARRANTY</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             11.1. EXCEPT FOR THE EXPRESS WARRANTIES SET FORTH IN THESE TERMS AND
             TO THE EXTEND PERMITTED BY LAW THE ORGANIZER EXPRESSLY DISCLAIMS ALL
@@ -1786,8 +1906,10 @@ export const Terms = () => {
             WINNING, RESULTS OR SECURITY OF ANY KIND.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             11.2. YOU ASSUME ALL RESPONSIBILITY AND RISK FOR THE/USE OF THE
             EQUIPMENT, SERVICES, PRIZES, GIFTS AND FOR YOUR REGISTRATION,
@@ -1815,8 +1937,10 @@ export const Terms = () => {
             PRIZE ACTUALLY DUE TO THE WINNING TEAMS OF HACKATON.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             11.3. Your hereby accept that temporary restrictions or
             interruptions cannot be ruled out as a result of technical
@@ -1828,27 +1952,29 @@ export const Terms = () => {
             any time and for any reason, without explanation or prior notice.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            11.4. You acknowledge and agree that views, ideas, opinions,
+            11.4. You acknowledge and agree that views, Ideas, opinions,
             thoughts, arguments expressed by any person including Licensed
             Parties, authorized third parties, authorized representatives,
             speakers, attendees, participants, visitors, sponsor, affiliates and
             third party service providers including the Evaluation Committee and
             the Organizer’s personnel, at or in connection with HackAIthon are
-            mere views, ideas, opinions, thoughts, arguments owned by those
+            mere views, Ideas, opinions, thoughts, arguments owned by those
             individuals and the Organizer has not and does not accept any
             responsibility or liability for any advice given or such views,
-            ideas, opinions, thoughts, arguments expressed during or in
+            Ideas, opinions, thoughts, arguments expressed during or in
             connection with HackAIthon. The Organizer and HackAIthon do not
-            offer any type of advice and such views, ideas, opinions, thoughts,
+            offer any type of advice and such views, Ideas, opinions, thoughts,
             arguments expressed during or in connection with HackAIthon do not
             constitute legal, financial, professional, medical or tax advice and
             cannot be used for such purposes nor for Your registration,
-            participation and attendance in HackAIthon. You acknowledge and
-            accept that all information and content accessed by You for and/or
-            during HackAIthon and Your registration, participation and
+            participation and attendance in HackAIthon.&nbsp; You acknowledge
+            and accept that all information and content accessed by You for
+            and/or during HackAIthon and Your registration, participation and
             attendance therein is at Your own risk. The Organizer, Licensed
             Parties, authorized third parties, authorized representatives, do
             not provide any guarantees, conditions or warranties that the
@@ -1857,15 +1983,17 @@ export const Terms = () => {
             person on any aspect and/or information provided at/during
             HackAIthon. The Organizer expressly disclaims any liability or
             responsibility for usage of, implementation of, impact from, or
-            communications of the views, ideas, opinions, thoughts, arguments or
+            communications of the views, Ideas, opinions, thoughts, arguments or
             discussions presented, expressed by any Licensed Parties, authorized
             third parties, authorized representatives, speakers, attendees,
             participants, visitors, sponsor, partners, affiliates and third
             party service providers.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             11.5. You hereby understand and accept that the Organizer does not
             have any responsibility for the dissemination of Your Data and
@@ -1876,8 +2004,10 @@ export const Terms = () => {
             the users proceed at their own risk.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             11.6. HackAIthon and/or Your registration, participation, attendance
             in HackAIthon may contain links to third parties and to
@@ -1889,13 +2019,14 @@ export const Terms = () => {
             conditions when entering those sites or viewing their content.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">12. CONFIDENTIALITY</span>
         </p>
-
-        <p className="MsoNormal">
-          <span lang="EN" style={{lineBreak: 'anywhere'}}>
+        <p>
+          <span lang="EN">
             12.1. You hereby agree that the present Terms are confidential. In
             addition, You acknowledge that in connection with these Terms and
             HackAIthon, You may have access to the Organizer’s and/or its
@@ -1922,8 +2053,10 @@ export const Terms = () => {
             information.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             12.2. You must not disclose to any third parties any confidential
             information, and You hereby agree to take any measures to prevent
@@ -1933,8 +2066,10 @@ export const Terms = () => {
             Organizer’s instructions.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             12.3. At the Organizer’s request, You must immediately return to the
             Organizer all documents (including but not limited to printed,
@@ -1945,23 +2080,29 @@ export const Terms = () => {
             registration, participation and attendance in HackAIthon.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             12.4. Your obligations under this confidentiality clause shall
             survive termination of these Terms.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             13.5. You hereby understand and agree to be liable to the Organizer
             for the failure to adhere to the terms of this clause by
             indemnifying the latter for the damages incurred.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             12.6. You hereby agree to use the confidential information only in
             connection with these Terms and HackAIthon and You must not disclose
@@ -1972,12 +2113,13 @@ export const Terms = () => {
             disclosure.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">13. INDEPENDENT CONTRACTOR</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             13.1. Nothing in these Terms will be construed to place the Parties
             in the relationship of partners, joint ventures, principal and
@@ -1988,8 +2130,10 @@ export const Terms = () => {
             other relationship other than that of an independent contractor.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             13.2. You acknowledge and agree that You shall be an independent
             contractor of the Organizer. For this purpose and in order to
@@ -2008,12 +2152,13 @@ export const Terms = () => {
             any time represent that You have such authority.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">14. FORCE MAJEURE EVENTS</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             14.1. You hereby agree and release the Organizer from any and all
             liability for the partial and/or full non-fulfillment of its
@@ -2027,8 +2172,10 @@ export const Terms = () => {
             published and/or otherwise provided.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             14.2. Force majeure events include amongst others: (a) power or
             server outages or issues; (b) update or maintenance periods; (c)
@@ -2046,8 +2193,10 @@ export const Terms = () => {
             communications failure.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             14.3. The Organizer reserves the right to do any such substitutions,
             alterations, postponements and/or cancellations at any time without
@@ -2058,12 +2207,13 @@ export const Terms = () => {
             its own discretion.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">15. MISCELLANEOUS</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             15.1. Any and all Supplementary Documents to be and/or actually
             singed/accepted/consented by You for your registration,
@@ -2073,8 +2223,10 @@ export const Terms = () => {
             Supplementary Documents, these Terms shall prevail.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             15.2. These Terms, including any and all Supplementary Documents
             constituting an integral part of it, form the entire agreement
@@ -2091,8 +2243,10 @@ export const Terms = () => {
             related service not expressly set out in these Terms.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             15.3. The Organizer reserves the right, at our sole discretion, to
             modify and/or replace any and all these Terms at any time, with or
@@ -2105,22 +2259,27 @@ export const Terms = () => {
             thereupon agree to be bound by them.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            15.4. These Terms and all disputes or claims arising out, in
-            connection with or with respect to HackAIthon or its subject matter
-            or formation (including non-contractual disputes or claims) shall be
-            governed by and interpreted in accordance with the laws of the
-            Cyprus, without giving effect to any choice of law or conflicting
-            provisions or rules. Each Party irrevocably agrees that the courts
-            of Cyprus shall have exclusive jurisdiction to settle any dispute or
-            claim arising out of or in connection with these Terms or their
-            subject matter or formation.
+            15.4. Applicable law and Jurisdiction:&nbsp; These Terms and all
+            disputes or claims arising out, in connection with or with respect
+            to HackAIthon or its subject matter or formation (including
+            non-contractual disputes or claims) shall be governed by and
+            interpreted in accordance with the laws of the Cyprus, without
+            giving effect to any choice of law or conflicting provisions or
+            rules. Each Party irrevocably agrees that the courts of Cyprus shall
+            have exclusive jurisdiction to settle any dispute or claim arising
+            out of or in connection with these Terms or their subject matter or
+            formation.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             15.5. These Terms, and all rights and obligations required
             hereunder, may not be assigned, transferred, mortgaged, charged,
@@ -2131,8 +2290,10 @@ export const Terms = () => {
             parties or any other third parties as indicated by the Organizer.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             15.6. If any part of these Terms is determined to be void, invalid
             or unenforceable, then such part shall be deemed to be separate and
@@ -2141,8 +2302,10 @@ export const Terms = () => {
             and invalid portions or provisions were never a part of these Terms.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
             15.7. A failure by the Organizer to enforce any provision of these
             Terms shall not be in any way construed as a waiver of any such
@@ -2150,57 +2313,59 @@ export const Terms = () => {
             and every provision of these Terms.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">16. TERM</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             These Terms shall cover the relations arising between the parties
             upon Your registration for HackAIthon and shall continue in force
             until the end of HackAIthon event.
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">17. COMMUNICATION</span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             Any notice or other communication made under these Terms shall be in
             writing and shall be deemed to have been duly delivered if it is
             delivered by e-mail,
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">(a) for the Organizer: </span>
           <span lang="EN">
-            (a) for the Organizer:{' '}
-            <a href="mailto:hackathon@quadcode.com">hackathon@quadcode.com</a>{' '}
+            <a href="mailto:hackathon@quadcode.com">
+              <span>hackathon@quadcode.com</span>
+            </a>
           </span>
+          <span lang="EN"> </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
           <span lang="EN">
             (b) for the Participant: at the email connected to its registration.{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
+        <p>
+          <span lang="EN">&nbsp;</span>
+        </p>
+        <p>
           <span lang="EN">
-            &nbsp;
+            Last update: <span>17 April 2024</span>{' '}
           </span>
         </p>
-
-        <p className="MsoNormal">
-          <span lang="EN">
-            Last update: 11.04.2024
-          </span>
+        <p>
+          <span lang="EN">&nbsp;</span>
         </p>
       </Wrapper>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
