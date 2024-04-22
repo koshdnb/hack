@@ -34,13 +34,23 @@ export default class MyDocument extends Document {
             name="description"
             content="Cyprus' biggest hackathon, HackAIthon 2024, invites innovators to tackle challenges in trading, AR/VR, education, and more, using AI for financial personalization. Join us in Limassol for the ultimate fintech innovation event."
           />
-          <title>HackAIthon: AI in Fintech - The Power of Personalisation</title>
+          <title>
+            HackAIthon: AI in Fintech - The Power of Personalisation
+          </title>
           <meta
             name="keywords"
             content="HackAIthon 2024, AI in Fintech, Financial Personalization, Cyprus Hackathon, Fintech Challenges, Trading Innovation, AR/VR Finance, AI Education in Finance, Fintech Development, Limassol Event"
           />
         </Head>
         <body>
+          <noscript>
+            <iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-KDC5JKFT"
+              height="0"
+              width="0"
+              style={{ display: 'none', visibility: 'hidden' }}
+            ></iframe>
+          </noscript>
           <Main />
           <NextScript />
         </body>

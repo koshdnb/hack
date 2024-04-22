@@ -66,8 +66,8 @@ export const Privacy = () => {
           <p>
             This Privacy Policy is intended to help you understand why and how
             we may use your information and may be supplemented from time to
-            time by additional policies or guidance ("
-            <strong>Additional Policies</strong>"). Wherever such Additional
+            time by additional policies or guidance (&quot;
+            <strong>Additional Policies</strong>&quot;). Wherever such Additional
             Policies are in any respect inconsistent with this Privacy Policy,
             this Privacy Policy shall only apply to the extent that it is
             consistent, or may be made consistent, with that Additional Policy.

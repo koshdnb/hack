@@ -20,6 +20,12 @@ export const Program = () => {
     background: '#1d1d1d',
   });
 
+  const handleCtaClick = () => {
+    window.dataLayer?.push({
+      event: 'lead',
+    });
+  };
+
   return (
     <Wrapper id="Schedule">
       <Layout>
@@ -47,7 +53,7 @@ export const Program = () => {
             </TabPanel>
           </Tabs>
 
-          <CtaButton {...getTriggerProps()}>Register now</CtaButton>
+          <CtaButton {...getTriggerProps()} onClick={handleCtaClick}>Register now</CtaButton>
           <Modal {...modalProps}>
             <RegistrationForm />
           </Modal>

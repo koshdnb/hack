@@ -55,9 +55,9 @@ let sponsors = [
         >
           <NextImage
             alt="mix fm"
-            src="/images/mix-fm-logo.png"
+            src="/images/mix-fm-logo-new.png"
             width={120}
-            height={62}
+            height={92}
           />
         </div>
       </a>,

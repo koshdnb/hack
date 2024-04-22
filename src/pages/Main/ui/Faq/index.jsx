@@ -61,6 +61,13 @@ export const Faq = () => {
   const { modalProps, getTriggerProps } = useModal({
     background: '#1d1d1d',
   });
+
+  const handleCtaClick = () => {
+    window.dataLayer?.push({
+      event: 'lead',
+    });
+  };
+
   return (
     <Wrapper>
       <Layout>
@@ -80,7 +87,7 @@ export const Faq = () => {
           <IdeaText>
             Have an <strong>AI</strong>dea already?
           </IdeaText>
-          <CtaButton {...getTriggerProps()}>Register now</CtaButton>
+          <CtaButton {...getTriggerProps()} onClick={handleCtaClick}>Register now</CtaButton>
           <Modal {...modalProps}>
             <RegistrationForm />
           </Modal>

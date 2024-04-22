@@ -21,6 +21,12 @@ export default function Hero() {
     background: '#1d1d1d',
   });
 
+  const handleCtaClick = () => {
+    window.dataLayer?.push({
+      event: 'lead',
+    });
+  };
+
   return (
     <Wrapper>
       <Layout>
@@ -44,7 +50,9 @@ export default function Hero() {
               June&nbsp;15th&nbsp;&&nbsp;16th,&nbsp;2024
             </Date>
           </TextWrap>
-          <Button {...getTriggerProps()}>Register now</Button>
+          <Button onClick={handleCtaClick} {...getTriggerProps()}>
+            Register now
+          </Button>
           <Modal {...modalProps}>
             <RegistrationForm />
           </Modal>

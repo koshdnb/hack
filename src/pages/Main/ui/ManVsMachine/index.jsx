@@ -18,6 +18,12 @@ export default function ManVsMachine() {
     background: '#1d1d1d',
   });
 
+  const handleCtaClick = () => {
+    window.dataLayer?.push({
+      event: 'lead',
+    });
+  };
+
   return (
     <TopWrap>
       <Wrapper>
@@ -42,7 +48,7 @@ export default function ManVsMachine() {
                 create impactful, user-friendly solutions that leverage
                 personalization to redefine the future of finance.
               </Text>
-              <Button {...getTriggerProps()}>Register now</Button>
+              <Button {...getTriggerProps()} onClick={handleCtaClick}>Register now</Button>
               <Modal {...modalProps}>
                 <RegistrationForm />
               </Modal>
