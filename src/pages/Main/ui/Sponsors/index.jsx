@@ -55,7 +55,20 @@ let sponsors = [
         >
           <NextImage
             alt="mix fm"
-            src="/images/mix-fm-logo-new.png"
+            src="/images/mix-fm.png"
+            width={120}
+            height={92}
+          />
+        </div>
+      </a>,
+      <a key="5" href="https://vkcyprus.com/" target="_blank">
+        <div
+          key="vestnik"
+          style={{ width: '190px', display: 'flex', justifyContent: 'center' }}
+        >
+          <NextImage
+            alt="vestnik kipra"
+            src="/images/vestnik.png"
             width={120}
             height={92}
           />
@@ -70,17 +83,31 @@ export const Sponsors = () => {
     <Wrapper id="Sponsors">
       <Layout>
         <SponsorsWrap>
+          <CommunityWrapper style={{ marginBottom: '30px' }}>
+            <GradientTitle>Quantum sponsor</GradientTitle>
+            <LogosWrap>
+              <a href="https://www.ecommbanx.com/" target="_blank">
+                <NextImage
+                  src="/images/ECOMMBX_Logo.png"
+                  width={250}
+                  height={113}
+                />
+              </a>
+            </LogosWrap>
+          </CommunityWrapper>
           <CommunityWrapper>
             <GradientTitle>Community partners</GradientTitle>
             <LogosWrap>
-              <CapacitIcon key={2} viewBox="0 0 116 32" />
-              <div>
+              <a href="https://www.capacitorpartners.com/" target="_blank">
+                <CapacitIcon key={2} viewBox="0 0 116 32" />
+              </a>
+              <a href="https://thetechisland.org/" target="_blank">
                 <NextImage
                   src="/images/techisland.png"
                   width={220}
                   height={32}
                 />
-              </div>
+              </a>
             </LogosWrap>
           </CommunityWrapper>
           <GradientTitle>Media Sponsors</GradientTitle>

@@ -50,9 +50,9 @@ export default function Hero() {
               June&nbsp;15th&nbsp;&&nbsp;16th,&nbsp;2024
             </Date>
           </TextWrap>
-          <Button onClick={handleCtaClick} {...getTriggerProps()}>
-            Register now
-          </Button>
+          <span onClick={handleCtaClick}>
+            <Button {...getTriggerProps()}>Register now</Button>
+          </span>
           <Modal {...modalProps}>
             <RegistrationForm />
           </Modal>

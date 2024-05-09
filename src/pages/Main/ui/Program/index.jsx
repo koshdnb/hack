@@ -32,8 +32,11 @@ export const Program = () => {
         <ProgramWrap>
           <GradientTitle>The hackaithon program</GradientTitle>
           <Description>
-            The HackAIthon is split over two days, check below to see the full agenda.<br/>
-            There will be complimentary food and drinks served throughout both days.
+            The HackAIthon is split over two days, check below to see the full
+            agenda.
+            <br />
+            There will be complimentary food and drinks served throughout both
+            days.
           </Description>
 
           <Tabs>
@@ -52,8 +55,9 @@ export const Program = () => {
               ))}
             </TabPanel>
           </Tabs>
-
-          <CtaButton {...getTriggerProps()} onClick={handleCtaClick}>Register now</CtaButton>
+          <span onClick={handleCtaClick}>
+            <CtaButton {...getTriggerProps()}>Register now</CtaButton>
+          </span>
           <Modal {...modalProps}>
             <RegistrationForm />
           </Modal>

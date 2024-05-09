@@ -27,25 +27,20 @@ let teamMembers = [
     description: 'Managing Director at Capacitor Partners',
   },
   {
-    imgSrc: '/images/jury/unknown.png',
-    name: 'To Be Revealed Soon',
-    description: '',
+    imgSrc: '/images/jury/4.png',
+    name: 'Maria Terzi',
+    description: 'Co-Founder & CEO of Malloc',
   },
   {
-    imgSrc: '/images/jury/unknown.png',
-    name: 'To Be Revealed Soon',
-    description: '',
+    imgSrc: '/images/jury/5.png',
+    name: 'Stylianos Lambrou',
+    description: 'Founder & CEO at&nbsp;Heart&nbsp;Group',
   },
-  // {
-  //   imgSrc: '/images/jury/1.png',
-  //   name: 'Michael Tyrimos',
-  //   description: 'Managing Director Capacitor Partner',
-  // },
-  // {
-  //   imgSrc: '/images/jury/3.png',
-  //   name: 'Sergei Dobrovolskii',
-  //   description: 'CEO, Founder Quadcode',
-  // },
+  {
+    imgSrc: '/images/jury/6.png',
+    name: 'Nicolas Mesaritis',
+    description: 'CTO at ECOMMBX',
+  },
 ];
 
 export const Members = () => {
@@ -59,7 +54,7 @@ export const Members = () => {
               <CardWrapper key={item.name}>
                 <Image src={item.imgSrc} />
                 <Name>{item.name}</Name>
-                <Description>{item.description}</Description>
+                <Description dangerouslySetInnerHTML={{__html:item.description}}></Description>
               </CardWrapper>
             ))}
           </Cards>

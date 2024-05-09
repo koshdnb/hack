@@ -9,51 +9,63 @@ import RegistrationForm from '/src/shared/ui/RegistrationForm';
 let accordionItems = [
   {
     title: 'What is HackAIThon - AI in Fintech: The Power of Personalization?',
-    description: 'HackAIThon - AI in Fintech: The Power of Personalization is a groundbreaking event set in Limassol on June 15-16, focused on harnessing AI to create personalized fintech solutions. Participants will tackle categories such as financial education, trading chatbots, customized trading experiences, voice-activated assistants, social networks, and AR/VR environments, aiming to transform user experiences in finance.',
+    description:
+      'HackAIThon - AI in Fintech: The Power of Personalization is a groundbreaking event set in Limassol on June 15-16, focused on harnessing AI to create personalized fintech solutions. Participants will tackle categories such as financial education, trading chatbots, customized trading experiences, voice-activated assistants, social networks, and AR/VR environments, aiming to transform user experiences in finance.',
   },
   {
     title: 'Who can participate in HackAIThon?',
-    description: 'Anyone from developers, financial experts, and designers to data scientists, cybersecurity professionals, and more from around the globe. The event encourages a diverse mix of talents to innovate and shape the future of fintech personalization.',
+    description:
+      'Anyone from developers, financial experts, and designers to data scientists, cybersecurity professionals, and more from around the globe. The event encourages a diverse mix of talents to innovate and shape the future of fintech personalization.',
   },
   {
-    title: 'What are the prizes for this year\'s HackAIThon?',
-    description: 'This year\'s HackAIThon - AI in Fintech: The Power of Personalization is set to award substantial prizes to recognize and reward outstanding innovation. The first-place team will receive a monetary prize of €30,000, highlighting the event\'s commitment to fostering breakthroughs in fintech. The second and third place winners will be awarded €7,500 and €2,500, respectively, in non-monetary prizes, supporting further development and exposure for their innovative solutions.',
+    title: "What are the prizes for this year's HackAIThon?",
+    description:
+      "This year's HackAIThon - AI in Fintech: The Power of Personalization is set to award substantial prizes to recognize and reward outstanding innovation. The first-place team will receive a monetary prize of €30,000, highlighting the event's commitment to fostering breakthroughs in fintech. The second and third place winners will be awarded €7,500 and €2,500, respectively, in non-monetary prizes, supporting further development and exposure for their innovative solutions.",
   },
   {
-    title: 'What\'s the registration deadline for HackAIThon?',
-    description: 'Make sure to register by May 30th. Whether you\'re flying solo or already have a team, everyone\'s welcome to bring their unique skills to the table.',
+    title: "What's the registration deadline for HackAIThon?",
+    description:
+      "Make sure to register by May 30th. Whether you're flying solo or already have a team, everyone's welcome to bring their unique skills to the table.",
   },
   {
-    title: 'Can I join if I\'m signing up alone?',
-    description: 'Absolutely! Solo participants will be matched with others to form dynamic teams, fostering collaboration and innovation.',
+    title: "Can I join if I'm signing up alone?",
+    description:
+      'Absolutely! Solo participants will be matched with others to form dynamic teams, fostering collaboration and innovation.',
   },
   {
     title: 'What kind of support does HackAIThon offer?',
-    description: 'Participants will benefit from mentorship by industry veterans and access to a wealth of resources including financial data, to guide their project development from idea to prototype.',
+    description:
+      'Participants will benefit from mentorship by industry veterans and access to a wealth of resources including financial data, to guide their project development from idea to prototype.',
   },
   {
     title: 'Are pre-formed teams allowed?',
-    description: 'Yes, teams of 2 to 5 members are encouraged to join and bring their collective expertise to the challenge.',
+    description:
+      'Yes, teams of 2 to 5 members are encouraged to join and bring their collective expertise to the challenge.',
   },
   {
     title: 'Can we stay overnight at the venue?',
-    description: 'Teams wishing to immerse themselves fully can stay overnight. Just remember to bring anything you might need, like a sleeping bag, for comfort.',
+    description:
+      'Teams wishing to immerse themselves fully can stay overnight. Just remember to bring anything you might need, like a sleeping bag, for comfort.',
   },
   {
     title: 'What criteria will the projects be judged on?',
-    description: 'Judges will look for innovation, relevance to fintech personalization, user value, market potential, and the functionality of the prototype.',
+    description:
+      'Judges will look for innovation, relevance to fintech personalization, user value, market potential, and the functionality of the prototype.',
   },
   {
     title: 'Are there any restrictions on projects?',
-    description: 'The hackathon celebrates originality; thus, projects should be initiated and developed during the event, although preliminary research and design thinking are encouraged.',
+    description:
+      'The hackathon celebrates originality; thus, projects should be initiated and developed during the event, although preliminary research and design thinking are encouraged.',
   },
   {
     title: 'Where exactly is HackAIThon happening?',
-    description: 'Set to captivate Limassol on June 15th and 16th, this hackathon will unite more than 100 innovators from around the globe to explore the power of AI-drive personalization in the fintech sector.',
+    description:
+      'Set to captivate Limassol on June 15th and 16th, this hackathon will unite more than 100 innovators from around the globe to explore the power of AI-drive personalization in the fintech sector.',
   },
   {
     title: 'Who is organizing HackAIThon?',
-    description: 'HackAIThon - AI in Fintech: The Power of Personalization is organized by Quadcode, a company renowned for its innovative solutions in the fintech sector. Quadcode specializes in developing advanced trading platforms, financial software, and other tech solutions aimed at enhancing the financial industry.',
+    description:
+      'HackAIThon - AI in Fintech: The Power of Personalization is organized by Quadcode, a company renowned for its innovative solutions in the fintech sector. Quadcode specializes in developing advanced trading platforms, financial software, and other tech solutions aimed at enhancing the financial industry.',
   },
 ];
 
@@ -87,7 +99,9 @@ export const Faq = () => {
           <IdeaText>
             Have an <strong>AI</strong>dea already?
           </IdeaText>
-          <CtaButton {...getTriggerProps()} onClick={handleCtaClick}>Register now</CtaButton>
+          <span onClick={handleCtaClick}>
+            <CtaButton {...getTriggerProps()}>Register now</CtaButton>
+          </span>
           <Modal {...modalProps}>
             <RegistrationForm />
           </Modal>

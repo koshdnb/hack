@@ -48,7 +48,9 @@ export default function ManVsMachine() {
                 create impactful, user-friendly solutions that leverage
                 personalization to redefine the future of finance.
               </Text>
-              <Button {...getTriggerProps()} onClick={handleCtaClick}>Register now</Button>
+              <span onClick={handleCtaClick}>
+                <Button {...getTriggerProps()}>Register now</Button>
+              </span>
               <Modal {...modalProps}>
                 <RegistrationForm />
               </Modal>

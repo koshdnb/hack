@@ -53,21 +53,34 @@ export const CardWrapper = styled.div`
     top: -10px;
   }
 
+  // :nth-child(4),
+  // :nth-child(5) {
+  //   ${mediaMax.m} {
+  //     margin-top: 16px;
+  //   }
+  //
+  //   > img {
+  //     width: 169px;
+  //     height: auto;
+  //     margin-bottom: 12px;
+  //   }
+  //
+  //   > div {
+  //     color: #c1bfbf;
+  //   }
+  // }
   :nth-child(4),
-  :nth-child(5) {
-    ${mediaMax.m} {
-      margin-top: 16px;
-    }
+  :nth-child(5),
+  :nth-child(6) {
+    height: 200px;
+  }
 
-    > img {
-      width: 169px;
+  ${mediaMax.m} {
+    :nth-child(4),
+    :nth-child(5),
+    :nth-child(6) {
       height: auto;
-      margin-bottom: 12px;
-    }
-
-    > div {
-      color: #c1bfbf;
-    }
+    } 
   }
 `;
 
